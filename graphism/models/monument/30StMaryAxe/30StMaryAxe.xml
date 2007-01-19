@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
   <property radius='11' type='Gouv'>
     <cost build='60000' destroy='3000' support='800'/>
     <r>
@@ -37,4 +37,4 @@
     <description lang='fr'>Le 30 St Mary Axe est un batiment du quartier d'affaires de la City de Londres.</description>
     <description lang='en'>30 St Mary Axe is a building in the City of London.</description>
   </model>
-</building>
+</object>

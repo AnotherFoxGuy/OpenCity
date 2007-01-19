@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   version="1.0"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tower"
+   sodipodi:docname="tower.svg"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tower/tower.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="148.53095"
+     inkscape:cy="70.124948"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="256px"
+     height="256px"
+     gridspacingx="8px"
+     gridspacingy="8px"
+     gridempspacing="4"
+     showgrid="true"
+     inkscape:object-nodes="false"
+     inkscape:grid-points="false"
+     inkscape:guide-points="false"
+     objecttolerance="5.8"
+     gridtolerance="8.2"
+     guidetolerance="5"
+     inkscape:guide-bbox="false"
+     inkscape:grid-bbox="false"
+     inkscape:window-width="1248"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:object-paths="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="0"
+       x="-13.714279"
+       id="image2106"
+       height="283.42856"
+       width="141.71428"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tower/include/mur.png"
+       xlink:href="include/mur.png" />
+    <image
+       y="-1.9277928e-14"
+       x="128"
+       id="image2048"
+       height="128"
+       width="128"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tower/include/IMG_5772_.JPG"
+       xlink:href="include/IMG_5772_.JPG" />
+    <rect
+       style="opacity:1;color:black;fill:white;fill-opacity:0.40849674;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect3014"
+       width="128"
+       height="192"
+       x="0"
+       y="64" />
+    <rect
+       style="opacity:1;color:black;fill:#803300;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect4786"
+       width="19.839287"
+       height="32"
+       x="44.964287"
+       y="224" />
+    <image
+       y="224.70428"
+       x="45.726036"
+       id="image1990"
+       height="31.295721"
+       width="18.273964"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tower/include/IMG_5771_.JPG"
+       xlink:href="include/IMG_5771_.JPG"
+       style="stroke:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;color:black;fill:#c70000;fill-opacity:0.63398695;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect2109"
+       width="128"
+       height="64"
+       x="0"
+       y="0" />
+    <image
+       y="128"
+       x="128"
+       id="image1988"
+       height="128"
+       width="128"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/water/pipe_texture.png"
+       xlink:href="/home/fred/work/r-opencity/graphism/frodrigo/2/water/pipe_texture.png" />
+  </g>
+</svg>

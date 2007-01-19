@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object object.xsd' xmlns='urn:oc:object'>
   <property radius='5' type='C'>
     <cost destroy='2000' income='120'/>
     <r>
@@ -30,4 +30,4 @@
     <description lang='fr'>Station-P, le carburant qui vous fait avancer! G:1,056€, E:1,123€, ouvert le Dimanche.</description>
     <description lang='en'>Station-P, the Gaz where you run! G:$1.056, E:$1.123, open on Sunday.</description>
   </model>
-</building>
+</object>

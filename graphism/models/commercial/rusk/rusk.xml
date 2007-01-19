@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object object.xsd' xmlns='urn:oc:object'>
   <property radius='12' type='C'>
     <cost destroy='70000' income='142'/>
     <r>
@@ -31,4 +31,4 @@
     <description lang='fr'>De magnifiques bureaux sur 15 étages.</description>
     <description lang='en'>A wonderful office center of 15 levels.</description>
   </model>
-</building>
+</object>

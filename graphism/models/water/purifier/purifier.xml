@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' type='W'>
+    <cost build='13000' destroy='6000' support='400'/>
+    <r>
+      <need/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <w need='3'/>
+    <e need='3'/>
+    <g/>
+    <nat provide='-3'/>
+    <direction value='s'/>
+  </property>
+  <model length='1' height='1.1' width='1'>
+    <author>
+      <name>Pucelo20</name>
+      <email>pucelo20 terra.es</email>
+      <license>GPL</license>
+    </author>
+    <name lang='en'>Purifier</name>
+    <description lang='en'></description>
+  </model>
+</object>

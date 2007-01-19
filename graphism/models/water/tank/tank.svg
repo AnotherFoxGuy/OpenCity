@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   version="1.0"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tank"
+   sodipodi:docname="tank.svg"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/water/tank/tank.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="137.32721"
+     inkscape:cy="96.004997"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="256px"
+     height="256px"
+     gridempspacing="4"
+     gridspacingx="4px"
+     gridspacingy="4px"
+     showgrid="true"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="false"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="true"
+     inkscape:guide-bbox="false"
+     inkscape:guide-points="true"
+     objecttolerance="3.5"
+     gridtolerance="1.9"
+     guidetolerance="3.5"
+     inkscape:object-bbox="false"
+     inkscape:window-width="1248"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;color:black;fill:#c6c6c6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect5868"
+       width="128"
+       height="128"
+       x="0"
+       y="0" />
+    <g
+       id="g3084"
+       transform="matrix(0.537606,0,0,0.537606,33.60566,16.99152)">
+      <path
+         id="path2153"
+         d="M 5.5,16 L 5.5,16.25 C 11.901489,17.431803 16.714844,22.863484 16.714844,29.375 C 16.714844,33.830483 14.473931,37.779548 11,40.208333 C 4.4317353,43.900203 2.4153973e-18,50.779852 0,58.666667 C 0,70.442667 9.856,80 22,80 C 34.144,80 44,70.442667 44,58.666667 C 44,35.114672 26.752005,16 5.5,16 z "
+         style="opacity:1;color:black;fill:blue;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2195"
+         d="M 59.5,16.5 L 59.5,64.5 C 75.5,52.5 91.5,32.5 91.5,16.5 L 91.5,64.5 C 107.5,52.5 123.5,32.5 123.5,16.5"
+         style="opacity:1;color:black;fill:none;fill-opacity:0.76797384;fill-rule:nonzero;stroke:blue;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    </g>
+    <path
+       style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 132,128 C 132,124 132,4 132,4 L 252,4 L 252,128"
+       id="path4069" />
+    <g
+       id="g4962"
+       transform="matrix(1,0,0,0.933579,-1.079373,1.80772e-2)">
+      <path
+         id="path4071"
+         d="M 132,4 L 252,48 L 132,48 L 252,4"
+         style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         d="M 132,48 L 252,92 L 132,92 L 252,48"
+         id="path4958" />
+      <path
+         style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         d="M 131.49492,90.5 L 251.49492,134.5 L 131.49492,134.5 L 251.49492,90.5"
+         id="path4960" />
+    </g>
+    <path
+       id="path4971"
+       d="M 132,128 C 132,124 132,4 132,4 L 252,4 L 252,128"
+       style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3e3e3e;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <g
+       transform="matrix(1,0,0,0.933579,-1.079373,1.80772e-2)"
+       id="g4973"
+       style="stroke:#3e3e3e;stroke-opacity:1">
+      <path
+         style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3e3e3e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         d="M 132,4 L 252,48 L 132,48 L 252,4"
+         id="path4975" />
+      <path
+         id="path4977"
+         d="M 132,48 L 252,92 L 132,92 L 252,48"
+         style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3e3e3e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         id="path4979"
+         d="M 131.49492,90.5 L 251.49492,134.5 L 131.49492,134.5 L 251.49492,90.5"
+         style="opacity:1;color:black;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#3e3e3e;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    </g>
+    <rect
+       style="opacity:1;color:black;fill:#51ff26;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect4981"
+       width="128"
+       height="128"
+       x="0"
+       y="128" />
+    <image
+       y="128"
+       x="128"
+       id="image2089"
+       height="128"
+       width="128"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/water/pipe_texture.png"
+       xlink:href="/home/fred/work/r-opencity/graphism/frodrigo/2/water/pipe_texture.png" />
+  </g>
+</svg>

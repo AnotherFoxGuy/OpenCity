@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object object.xsd' xmlns='urn:oc:object'>
   <property radius='8' type='C'>
     <cost destroy='5000' income='130'/>
     <r>
@@ -31,4 +31,4 @@
     <description lang='fr'>Midi : du Lundi au Vendredi, 11h00 14h00 \  Rôti 5,50€ ou Poulet 5,00€. Soir : du Mardi au Samedi, 19h30 21h30 \ Spaghetti à la Boloniaise 5,25€ ou Poulet 5,25€.</description>
     <description lang='en'>Lunch: Monday - Friday, 11:00am - 2:00pm \ Pot Roast $5.50 or Chicken &amp; Dumplings $5.00.  Dinner: Monday - Saturday, 4:30pm - 7:30pm \ Spaghetti w/ Meatballs $5.25 or Chicken &amp; Dumplings $5.25</description>
   </model>
-</building>
+</object>
