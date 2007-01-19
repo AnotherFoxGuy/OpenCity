@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
+  <property radius='3' type='I'>
+    <cost destroy='2000' income='112'/>
+    <r>
+      <need/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need max='12'/>
+      <provide max='3' min='1'/>
+    </i>
+    <w/>
+    <e need='1'/>
+    <g/>
+    <nat provide='-3'/>
+    <direction value='s'/>
+  </property>
+  <model length='1' height='0.1' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+    </author>
+    <name lang='en'>Bio-Tech Corp.</name>
+    <description lang='fr'>Clones, OGM et autres dangers biologiques.</description>
+    <description lang='en'>Clones, GMO and other bio-hazard.</description>
+  </model>
+</building>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="45.000000"
+   inkscape:export-xdpi="45.000000"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/tex.png"
+   sodipodi:docname="tex.svg"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto"
+   inkscape:version="0.43"
+   sodipodi:version="0.32"
+   id="svg2"
+   height="512.00000px"
+   width="1024.0000px">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2239">
+      <stop
+         id="stop2241"
+         offset="0"
+         style="stop-color:#9d450d;stop-opacity:1;" />
+      <stop
+         id="stop2243"
+         offset="1.0000000"
+         style="stop-color:#ff3300;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <pattern
+       id="pattern1469"
+       patternTransform="translate(512.0000,0.000000)"
+       height="64.000000"
+       width="64.000000"
+       patternUnits="userSpaceOnUse">
+      <image
+         transform="scale(0.500000,0.500000)"
+         xlink:href="include/mur.png"
+         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/mur.png"
+         width="128.00000"
+         height="128.00000"
+         id="image1471" />
+    </pattern>
+    <pattern
+       id="pattern1475"
+       patternTransform="matrix(0.125000,0.000000,0.000000,0.333333,512.0000,0.000000)"
+       height="64.000000"
+       width="64.000000"
+       patternUnits="userSpaceOnUse">
+      <rect
+         transform="translate(-512.0000,0.000000)"
+         id="rect1477"
+         y="0.0000000"
+         x="512.00000"
+         height="64.000000"
+         width="64.000000"
+         style="stroke:none;fill:url(#pattern1469)" />
+    </pattern>
+    <pattern
+       id="pattern1481"
+       patternTransform="matrix(0.125000,0.000000,0.000000,0.500000,512.0000,192.0000)"
+       height="32.000000"
+       width="32.000000"
+       patternUnits="userSpaceOnUse">
+      <image
+         transform="scale(0.500000,0.500000)"
+         xlink:href="include/bois.jpeg"
+         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/bois.jpeg"
+         width="64.000000"
+         height="64.000000"
+         id="image1483" />
+    </pattern>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="272.10690"
+       x2="704.00000"
+       y1="369.03342"
+       x1="576.00000"
+       id="linearGradient2245"
+       xlink:href="#linearGradient2239"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="273.24722"
+       x2="832.85522"
+       y1="367.89310"
+       x1="704.00000"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2250"
+       xlink:href="#linearGradient2239"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="272.10690"
+       x2="704.00000"
+       y1="369.03342"
+       x1="576.00000"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2260"
+       xlink:href="#linearGradient2239"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="273.24722"
+       x2="832.85522"
+       y1="367.89310"
+       x1="704.00000"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2262"
+       xlink:href="#linearGradient2239"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="272.10690"
+       x2="704.00000"
+       y1="369.03342"
+       x1="576.00000"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2264"
+       xlink:href="#linearGradient2239"
+       inkscape:collect="always" />
+    <pattern
+       id="pattern2266"
+       patternTransform="matrix(3.125000e-2,0.000000,0.000000,0.125000,512.0000,256.0000)"
+       height="32.000000"
+       width="16.000000"
+       patternUnits="userSpaceOnUse">
+      <g
+         transform="matrix(0.125000,0.000000,0.000000,0.125000,-80.00000,-32.00000)"
+         id="g2268">
+        <path
+           style="opacity:1.0000000;color:#000000;fill:url(#linearGradient2260);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:3.1250017;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block;overflow:visible"
+           d="M 640.00000,256.00000 L 640.00000,384.00000 L 704.00000,384.00000 L 704.00000,256.00000 L 640.00000,256.00000 z "
+           id="path2270" />
+        <path
+           style="opacity:1.0000000;color:#000000;fill:url(#linearGradient2262);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:3.1250017;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block;overflow:visible"
+           d="M 704.00000,256.00000 L 704.00000,384.00000 L 768.00000,384.00000 L 768.00000,256.00000 L 704.00000,256.00000 z "
+           id="path2272" />
+        <rect
+           transform="translate(64.00000,128.0000)"
+           style="opacity:1.0000000;color:#000000;fill:url(#linearGradient2264);fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:3.1250017;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:block;overflow:visible"
+           id="rect2274"
+           width="128.00000"
+           height="128.00000"
+           x="576.00000"
+           y="256.00000" />
+      </g>
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="748"
+     inkscape:window-width="992"
+     gridempspacing="4"
+     gridspacingy="16.000000px"
+     gridspacingx="16.000000px"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="true"
+     showgrid="true"
+     gridtolerance="4.0000000px"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="209.52779"
+     inkscape:cx="524.55958"
+     inkscape:zoom="0.87695312"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <image
+       xlink:href="include/sol.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/sol.png"
+       width="512.00000"
+       height="512.00000"
+       id="image1361" />
+    <image
+       transform="translate(768.0000,192.0000)"
+       xlink:href="include/restaurant.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/restaurant.png"
+       width="256.00000"
+       height="64.000000"
+       id="image1401" />
+    <rect
+       transform="matrix(8.000000,0.000000,0.000000,3.000000,-3584.000,0.000000)"
+       id="rect1479"
+       y="0.0000000"
+       x="512.00000"
+       height="64.000000"
+       width="64.000000"
+       style="fill:url(#pattern1475);stroke:none" />
+    <rect
+       transform="matrix(8.000000,0.000000,0.000000,2.000000,-3584.000,-192.0000)"
+       id="rect1485"
+       y="192.00000"
+       x="512.00000"
+       height="32.000000"
+       width="32.000000"
+       style="fill:url(#pattern1481);stroke:none" />
+    <rect
+       transform="matrix(32.00000,0.000000,0.000000,8.000000,-15872.00,-1792.000)"
+       id="rect2276"
+       y="256.00000"
+       x="512.00000"
+       height="32.000000"
+       width="16.000000"
+       style="fill:url(#pattern2266);stroke:none" />
+    <rect
+       style="fill:#c26200;stroke:none;fill-opacity:0.74247491"
+       width="32.000000"
+       height="32.000000"
+       x="512.00000"
+       y="192.00000"
+       id="rect5188"
+       transform="matrix(8.000000,0.000000,0.000000,2.000000,-3584.000,-192.0000)" />
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.39"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   width="128.00000pt"
+   height="256.00000pt"
+   sodipodi:docbase="/home/fred/work/r-opencity/cvs/graphism/frodrigo/c/chez-bob"
+   sodipodi:docname="coca-coca.svg"
+   inkscape:export-filename="/home/fred/work/r-opencity/cvs/graphism/frodrigo/c/chez-bob/coca-coca.png"
+   inkscape:export-xdpi="72.000000"
+   inkscape:export-ydpi="72.000000">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient3399">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop3400" />
+      <stop
+         style="stop-color:#ff7676;stop-opacity:1.0000000;"
+         offset="0.66058826"
+         id="stop3403" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop3401" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3399"
+       id="linearGradient3402" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2279853"
+     inkscape:cx="188.80860"
+     inkscape:cy="135.27277"
+     inkscape:window-width="992"
+     inkscape:window-height="746"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:grid-points="true"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:url(#linearGradient3402);fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:10.000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none;"
+     id="rect908"
+     width="159.44882"
+     height="318.89764"
+     x="0.0000000"
+     y="1.1023622" />
+  <path
+     style="font-size:20.000000;font-style:normal;font-variant:normal;font-weight:100;font-stretch:ultra-condensed;color:#000000;fill:#ffffff;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;font-family:Helvetica;letter-spacing:0.0000000;text-anchor:start;writing-mode:lr;"
+     id="path3398"
+     d="M 105.47388,20.390110 C 103.39159,20.271393 101.82047,22.405235 99.958274,23.344520 C 97.024872,25.003764 94.686233,30.409267 93.323210,33.678458 C 89.833928,41.672596 88.061353,49.423687 87.162441,58.117909 C 85.890293,73.695012 87.474055,87.483510 91.252868,102.65935 C 97.239115,123.77199 107.52321,141.56598 115.80066,161.52180 C 120.01348,173.57357 120.67280,188.17203 117.35292,200.58262 C 112.91056,213.18922 101.89271,225.67638 93.235950,235.72139 C 88.084675,242.13019 83.435128,249.01011 77.120597,254.38243 C 73.183540,257.88428 68.469167,261.32998 65.367604,265.64536 C 60.462219,271.46625 54.701650,276.03782 48.746512,280.79966 C 41.424599,286.79073 34.664163,293.43765 27.317412,299.37475 C 25.261748,300.95066 22.938423,302.51764 21.201235,304.44848 L 9.7777566,299.45406 C 11.987921,297.35823 14.426138,295.43768 16.828441,293.56493 C 24.506119,288.06012 31.414461,281.45787 38.795404,275.55284 C 43.993963,271.23212 48.641409,266.58678 53.149606,261.61425 C 56.896030,256.84417 61.872681,253.42999 66.261611,249.29442 C 71.922616,243.65746 76.796317,237.57475 81.874637,231.41732 C 90.396129,221.96057 99.913544,211.05738 104.41968,198.98113 C 107.93419,187.80451 107.11197,174.67611 103.74561,163.58849 C 96.062245,143.46297 86.494361,124.79475 79.643532,104.08423 C 74.803518,89.017549 72.666451,73.295367 74.023807,57.492497 C 75.097645,48.369395 76.644344,39.759349 80.444830,31.353974 C 82.952587,25.423270 85.818680,19.442002 91.636532,16.167496 C 96.103114,13.979708 100.39579,11.496415 105.47388,11.206898 L 105.47388,20.390110 z " />
+  <rect
+     style="fill:#3b3b3b;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:10.000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none;font-size:12.000000;font-style:normal;font-variant:normal;font-weight:100;font-stretch:ultra-condensed;color:#000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-dashoffset:0.0000000;font-family:Bitstream Vera Sans;letter-spacing:0.0000000;text-anchor:start;writing-mode:lr;"
+     id="rect1530"
+     width="35.433071"
+     height="177.16536"
+     x="124.01575"
+     y="71.968506" />
+  <rect
+     style="fill:#3b3b3b;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:10.000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-size:12.000000;font-style:normal;font-variant:normal;font-weight:100;font-stretch:ultra-condensed;color:#000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dashoffset:0;font-family:Bitstream Vera Sans;letter-spacing:0.0000000;text-anchor:start;writing-mode:lr;"
+     id="rect2152"
+     width="70.866142"
+     height="35.433071"
+     x="35.433071"
+     y="249.13387" />
+  <text
+     xml:space="preserve"
+     style="font-size:20.000000;font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Helvetica;text-anchor:start;writing-mode:lr;"
+     x="-130.05396"
+     y="19.913332"
+     id="text2774"
+     transform="matrix(0.000000,-1.600416,3.478378,1.159459,0.000000,0.000000)"
+     sodipodi:linespacing="100%"><tspan
+       id="tspan2775">COCA-COCA</tspan></text>
+</svg>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   version="1.0"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers"
+   sodipodi:docname="containers.svg"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/containers.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="187.71867"
+     inkscape:cy="113.20377"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="256px"
+     height="256px"
+     showgrid="true"
+     gridspacingx="8px"
+     gridspacingy="8px"
+     gridempspacing="4"
+     inkscape:grid-points="true"
+     inkscape:object-nodes="false"
+     inkscape:object-paths="true"
+     inkscape:guide-points="false"
+     gridtolerance="3.5"
+     objecttolerance="50"
+     guidetolerance="5"
+     inkscape:guide-bbox="false"
+     inkscape:grid-bbox="false"
+     inkscape:object-bbox="false"
+     inkscape:object-points="false"
+     inkscape:window-width="1248"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;color:black;fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect2058"
+       width="256"
+       height="256"
+       x="0"
+       y="0" />
+    <image
+       id="image1879"
+       height="189"
+       width="163"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-cote1.png"
+       xlink:href="include/cosco-cote1.png"
+       transform="matrix(0.190476,0,0,0.190476,0,36.00004)" />
+    <image
+       id="image1889"
+       height="178"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-dessus1.png"
+       xlink:href="include/cosco-dessus1.png"
+       transform="matrix(0.202247,0,0,0.202247,196.5394,220)" />
+    <image
+       id="image1899"
+       height="176"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-face1.png"
+       xlink:href="include/cosco-face1.png"
+       transform="matrix(0.204545,0,0,0.204545,0,144)" />
+    <image
+       id="image1909"
+       height="176"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-face2.png"
+       xlink:href="include/cosco-face2.png"
+       transform="matrix(0.204545,0,0,0.204545,59.86377,108.0001)" />
+    <image
+       id="image1919"
+       height="187"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-cote1.png"
+       xlink:href="include/hanjin-cote1.png"
+       transform="scale(0.192513,0.192513)" />
+    <image
+       id="image1929"
+       height="189"
+       width="163"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-cote2.png"
+       xlink:href="include/hanjin-cote2.png"
+       transform="matrix(0.190476,0,0,0.190476,32,0)" />
+    <image
+       id="image1939"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-cote3.png"
+       xlink:href="include/hanjin-cote3.png"
+       transform="matrix(0.190476,0,0,0.190476,64,36.00004)" />
+    <image
+       id="image1949"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-coteV.png"
+       xlink:href="include/hanjin-coteV.png"
+       transform="matrix(0.190476,0,0,0.190476,64,0)" />
+    <image
+       id="image1959"
+       height="174"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-dessus1.png"
+       xlink:href="include/hanjin-dessus1.png"
+       transform="matrix(0.206897,0,0,0.206897,195.1723,184)" />
+    <image
+       id="image1969"
+       height="174"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-dessusV.png"
+       xlink:href="include/hanjin-dessusV.png"
+       transform="matrix(0.206897,0,0,0.206897,195.1723,148)" />
+    <image
+       id="image1979"
+       height="173"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-face1.png"
+       xlink:href="include/hanjin-face1.png"
+       transform="matrix(0.208092,0,0,0.208092,0,180.0001)" />
+    <image
+       id="image1989"
+       height="178"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-face2.png"
+       xlink:href="include/hanjin-face2.png"
+       transform="matrix(0.202247,0,0,0.202247,0,108)" />
+    <image
+       id="image1999"
+       height="179"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-face3.png"
+       xlink:href="include/hanjin-face3.png"
+       transform="matrix(0.201117,0,0,0.201117,60.8716,180.0001)" />
+    <image
+       id="image2009"
+       height="179"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-faceV.png"
+       xlink:href="include/hanjin-faceV.png"
+       transform="matrix(0.201117,0,0,0.201117,0,216)" />
+    <image
+       id="image2012"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-coteV.png"
+       xlink:href="include/hanjin-coteV.png"
+       transform="matrix(0.190476,0,0,0.190476,32,36.00004)" />
+    <image
+       id="image2014"
+       height="189"
+       width="163"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-cote1.png"
+       xlink:href="include/cosco-cote1.png"
+       transform="matrix(0.190476,0,0,0.190476,64,72)" />
+    <image
+       id="image2016"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-cote3.png"
+       xlink:href="include/hanjin-cote3.png"
+       transform="matrix(0.190476,0,0,0.190476,32,72)" />
+    <image
+       id="image2018"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-cote3.png"
+       xlink:href="include/hanjin-cote3.png"
+       transform="matrix(0.190476,0,0,0.190476,0,72)" />
+    <image
+       id="image2020"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-coteV.png"
+       xlink:href="include/hanjin-coteV.png"
+       transform="matrix(0.190476,0,0,0.190476,96,0)" />
+    <image
+       id="image2022"
+       height="189"
+       width="163"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-cote1.png"
+       xlink:href="include/cosco-cote1.png"
+       transform="matrix(0.190476,0,0,0.190476,96,36.00004)" />
+    <image
+       id="image2024"
+       height="189"
+       width="163"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-cote1.png"
+       xlink:href="include/cosco-cote1.png"
+       transform="matrix(0.190476,0,0,0.190476,96,72)" />
+    <image
+       id="image2044"
+       height="174"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-dessus1.png"
+       xlink:href="include/hanjin-dessus1.png"
+       transform="matrix(0.206897,0,0,0.206897,136,147.9999)" />
+    <image
+       id="image2046"
+       height="178"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-dessus1.png"
+       xlink:href="include/cosco-dessus1.png"
+       transform="matrix(0.202247,0,0,0.202247,136,220.4239)" />
+    <image
+       id="image2048"
+       height="174"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-dessus1.png"
+       xlink:href="include/hanjin-dessus1.png"
+       transform="matrix(0.206897,0,0,0.206897,136,184)" />
+    <image
+       id="image2050"
+       height="178"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/cosco-dessus1.png"
+       xlink:href="include/cosco-dessus1.png"
+       transform="matrix(0.202247,0,0,0.202247,196.5394,112)" />
+    <image
+       id="image2052"
+       height="179"
+       width="294"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-faceV.png"
+       xlink:href="include/hanjin-faceV.png"
+       transform="matrix(0.201117,0,0,0.201117,60.8716,144)" />
+    <image
+       id="image2054"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-coteV.png"
+       xlink:href="include/hanjin-coteV.png"
+       transform="matrix(0.190476,0,0,0.190476,128,72)" />
+    <image
+       id="image2056"
+       height="189"
+       width="162"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/containers/include/hanjin-cote3.png"
+       xlink:href="include/hanjin-cote3.png"
+       transform="matrix(0.190476,0,0,0.190476,128,36.00004)" />
+  </g>
+</svg>
