@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.39"
+   width="128.00000pt"
+   height="128.00000pt"
+   sodipodi:docbase="/home/fred/work/r-opencity/frodrigo/r/build003"
+   sodipodi:docname="fenetre.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient1552">
+      <stop
+         style="stop-color:#767676;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop1553" />
+      <stop
+         style="stop-color:#dbdbdb;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop1554" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2158">
+      <stop
+         style="stop-color:#579cff;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop2159" />
+      <stop
+         style="stop-color:#001c6b;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2160" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2158"
+       id="linearGradient1547"
+       x1="0.16398714"
+       y1="0.20000000"
+       x2="0.94855303"
+       y2="0.97446811" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1552"
+       id="linearGradient1551"
+       x1="0.14469454"
+       y1="0.11344538"
+       x2="0.91639870"
+       y2="1.0378151" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.4559706"
+     inkscape:cx="112.35749"
+     inkscape:cy="49.608222"
+     inkscape:window-width="992"
+     inkscape:window-height="746"
+     gridspacingy="10.000000pt"
+     gridspacingx="10.000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     showgrid="true"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="true"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#d8d8d8;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;"
+     id="rect2168"
+     width="160.00000"
+     height="160.00000"
+     x="0.0000000"
+     y="0.0000000" />
+  <g
+     id="g1555"
+     transform="translate(5.000000,-5.000000)">
+    <rect
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:url(#linearGradient1551);stroke-width:6.2500000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000;"
+       id="rect1550"
+       width="100.00000"
+       height="75.000000"
+       x="25.000000"
+       y="47.500000" />
+    <rect
+       style="fill:url(#linearGradient1547);fill-opacity:0.75000000;fill-rule:evenodd;stroke:#8896aa;stroke-width:5.7692308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000;"
+       id="rect1546"
+       width="92.307693"
+       height="69.230766"
+       x="28.846153"
+       y="50.384617" />
+    <path
+       style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:100;font-stretch:ultra-condensed;color:#000000;fill:url(#linearGradient1547);fill-opacity:0.75000000;fill-rule:evenodd;stroke:#8896aa;stroke-width:6.2500000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;font-family:Bitstream Vera Sans;letter-spacing:0.0000000;text-anchor:start;writing-mode:lr;"
+       d="M 75.000000,47.500000 L 75.000000,122.50000"
+       id="path1531" />
+  </g>
+</svg>

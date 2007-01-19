@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:building building.xsd' xmlns='urn:oc:building'>
+  <property radius='4' type='R'>
+    <cost destroy='6200' income='128'/>
+    <r>
+      <need max='29' min='4'/>
+      <provide max='13' min='5'/>
+    </r>
+    <c>
+      <need min='3'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='16'/>
+      <provide/>
+    </i>
+    <w need='8'/>
+    <e need='4'/>
+    <g need='2'/>
+    <nat need='-12' provide='1'/>
+    <direction value='s'/>
+  </property>
+  <model length='1' height='1.1' width='1'>
+    <author>
+      <name>Pucelo20</name>
+      <email>pucelo20 terra.es</email>
+      <license>GPL</license>
+    </author>
+    <name lang='fr'>Canarie</name>
+    <name lang='es'>Canario</name>
+    <name lang='en'>Canary</name>
+    <description lang='fr'>Les personnes qui habitent ici ont de l&apos;eau chaude moins chère.</description>
+    <description lang='es'>Las personas que viven en este edificio pagan menos por el agua caliente.</description>
+    <description lang='en'>People that lives in this building pays less heating water bill.</description>
+  </model>
+</building>

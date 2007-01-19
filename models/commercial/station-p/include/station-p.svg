@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:xml="http://www.w3.org/XML/1998/namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128.00000pt"
+   height="64.000000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.41"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/station-p/include"
+   sodipodi:docname="station-p.svg">
+  <metadata
+     id="metadata2161">
+    <rdf:RDF
+       id="RDF2163">
+      <cc:Work
+         id="Work2165"
+         rdf:about="">
+        <dc:format
+           id="format2167">image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+           id="type2169" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient2933">
+      <stop
+         id="stop2935"
+         offset="0.0000000"
+         style="stop-color:#0000ff;stop-opacity:1.0000000;" />
+      <stop
+         id="stop2955"
+         offset="0.50000000"
+         style="stop-color:#0000ff;stop-opacity:1.0000000;" />
+      <stop
+         id="stop2957"
+         offset="0.50000000"
+         style="stop-color:#ff0000;stop-opacity:1.0000000;" />
+      <stop
+         id="stop2937"
+         offset="1.0000000"
+         style="stop-color:#ff0000;stop-opacity:1.0000000;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="37.358807"
+       x2="46.254387"
+       y1="37.358807"
+       x1="8.8191013"
+       gradientTransform="scale(2.465192,0.405648)"
+       id="linearGradient2971"
+       xlink:href="#linearGradient2933"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="39.443348"
+       x2="45.843502"
+       y1="39.443348"
+       x1="6.3194103"
+       gradientTransform="scale(2.602744,0.384210)"
+       id="linearGradient3741"
+       xlink:href="#linearGradient2933"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="39.443348"
+       x2="45.843502"
+       y1="39.443348"
+       x1="6.3194103"
+       gradientTransform="scale(2.602744,0.384210)"
+       id="linearGradient3755"
+       xlink:href="#linearGradient2933"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.4559706"
+     inkscape:cx="160.25518"
+     inkscape:cy="53.298097"
+     gridspacingy="4.0000000pt"
+     gridspacingx="4.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridempspacing="4"
+     showgrid="true"
+     inkscape:grid-points="true"
+     inkscape:window-width="992"
+     inkscape:window-height="746"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:grid-bbox="false"
+     gridtolerance="4.0000000pt"
+     inkscape:current-layer="svg1" />
+  <text
+     transform="matrix(1.288205,0.000000,0.000000,2.304823,-19.49398,-12.42850)"
+     sodipodi:linespacing="100%"
+     id="text2171"
+     y="22.376204"
+     x="67.590385"
+     style="font-size:20.000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3755);fill-opacity:1.0000000;stroke:url(#linearGradient3741);stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Luxi Sans;text-anchor:middle;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       dy="0 0 0 0 0"
+       dx="0 0 0 0 1.221513"
+       id="tspan3731"
+       sodipodi:role="line"
+       y="22.376204"
+       x="67.590385">STATION-P</tspan></text>
+</svg>

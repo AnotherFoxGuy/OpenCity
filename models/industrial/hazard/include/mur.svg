@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="128.00000pt"
+   height="128.00000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.40"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/hazard"
+   sodipodi:docname="mur.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#999999"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1.0000000"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.4732669"
+     inkscape:cx="92.339464"
+     inkscape:cy="60.939052"
+     inkscape:current-layer="layer1"
+     gridspacingy="4.0000000pt"
+     gridspacingx="4.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridempspacing="4"
+     showgrid="true"
+     inkscape:grid-points="true"
+     inkscape:window-width="992"
+     inkscape:window-height="746"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         rdf:about=""
+         id="Work6">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           id="type9"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#008e1f;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#014d00;stroke-width:5.0000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:block;stroke-dasharray:none;"
+       d="M 39.936916,160.00000 L 39.936916,100.00000 L 90.000000,100.00000 L 90.000000,160.00000"
+       id="rect1071"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#008e1f;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#014d00;stroke-width:5.0000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1.0000000;opacity:1.0000000;color:#000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;visibility:visible;display:block;"
+       d="M 64.780510,100.61787 L 65.000000,160.00000"
+       id="path1696" />
+  </g>
+</svg>
