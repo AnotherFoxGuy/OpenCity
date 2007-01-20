@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema
-	id="OpencityObjectSchema"
+	id="OpenCityObjectSchema"
 	targetNamespace="urn:oc:object"
 	attributeFormDefault="unqualified"
 	elementFormDefault="qualified"
@@ -78,7 +78,7 @@
 	</xs:simpleType>
 
 	<xs:complexType name="directionType">
-		<xs:attribute name="value" type="xs:directionTypeType" default="s"/>
+		<xs:attribute name="value" type="directionTypeType" default="os"/>
 	</xs:complexType>
 
 	<xs:complexType name="costType">
