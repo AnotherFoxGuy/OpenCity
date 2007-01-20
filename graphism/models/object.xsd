@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:oc:object object.xsd"
+	xmlns="urn:oc:object"
+>
+	<property type="R" radius="10">
+		<cost build="10" destroy="10" income="10" support="10" />
+		<r>
+			<need min="3" max="20" />
+			<provide min="0" max="0" />
+		</r>
+		<c>
+			<need min="3" max="20" />
+			<provide min="0" max="0" />
+		</c>
+		<i>
+			<need min="3" max="20" />
+			<provide min="0" max="0" />
+		</i>
+		<w need="5" provide="0" />
+		<e need="10" provide="0" />
+		<g need="10" provide="0"/>
+		<nat need="-10" provide="-2" />
+		<direction value="o" />
+	</property>
+	<model width="1" length="1" height="1.1">
+		<author>
+			<name>Moi</name>
+			<email>moi@home</email>
+			<url>http://ici.gouv.oc</url>
+			<license>GPL</license>
+			<object>Texture</object>
+		</author>
+		<author>
+			<name>PasMoi</name>
+			<email>moi@home</email>
+			<url>http://ici.gouv.oc</url>
+			<license>GPL</license>
+			<object>Model</object>
+		</author>
+		<description lang="en">Hello world</description>
+		<name lang="en">MyHelloWorld</name>
+		<description lang="it">Hello world</description>
+		<name lang="it">MyHelloWorld</name>
+		<url lang='en'>http://dfgdfd</url>
+	</model>
+</object>
