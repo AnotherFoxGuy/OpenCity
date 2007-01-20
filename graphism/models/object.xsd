@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema
-	id="OnpecityObjectSchema"
+	id="OpencityObjectSchema"
 	targetNamespace="urn:oc:object"
 	attributeFormDefault="unqualified"
 	elementFormDefault="qualified"
@@ -59,21 +59,21 @@
 
 	<xs:simpleType name="directionTypeType">
 		<xs:restriction base="xs:string">
+			<xs:enumeration value="on"/>
+			<xs:enumeration value="oe"/>
+			<xs:enumeration value="os"/>
+			<xs:enumeration value="ow"/>
+			<xs:enumeration value="sn"/>
+			<xs:enumeration value="we"/>
 			<xs:enumeration value="ne"/>
 			<xs:enumeration value="nw"/>
-			<xs:enumeration value="nwe"/>
-			<xs:enumeration value="e"/>
-			<xs:enumeration value="n"/>
-			<xs:enumeration value="s"/>
-			<xs:enumeration value="w"/>
 			<xs:enumeration value="se"/>
-			<xs:enumeration value="sn"/>
-			<xs:enumeration value="sne"/>
-			<xs:enumeration value="snw"/>
-			<xs:enumeration value="snwe"/>
 			<xs:enumeration value="sw"/>
+			<xs:enumeration value="sne"/>
 			<xs:enumeration value="swe"/>
-			<xs:enumeration value="we"/>
+			<xs:enumeration value="snw"/>
+			<xs:enumeration value="nwe"/>
+			<xs:enumeration value="snwe"/>
 		</xs:restriction>
 	</xs:simpleType>
 
@@ -116,15 +116,15 @@
 		</xs:sequence>
 	</xs:complexType>
 
+	<xs:complexType name="translatableType">
+		<xs:attribute name="lang" type="xs:string" default="en"/>
+	</xs:complexType>
+
 	<xs:complexType name="modelType">
 		<xs:sequence>
 			<xs:element name="author" type="authorType" minOccurs="1"/>
-			<xs:element name="description" type="xs:string" minOccurs="1" maxOccurs="1">
-				<xs:attribute name="lang" type="xs:string" default="en"/>
-			</xs:element>
-			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1">
-				<xs:attribute name="lang" type="xs:string" default="en"/>
-			</xs:element>
+			<xs:element name="description" type="translatableType" minOccurs="1"/>
+			<xs:element name="name" type="translatableType" minOccurs="1"/>
 		</xs:sequence>
 		<xs:attribute name="width" type="xs:nonNegativeInteger" use="required"/>
 		<xs:attribute name="length" type="xs:nonNegativeInteger" use="required"/>
