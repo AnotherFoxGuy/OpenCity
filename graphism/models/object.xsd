@@ -1,48 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?>
-<object
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="urn:oc:object object.xsd"
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema
+	id="OnpecityObjectSchema"
+	targetNamespace="urn:oc:object"
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	version="0.0.5"
 	xmlns="urn:oc:object"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
-	<property type="R" radius="10">
-		<cost build="10" destroy="10" income="10" support="10" />
-		<r>
-			<need min="3" max="20" />
-			<provide min="0" max="0" />
-		</r>
-		<c>
-			<need min="3" max="20" />
-			<provide min="0" max="0" />
-		</c>
-		<i>
-			<need min="3" max="20" />
-			<provide min="0" max="0" />
-		</i>
-		<w need="5" provide="0" />
-		<e need="10" provide="0" />
-		<g need="10" provide="0"/>
-		<nat need="-10" provide="-2" />
-		<direction value="o" />
-	</property>
-	<model width="1" length="1" height="1.1">
-		<author>
-			<name>Moi</name>
-			<email>moi@home</email>
-			<url>http://ici.gouv.oc</url>
-			<license>GPL</license>
-			<object>Texture</object>
-		</author>
-		<author>
-			<name>PasMoi</name>
-			<email>moi@home</email>
-			<url>http://ici.gouv.oc</url>
-			<license>GPL</license>
-			<object>Model</object>
-		</author>
-		<description lang="en">Hello world</description>
-		<name lang="en">MyHelloWorld</name>
-		<description lang="it">Hello world</description>
-		<name lang="it">MyHelloWorld</name>
-		<url lang='en'>http://dfgdfd</url>
-	</model>
-</object>
+
+	<xs:simpleType name="allNNI">
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:integer"/>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="unbounded"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+
+	<xs:complexType name="minMaxType">
+		<xs:attribute name="min" type="xs:integer" default="0"/>
+		<xs:attribute name="max" type="allNNI" default="unbounded"/>
+	</xs:complexType>
+
+	<xs:complexType name="needProvideMinMaxType">
+		<xs:sequence>
+			<xs:element name="need" type="minMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="provide" type="minMaxType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="needProvideType">
+		<xs:attribute name="need" type="xs:nonNegativeInteger" default="0"/>
+		<xs:attribute name="provide" type="xs:nonNegativeInteger" default="0"/>
+	</xs:complexType>
+
+	<xs:complexType name="needProvideZType">
+		<xs:attribute name="need" type="xs:integer" default="0"/>
+		<xs:attribute name="provide" type="xs:integer" default="0"/>
+	</xs:complexType>
+
+	<xs:simpleType name="propertyTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="R"/>
+			<xs:enumeration value="C"/>
+			<xs:enumeration value="I"/>
+			<xs:enumeration value="Gov"/>
+			<xs:enumeration value="W"/>
+			<xs:enumeration value="E"/>
+			<xs:enumeration value="G"/>
+			<xs:enumeration value="Nat"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="directionTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ne"/>
+			<xs:enumeration value="nw"/>
+			<xs:enumeration value="nwe"/>
+			<xs:enumeration value="e"/>
+			<xs:enumeration value="n"/>
+			<xs:enumeration value="s"/>
+			<xs:enumeration value="w"/>
+			<xs:enumeration value="se"/>
+			<xs:enumeration value="sn"/>
+			<xs:enumeration value="sne"/>
+			<xs:enumeration value="snw"/>
+			<xs:enumeration value="snwe"/>
+			<xs:enumeration value="sw"/>
+			<xs:enumeration value="swe"/>
+			<xs:enumeration value="we"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="directionType">
+		<xs:attribute name="value" type="xs:directionTypeType" default="s"/>
+	</xs:complexType>
+
+	<xs:complexType name="costType">
+		<xs:attribute name="build" type="xs:nonNegativeInteger" default="0"/>
+		<xs:attribute name="destroy" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="support" type="xs:nonNegativeInteger" default="0"/>
+		<xs:attribute name="income" type="xs:nonNegativeInteger" default="0"/>
+	</xs:complexType>
+
+	<xs:complexType name="propertyType">
+		<xs:sequence>
+			<xs:element name="cost" type="costType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="r" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="c" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="i" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="w" type="needProvideType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="e" type="needProvideType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="g" type="needProvideType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="nat" type="needProvideZType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="direction" type="directionType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="type" type="propertyTypeType" use="required"/>
+		<xs:attribute name="inhabitant" type="xs:nonNegativeInteger" default="0"/>
+		<xs:attribute name="worker" type="xs:nonNegativeInteger" default="0"/>
+		<xs:attribute name="radius" type="xs:nonNegativeInteger" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="authorType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="email" type="xs:string"/>
+			<xs:element name="url" type="xs:string"/>
+			<xs:element name="license" type="xs:string" default="GPL" maxOccurs="1"/>
+			<xs:element name="object" type="xs:string" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="modelType">
+		<xs:sequence>
+			<xs:element name="author" type="authorType" minOccurs="1"/>
+			<xs:element name="description" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:attribute name="lang" type="xs:string" default="en"/>
+			</xs:element>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1">
+				<xs:attribute name="lang" type="xs:string" default="en"/>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="width" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="length" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="height" type="xs:decimal" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="objectType">
+		<xs:sequence>
+			<xs:element name="property" type="propertyType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="model" type="modelType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="object" type="objectType"/>
+
+</xs:schema>
