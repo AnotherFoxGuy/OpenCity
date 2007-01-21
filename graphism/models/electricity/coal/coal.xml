@@ -18,7 +18,7 @@
     <e provide='600'/>
     <g/>
     <nat provide='-20'/>
-    <direction value='s'/>
+    <direction value='os'/>
   </property>
   <model length='1' height='1.1' width='1'>
     <author>

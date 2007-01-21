@@ -53,6 +53,7 @@
 			<xs:enumeration value="W"/>
 			<xs:enumeration value="E"/>
 			<xs:enumeration value="G"/>
+			<xs:enumeration value="Veh"/>
 			<xs:enumeration value="Nat"/>
 		</xs:restriction>
 	</xs:simpleType>
@@ -83,7 +84,7 @@
 
 	<xs:complexType name="costType">
 		<xs:attribute name="build" type="xs:nonNegativeInteger" default="0"/>
-		<xs:attribute name="destroy" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="destroy" type="xs:nonNegativeInteger" default="0"/>
 		<xs:attribute name="support" type="xs:nonNegativeInteger" default="0"/>
 		<xs:attribute name="income" type="xs:nonNegativeInteger" default="0"/>
 	</xs:complexType>
@@ -103,28 +104,32 @@
 		<xs:attribute name="type" type="propertyTypeType" use="required"/>
 		<xs:attribute name="inhabitant" type="xs:nonNegativeInteger" default="0"/>
 		<xs:attribute name="worker" type="xs:nonNegativeInteger" default="0"/>
-		<xs:attribute name="radius" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="radius" type="xs:nonNegativeInteger" default="0"/>
 	</xs:complexType>
 
 	<xs:complexType name="authorType">
 		<xs:sequence>
 			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="email" type="xs:string"/>
-			<xs:element name="url" type="xs:string"/>
+			<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="license" type="xs:string" default="GPL" maxOccurs="1"/>
-			<xs:element name="object" type="xs:string" maxOccurs="1"/>
+			<xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="object" type="xs:string" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
 
 	<xs:complexType name="translatableType">
-		<xs:attribute name="lang" type="xs:string" default="en"/>
+	        <xs:simpleContent>
+	    		<xs:extension base="xs:string">
+				<xs:attribute name="lang" type="xs:string" default="en"/>
+    			</xs:extension>
+		</xs:simpleContent>
 	</xs:complexType>
 
 	<xs:complexType name="modelType">
 		<xs:sequence>
-			<xs:element name="author" type="authorType" minOccurs="1"/>
-			<xs:element name="description" type="translatableType" minOccurs="1"/>
-			<xs:element name="name" type="translatableType" minOccurs="1"/>
+			<xs:element name="author" type="authorType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="name" type="translatableType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="description" type="translatableType" minOccurs="1" maxOccurs="unbounded"/>
 		</xs:sequence>
 		<xs:attribute name="width" type="xs:nonNegativeInteger" use="required"/>
 		<xs:attribute name="length" type="xs:nonNegativeInteger" use="required"/>

@@ -18,7 +18,7 @@
     <e need='70'/>
     <g need='40'/>
     <nat provide='-15'/>
-    <direction value='s'/>
+    <direction value='os'/>
   </property>
   <model length='1' height='1.1' width='1'>
     <author>

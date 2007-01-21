@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
-  <property radius='11' type='Gouv'>
+  <property radius='11' type='Gov'>
     <cost build='60000' destroy='3000' support='800'/>
     <r>
       <need max='45' min='1'/>
@@ -18,7 +18,7 @@
     <e need='1'/>
     <g need='1'/>
     <nat provide='-1'/>
-    <direction value='s'/>
+    <direction value='os'/>
   </property>
   <model length='1' height='1.1' width='1'>
     <author>
