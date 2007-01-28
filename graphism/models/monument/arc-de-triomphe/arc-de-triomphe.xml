@@ -20,8 +20,7 @@
     <nat provide='-10'/>
     <direction value='sn'/>
   </property>
-  <model length='1' height='1.1' width='1'>
-http://www.flickr.com/photos/awayken/, http://www.flickr.com/photos/chaojikazu/, http://www.flickr.com/photos/jimg944/ Arc de triomphe
+  <model length='6' height='4' width='6'>
     <author>
       <name>Frédéric Rodrigo</name>
       <email>f.rodrigo free.fr</email>
@@ -48,8 +47,8 @@ http://www.flickr.com/photos/awayken/, http://www.flickr.com/photos/chaojikazu/,
     </author>
     <name lang='fr'>Arc de triomphe</name>
     <name lang='en'>Arc de Triomphe</name>
-    From Wikipedia :
-    <description lang='fr'>L&apos;Arc de triomphe de l&apos;Étoile appelé partout dans le monde Arc de Triomphe, est situé à Paris, sur la place de l&apos;Étoile, à l&apos;extrémité ouest de l&apos;avenue des Champs-Élysées.</description>
-    <description lang='en'>The Arc de Triomphe is a monument in Paris that stands in the centre of the Place de l&apos;Étoile, at the western end of the Champs-Élysées.</description>
+    
+    <description lang='fr'>L&apos;Arc de triomphe de l&apos;Étoile appelé partout dans le monde Arc de Triomphe, est situé à Paris, sur la place de l&apos;Étoile, à l&apos;extrémité ouest de l&apos;avenue des Champs-Élysées (Wikipedia).</description>
+    <description lang='en'>The Arc de Triomphe is a monument in Paris that stands in the centre of the Place de l&apos;Étoile, at the western end of the Champs-Élysées. (Wikipedia)</description>
   </model>
 </object>
