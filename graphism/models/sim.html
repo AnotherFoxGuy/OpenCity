@@ -1,0 +1,4867 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+		"http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+	<title>Tables</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- "G_PLUGIN_FOR_HTML" -->
+<style type="text/css">
+tt {
+	font-family: courier;
+}
+td {
+	font-family: helvetica, sans-serif;
+}
+caption {
+	font-family: helvetica, sans-serif;
+	font-size: 14pt;
+	text-align: left;
+}
+</style>
+</head>
+<body>
+<p><table cellspacing="0" cellpadding="3" border="1">
+<caption>Feuille1</caption>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Building</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Type</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">R</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">C</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">G</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pop</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">work</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">rad</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">const</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">dest</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">support</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">income</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">dir</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">live</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need_min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need_max</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">inc/des</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W/E</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">des/const</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">maint/cont</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W/pop</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E/pop</td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">need</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">provide</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">target</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">max</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">max</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">max</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">max</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">max</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">min</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">max</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">156</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">21</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4874</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">121</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">average</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">57%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">28%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">19</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">18</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">building</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">type</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">rNeedMin</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">rNeedMax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">rProvideMin</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">rProvideMax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">cNeedMin</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">cNeedMax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">cProvideMin</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">cProvideMax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">iNeedMin</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">iNeedMax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">iProvideMin</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">iProvideMax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">wNeed</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">wProvide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">eNeed</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">eProvide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">gNeed</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">gProvide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">natNeed</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">natProvide</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pop</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">work</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">radius</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">const</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">dest</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">support</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">income</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">dir</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">live</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">r_zone</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#008000;">#VALEUR!</td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#008000;">#VALEUR!</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">easybuilding</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">12</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">16</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1800</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">112</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#008000;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">100%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">25</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">25</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">family</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">17</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">20</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2100</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">116</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#008000;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">100%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">33</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">33</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">little_house</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;15</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">111</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">11%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">100%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">33</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">33</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">grand-father</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">25</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">30</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">30</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2200</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">121</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">150%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">38</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">25</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">light-of-star</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">22</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">17</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">15</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2600</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">140</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">100%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">50</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">50</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">pool</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">34</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">18</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">800</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">135</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">17%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">200%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">alexandria</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">25</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">16</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">35</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">128</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">80%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">11</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">14</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">mep</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">35</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">11</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">20</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">20</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">37</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">7</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3400</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">135</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">83%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">14</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">16</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">la_grande_motte</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">42</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">27</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">12</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">258</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5400</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">132</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">150%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">charmilles</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">30</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">12</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">9</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">105</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">7</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">11000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">128</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">89%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">9</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">canary</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">29</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">13</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">16</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">58</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">6200</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">128</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">2%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">200%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">14</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">7</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">residential</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">viny-world</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">R</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">200</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">55</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">45</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">50</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">20</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">&#8722;12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">1200</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">13</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">60000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">136</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#008000;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">90%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#008000;">4</td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">c_zone</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">100</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#0000FF;">#VALEUR!</td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#0000FF;">#VALEUR!</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">chez-bob</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">20</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">50</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;15</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">100</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#0000FF;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">store</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">15</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">23</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2300</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">135</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">station-p</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">30</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">120</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#0000FF;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">33%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">timberdland-hotel</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;"></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">27</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">7</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">9</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">7</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">11000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">130</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">125%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">hotel</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">25</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">6</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">10000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">125</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">80%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">market</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">23</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">11</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">6000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">130</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">33%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">resto</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">8</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">6</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">130</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">3%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">67%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">rusk</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">30</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">150</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">20</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">50</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">40</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">33</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">30</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">17</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;10</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">90</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">12</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">70000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">142</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">110%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">commercial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">icarus</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">C</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">200</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">45</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">110</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">60</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">70</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">40</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">&#8722;15</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">360</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">16</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">100000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">148</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#0000FF;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#0000FF;">86%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">i_zone</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">60</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">waste_ground</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">400</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">60</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">15%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">warehouse</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">17</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1900</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">110</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">beef</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">19</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3500</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">128</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">133%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">hang</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">112</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">6%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">tank</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">21</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2800</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">123</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt; color:#993300;">#VALEUR!</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">200%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">containers</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">8</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">115</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">steel</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">22</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">6</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4200</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">120</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">20%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">chemical-tank</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">16</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">7</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">4</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2400</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">109</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">5%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">industrial</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">aeronautics-study</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">I</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">80</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">11</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;8</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">&#8722;1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">13</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">5</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">6200</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">145</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt; color:#993300;">x</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">2%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt; color:#993300;">67%</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">coal</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">8</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">600</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;20</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">90000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">9000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">60</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">13%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nuclear</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">21</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2E+05</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">50000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">19000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">22%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">8%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_n_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">ne</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_n_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_n_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_o_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">oe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_o_n</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">on</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_o_s</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_o_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">ow</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">se</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_n</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sn</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_n_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sne</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_n_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_n_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_s_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">swe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">electricity</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">line_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">E</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">we</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">7%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">educationdept</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">school-medium</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">30</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">8</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">11</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">60000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">9000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">67%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">15%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">8%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">firedept</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">medium</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">50</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;"></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">9</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">13</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3500</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">450%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">9%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">hospitaldept</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">large</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">70</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">27</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">16</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">33</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">16</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1E+05</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">13000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6000</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">93%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">monument</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">arc-de-triomphe</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;10</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">100000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sn</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">monument</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">church-bruges</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">45</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">11</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">60000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">800</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">100%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">park</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">city</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">35</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">45</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">500</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">230</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">8%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_n_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">ne</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_n_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_n_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_o_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">oe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_o_n</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">on</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_o_s</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_o_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">ow</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">se</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_n</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sn</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_n_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sne</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_n_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_n_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_s_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">swe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">path/road</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">road_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">we</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">policedept</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">medium</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Gov</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">40</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">16</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">30000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2700</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3100</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">x</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">100%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">9%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">10%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tree</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">fir1</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tree</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">peking-willow1</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tree</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pine2</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tree</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pine3</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tree</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tree007</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">12</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">empty</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Nat</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">buickS</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">clior</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">dynax</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">fire</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">helicopter</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">police</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">renault8-sport</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">vehicle</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">truck</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">Veh</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_n_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">ne</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_n_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_n_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">nwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_o_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">oe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_o_n</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">on</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_o_s</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_o_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">ow</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">se</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_n</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sn</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_n_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sne</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_n_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_n_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">snwe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_w</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">sw</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_s_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">swe</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pipe_w_e</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">17</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">5</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">we</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">29%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">pump</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">35</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4500</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">120</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">55</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">22%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">purifier</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">13000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">6000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">400</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">60</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">100%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">46%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tank</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">20</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3500</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">1600</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">300</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">45</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">46%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">9%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">water</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">tower</td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">W</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">30</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">&#8722;1</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">3</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">4000</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">2300</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">550</td>
+<td  style=""></td>
+<td  valign="bottom"  align="left"  style=" font-size:10pt;">os</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">70</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  valign="bottom"  align="center"  style=" font-size:10pt;">#VALEUR!</td>
+<td  style=""></td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">0%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">58%</td>
+<td  valign="bottom"  align="right"  style=" font-size:10pt;">14%</td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+</table>
+</body>
+</html>
