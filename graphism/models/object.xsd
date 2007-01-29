@@ -112,6 +112,7 @@
 			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="license" type="xs:string" default="GPL" maxOccurs="1"/>
+			<xs:element name="year" type="xs:integer" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="object" type="xs:string" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
