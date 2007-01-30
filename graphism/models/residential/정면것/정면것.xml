@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
-  <property radius='4' type='R'>
-    <cost destroy='1900' income='114'/>
+  <property radius='5' type='R'>
+    <cost destroy='2250' income='121'/>
     <r>
-      <need max='19' min='1'/>
-      <provide max='4'/>
+      <need max='21' min='2'/>
+      <provide max='12' min='3'/>
     </r>
     <c>
-      <need max='23'/>
+      <need max='19' min='1'/>
       <provide/>
     </c>
     <i>
-      <need max='35' min='1'/>
+      <need max='32'/>
       <provide/>
     </i>
-    <w need='2'/>
-    <e need='2'/>
-    <g need='1'/>
-    <nat provide='-1'/>
-    <direction value='os'/>
+    <w need='5'/>
+    <e need='5'/>
+    <g need='3'/>
+    <nat provide='-2'/>
+    <direction value='snw'/>
   </property>
-  <model length='1' height='0.5' width='1'>
+  <model length='1' height='0.7' width='1'>
     <author>
       <name>Frédéric Rodrigo</name>
       <email>f.rodrigo free.fr</email>
@@ -40,7 +40,7 @@
       <year>2005</year>
       <object>texture</object>
     </author>
-    <name lang='en'>πρόσοψη έξι</name>
-    <description lang='en'>πρόσοψη έξι</description>
+    <name lang='en'>정면 것</name>
+    <description lang='en'>정면 것</description>
   </model>
 </object>

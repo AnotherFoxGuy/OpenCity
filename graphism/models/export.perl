@@ -17,7 +17,7 @@ my $xml = "$name.xml";
 
 if( -e $in_ac && -e $ac && -M $in_ac < -M $ac )
 {
-    $_ = `$gfx/conv.perl $in_ac`;
+    $_ = `$gfx/conv.perl "$in_ac"`;
     print $_;
     if( ! /OK/ )
     { 
@@ -25,9 +25,9 @@ if( -e $in_ac && -e $ac && -M $in_ac < -M $ac )
     }
 }
 
-if( -e $xml )
+if( -e "$xml" )
 {
-    `xmllint --schema $gfx/object.xsd $xml > /dev/null && echo $?`;
+    `xmllint --schema "$gfx/object.xsd" "$xml" > /dev/null && echo $?`;
     my $ret = chomp;
     print "$ret\n";
     if( $ret ne "1" )
