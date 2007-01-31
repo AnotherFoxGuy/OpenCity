@@ -651,8 +651,8 @@
         <gnm:RowInfo No="4" Unit="11.25" MarginA="0" MarginB="0" Count="82"/>
         <gnm:RowInfo No="86" Unit="12.75" MarginA="0" MarginB="0" Count="27"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="1" CursorRow="84">
-        <gnm:Selection startCol="1" startRow="84" endCol="1" endRow="84"/>
+      <gnm:Selections CursorCol="1" CursorRow="9">
+        <gnm:Selection startCol="1" startRow="9" endCol="1" endRow="9"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Col="0" Row="0" ValueType="60">path</gnm:Cell>
@@ -829,7 +829,7 @@
         <gnm:Cell Col="40" Row="7">=if(X8&lt;&gt;0,P8/X8*100,0)</gnm:Cell>
         <gnm:Cell Col="41" Row="7">=if(X8&lt;&gt;0,R8/X8*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="8" ValueType="60">residential</gnm:Cell>
-        <gnm:Cell Col="1" Row="8" ValueType="60">πρόσοψη έξι</gnm:Cell>
+        <gnm:Cell Col="1" Row="8" ValueType="60">facade six</gnm:Cell>
         <gnm:Cell Col="2" Row="8" ValueType="60">R</gnm:Cell>
         <gnm:Cell Col="3" Row="8" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="4" Row="8" ValueType="30">19</gnm:Cell>
@@ -853,7 +853,7 @@
         <gnm:Cell Col="40" Row="8" ExprID="11"/>
         <gnm:Cell Col="41" Row="8" ExprID="12"/>
         <gnm:Cell Col="0" Row="9" ValueType="60">residential</gnm:Cell>
-        <gnm:Cell Col="1" Row="9" ValueType="60">정면것</gnm:Cell>
+        <gnm:Cell Col="1" Row="9" ValueType="60">facade one</gnm:Cell>
         <gnm:Cell Col="2" Row="9" ValueType="60">R</gnm:Cell>
         <gnm:Cell Col="3" Row="9" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="4" Row="9" ValueType="30">21</gnm:Cell>
@@ -2283,7 +2283,7 @@
         <gnm:Cell Col="38" Row="112" ExprID="31"/>
         <gnm:Cell Col="39" Row="112" ExprID="32"/>
       </gnm:Cells>
-      <gnm:SheetLayout TopLeft="C68">
+      <gnm:SheetLayout TopLeft="C5">
         <gnm:FreezePanes FrozenTopLeft="A1" UnfrozenTopLeft="C5"/>
       </gnm:SheetLayout>
       <gnm:Solver ProblemType="1" Inputs="" MaxTime="0" MaxIter="0" NonNeg="1" Discr="0" AutoScale="0" ShowIter="0" AnswerR="0" SensitivityR="0" LimitsR="0" PerformR="0" ProgramR="0"/>
