@@ -10,6 +10,9 @@
 >
 
 	<xs:simpleType name="allNNI">
+		<xs:annotation>
+			<xs:documentation>All non negative integer</xs:documentation>
+		</xs:annotation>
 		<xs:union>
 			<xs:simpleType>
 				<xs:restriction base="xs:integer"/>
@@ -45,6 +48,9 @@
 	</xs:complexType>
 
 	<xs:simpleType name="propertyTypeType">
+		<xs:annotation>
+			<xs:documentation>The OpenCity object type</xs:documentation>
+		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="R"/>
 			<xs:enumeration value="C"/>
@@ -59,6 +65,9 @@
 	</xs:simpleType>
 
 	<xs:simpleType name="directionTypeType">
+		<xs:annotation>
+			<xs:documentation>The direction that the object is connected to</xs:documentation>
+		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="on"/>
 			<xs:enumeration value="oe"/>
@@ -83,6 +92,9 @@
 	</xs:complexType>
 
 	<xs:complexType name="costType">
+		<xs:annotation>
+			<xs:documentation>The financial aspects of the object: build cost, destroy cost, support cost and income</xs:documentation>
+		</xs:annotation>
 		<xs:attribute name="build" type="xs:nonNegativeInteger" default="0"/>
 		<xs:attribute name="destroy" type="xs:nonNegativeInteger" default="0"/>
 		<xs:attribute name="support" type="xs:nonNegativeInteger" default="0"/>
@@ -108,6 +120,9 @@
 	</xs:complexType>
 
 	<xs:complexType name="authorType">
+		<xs:annotation>
+			<xs:documentation>The object legal information</xs:documentation>
+		</xs:annotation>
 		<xs:sequence>
 			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
