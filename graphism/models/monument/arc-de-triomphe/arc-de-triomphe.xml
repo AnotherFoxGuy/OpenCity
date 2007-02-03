@@ -25,29 +25,32 @@
       <name>Frédéric Rodrigo</name>
       <email>f.rodrigo free.fr</email>
       <license>GPL</license>
+      <year>2006</year>
       <object>Model</object>
     </author>
     <author>
       <name>Miles Rausch</name>
       <license>Creative Commons Attribution-ShareAlike 2.0</license>
+      <year>2006</year>
       <url>http://www.flickr.com/photos/awayken/177452543/in/set-72157594178774826</url>
       <object>Side texture</object>
     </author>
     <author>
       <name>Kazunori Matsuo</name>
       <license>Creative Commons Attribution 2.0</license>
+      <year>2006</year>
       <url>http://www.flickr.com/photos/chaojikazu/20830877/in/set-547981</url>
       <object>Face texture</object>
     </author>
     <author>
       <name>Jim G</name>
       <license>Creative Commons Attribution 2.0</license>
+      <year>2005</year>
       <url>http://www.flickr.com/photos/jimg944/112702929/</url>
       <object>Ceiling texture</object>
     </author>
     <name lang='fr'>Arc de triomphe</name>
     <name lang='en'>Arc de Triomphe</name>
-    
     <description lang='fr'>L&apos;Arc de triomphe de l&apos;Étoile appelé partout dans le monde Arc de Triomphe, est situé à Paris, sur la place de l&apos;Étoile, à l&apos;extrémité ouest de l&apos;avenue des Champs-Élysées (Wikipedia).</description>
     <description lang='en'>The Arc de Triomphe is a monument in Paris that stands in the centre of the Place de l&apos;Étoile, at the western end of the Champs-Élysées. (Wikipedia)</description>
   </model>

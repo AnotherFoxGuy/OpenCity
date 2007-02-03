@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
-  <property radius='11' type='Gouv'>
+  <property radius='11' type='Gov'>
     <cost build='60000' destroy='3000' support='800'/>
     <r>
       <need max='45' min='1'/>
@@ -18,18 +18,20 @@
     <e need='1'/>
     <g need='1'/>
     <nat provide='-1'/>
-    <direction value='s'/>
+    <direction value='os'/>
   </property>
   <model length='12' height='27' width='12'>
     <author>
       <name>Frédéric Rodrigo</name>
       <email>f.rodrigo free.fr</email>
       <license>GPL</license>
-      <object>Model</model>
+      <year>2006</year>
+      <object>Model</object>
     </author>
     <author>
       <name>Leo Reynolds</name>
       <license>Creative Commons Attribution-NonCommercial-ShareAlike 2.0</license>
+      <year>2006</year>
       <url>http://flickr.com/photos/lwr/180469326/</url>
       <object>Texture</object>
     </author>

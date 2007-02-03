@@ -22,8 +22,10 @@
   </property>
   <model length='1' height='1.1' width='1'>
     <author>
-      <name>Oliver Baker &lt;sjbaker1 airmail.net&gt;</name>
+      <name>Oliver Baker</name>
+      <email>sjbaker1 airmail.net</email>
       <license>GPL</license>
+      <year>2005</year>
     </author>
     <name lang='fr'>Hélicoptère</name>
     <name lang='en'>Helicopter</name>
