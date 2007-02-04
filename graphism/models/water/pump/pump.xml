@@ -14,6 +14,10 @@
       <need/>
       <provide/>
     </i>
+    <t>
+      <need/>
+      <provide max='2' min='1'/>
+    </t>
     <w provide='35'/>
     <e need='4'/>
     <g/>

@@ -107,6 +107,7 @@
 			<xs:element name="r" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="c" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="i" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="t" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="w" type="needProvideType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="e" type="needProvideType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="g" type="needProvideType" minOccurs="1" maxOccurs="1"/>
