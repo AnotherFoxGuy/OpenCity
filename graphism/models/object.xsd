@@ -52,15 +52,16 @@
 			<xs:documentation>The OpenCity object type</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="R"/>
-			<xs:enumeration value="C"/>
-			<xs:enumeration value="I"/>
-			<xs:enumeration value="Gov"/>
-			<xs:enumeration value="W"/>
-			<xs:enumeration value="E"/>
-			<xs:enumeration value="G"/>
-			<xs:enumeration value="Veh"/>
-			<xs:enumeration value="Nat"/>
+			<xs:enumeration value="r"/>
+			<xs:enumeration value="c"/>
+			<xs:enumeration value="i"/>
+			<xs:enumeration value="w"/>
+			<xs:enumeration value="e"/>
+			<xs:enumeration value="g"/>
+			<xs:enumeration value="government"/>
+			<xs:enumeration value="path"/>
+			<xs:enumeration value="tree"/>
+			<xs:enumeration value="vehicle"/>
 		</xs:restriction>
 	</xs:simpleType>
 
