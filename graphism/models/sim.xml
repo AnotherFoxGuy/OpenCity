@@ -41,7 +41,7 @@
   <gnm:SheetNameIndex>
     <gnm:SheetName>Feuille1</gnm:SheetName>
   </gnm:SheetNameIndex>
-  <gnm:Geometry Width="1248" Height="841"/>
+  <gnm:Geometry Width="960" Height="607"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE">
       <gnm:Name>Feuille1</gnm:Name>
@@ -120,19 +120,6 @@
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="35" startRow="0" endCol="39" endRow="3">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
-            <gnm:StyleBorder>
-              <gnm:Top Style="0"/>
-              <gnm:Bottom Style="0"/>
-              <gnm:Left Style="0"/>
-              <gnm:Right Style="0"/>
-              <gnm:Diagonal Style="0"/>
-              <gnm:Rev-Diagonal Style="0"/>
-            </gnm:StyleBorder>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="12" startRow="40" endCol="19" endRow="47">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
             <gnm:StyleBorder>
@@ -314,33 +301,7 @@
             </gnm:StyleBorder>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="20" startRow="40" endCol="31" endRow="255">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
-            <gnm:StyleBorder>
-              <gnm:Top Style="0"/>
-              <gnm:Bottom Style="0"/>
-              <gnm:Left Style="0"/>
-              <gnm:Right Style="0"/>
-              <gnm:Diagonal Style="0"/>
-              <gnm:Rev-Diagonal Style="0"/>
-            </gnm:StyleBorder>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="12" startRow="48" endCol="19" endRow="255">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
-            <gnm:StyleBorder>
-              <gnm:Top Style="0"/>
-              <gnm:Bottom Style="0"/>
-              <gnm:Left Style="0"/>
-              <gnm:Right Style="0"/>
-              <gnm:Diagonal Style="0"/>
-              <gnm:Rev-Diagonal Style="0"/>
-            </gnm:StyleBorder>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="40" endCol="11" endRow="255">
+        <gnm:StyleRegion startCol="0" startRow="40" endCol="31" endRow="255">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
             <gnm:StyleBorder>
@@ -690,8 +651,8 @@
         <gnm:RowInfo No="4" Unit="11.25" MarginA="0" MarginB="0" Count="83"/>
         <gnm:RowInfo No="87" Unit="12.75" MarginA="0" MarginB="0" Count="27"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="19" CursorRow="114">
-        <gnm:Selection startCol="19" startRow="114" endCol="19" endRow="114"/>
+      <gnm:Selections CursorCol="2" CursorRow="9">
+        <gnm:Selection startCol="2" startRow="9" endCol="2" endRow="9"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Col="0" Row="0" ValueType="60">path</gnm:Cell>
@@ -807,7 +768,7 @@
         <gnm:Cell Col="35" Row="3" ValueType="60">live</gnm:Cell>
         <gnm:Cell Col="0" Row="4" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="4" ValueType="60">r_zone</gnm:Cell>
-        <gnm:Cell Col="2" Row="4" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="4" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="30" Row="4" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="34" Row="4" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="38" Row="4">=if(or(D5,H5,L5),&quot;x&quot;,&quot;&quot;)</gnm:Cell>
@@ -818,7 +779,7 @@
         <gnm:Cell Col="45" Row="4" ExprID="4">=if(AB5&lt;&gt;0,V5/AB5*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="5" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="5" ValueType="60">easybuilding</gnm:Cell>
-        <gnm:Cell Col="2" Row="5" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="5" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="4" Row="5" ValueType="30">12</gnm:Cell>
         <gnm:Cell Col="6" Row="5" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="8" Row="5" ValueType="30">16</gnm:Cell>
@@ -840,7 +801,7 @@
         <gnm:Cell Col="45" Row="5" ExprID="4"/>
         <gnm:Cell Col="0" Row="6" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="6" ValueType="60">family</gnm:Cell>
-        <gnm:Cell Col="2" Row="6" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="6" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="4" Row="6" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="6" Row="6" ValueType="30">3</gnm:Cell>
         <gnm:Cell Col="8" Row="6" ValueType="30">20</gnm:Cell>
@@ -864,7 +825,7 @@
         <gnm:Cell Col="45" Row="6" ExprID="8">=if(AB7&lt;&gt;0,V7/AB7*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="7" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="7" ValueType="60">little_house</gnm:Cell>
-        <gnm:Cell Col="2" Row="7" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="7" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="4" Row="7" ValueType="30">6</gnm:Cell>
         <gnm:Cell Col="5" Row="7" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="6" Row="7" ValueType="30">3</gnm:Cell>
@@ -887,7 +848,7 @@
         <gnm:Cell Col="45" Row="7">=if(AB8&lt;&gt;0,V8/AB8*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="8" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="8" ValueType="60">facade_six</gnm:Cell>
-        <gnm:Cell Col="2" Row="8" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="8" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="8" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="4" Row="8" ValueType="30">19</gnm:Cell>
         <gnm:Cell Col="6" Row="8" ValueType="30">4</gnm:Cell>
@@ -913,7 +874,7 @@
         <gnm:Cell Col="45" Row="8" ExprID="8"/>
         <gnm:Cell Col="0" Row="9" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="9" ValueType="60">facade_one</gnm:Cell>
-        <gnm:Cell Col="2" Row="9" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="9" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="9" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="4" Row="9" ValueType="30">21</gnm:Cell>
         <gnm:Cell Col="5" Row="9" ValueType="30">3</gnm:Cell>
@@ -940,7 +901,7 @@
         <gnm:Cell Col="45" Row="9" ExprID="12">=if(AB10&lt;&gt;0,V10/AB10*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="10" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="10" ValueType="60">alexandria</gnm:Cell>
-        <gnm:Cell Col="2" Row="10" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="10" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="10" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="4" Row="10" ValueType="30">25</gnm:Cell>
         <gnm:Cell Col="5" Row="10" ValueType="30">4</gnm:Cell>
@@ -968,7 +929,7 @@
         <gnm:Cell Col="45" Row="10">=if(AB11&lt;&gt;0,V11/AB11*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="11" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="11" ValueType="60">mep</gnm:Cell>
-        <gnm:Cell Col="2" Row="11" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="11" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="11" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="4" Row="11" ValueType="30">35</gnm:Cell>
         <gnm:Cell Col="5" Row="11" ValueType="30">4</gnm:Cell>
@@ -997,7 +958,7 @@
         <gnm:Cell Col="45" Row="11" ExprID="12"/>
         <gnm:Cell Col="0" Row="12" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="12" ValueType="60">light-of-star</gnm:Cell>
-        <gnm:Cell Col="2" Row="12" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="12" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="12" ValueType="30">3</gnm:Cell>
         <gnm:Cell Col="4" Row="12" ValueType="30">22</gnm:Cell>
         <gnm:Cell Col="5" Row="12" ValueType="30">3</gnm:Cell>
@@ -1026,7 +987,7 @@
         <gnm:Cell Col="45" Row="12">=if(AB13&lt;&gt;0,V13/AB13*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="13" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="13" ValueType="60">grand-father</gnm:Cell>
-        <gnm:Cell Col="2" Row="13" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="13" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="13" ValueType="30">3</gnm:Cell>
         <gnm:Cell Col="4" Row="13" ValueType="30">25</gnm:Cell>
         <gnm:Cell Col="5" Row="13" ValueType="30">1</gnm:Cell>
@@ -1054,7 +1015,7 @@
         <gnm:Cell Col="45" Row="13">=if(AB14&lt;&gt;0,V14/AB14*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="14" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="14" ValueType="60">canary</gnm:Cell>
-        <gnm:Cell Col="2" Row="14" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="14" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="14" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="4" Row="14" ValueType="30">29</gnm:Cell>
         <gnm:Cell Col="5" Row="14" ValueType="30">5</gnm:Cell>
@@ -1083,7 +1044,7 @@
         <gnm:Cell Col="45" Row="14">=if(AB15&lt;&gt;0,V15/AB15*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="15" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="15" ValueType="60">charmilles</gnm:Cell>
-        <gnm:Cell Col="2" Row="15" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="15" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="15" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="4" Row="15" ValueType="30">30</gnm:Cell>
         <gnm:Cell Col="5" Row="15" ValueType="30">5</gnm:Cell>
@@ -1112,7 +1073,7 @@
         <gnm:Cell Col="45" Row="15">=if(AB16&lt;&gt;0,V16/AB16*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="16" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="16" ValueType="60">pool</gnm:Cell>
-        <gnm:Cell Col="2" Row="16" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="16" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="16" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="4" Row="16" ValueType="30">34</gnm:Cell>
         <gnm:Cell Col="5" Row="16" ValueType="30">3</gnm:Cell>
@@ -1136,7 +1097,7 @@
         <gnm:Cell Col="45" Row="16" ExprID="16">=if(AB17&lt;&gt;0,V17/AB17*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="17" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="17" ValueType="60">la_grande_motte</gnm:Cell>
-        <gnm:Cell Col="2" Row="17" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="17" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="17" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="4" Row="17" ValueType="30">42</gnm:Cell>
         <gnm:Cell Col="5" Row="17" ValueType="30">4</gnm:Cell>
@@ -1165,7 +1126,7 @@
         <gnm:Cell Col="45" Row="17">=if(AB18&lt;&gt;0,V18/AB18*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="18" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="18" ValueType="60">tennis</gnm:Cell>
-        <gnm:Cell Col="2" Row="18" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="18" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="18" ValueType="30">7</gnm:Cell>
         <gnm:Cell Col="4" Row="18" ValueType="30">56</gnm:Cell>
         <gnm:Cell Col="5" Row="18" ValueType="30">5</gnm:Cell>
@@ -1187,7 +1148,7 @@
         <gnm:Cell Col="45" Row="18" ExprID="16"/>
         <gnm:Cell Col="0" Row="19" ValueType="60">residential</gnm:Cell>
         <gnm:Cell Col="1" Row="19" ValueType="60">viny-world</gnm:Cell>
-        <gnm:Cell Col="2" Row="19" ValueType="60">R</gnm:Cell>
+        <gnm:Cell Col="2" Row="19" ValueType="60">r</gnm:Cell>
         <gnm:Cell Col="3" Row="19" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="4" Row="19" ValueType="30">200</gnm:Cell>
         <gnm:Cell Col="5" Row="19" ValueType="30">12</gnm:Cell>
@@ -1214,7 +1175,7 @@
         <gnm:Cell Col="45" Row="19">=if(AB20&lt;&gt;0,V20/AB20*100,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="20" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="20" ValueType="60">c_zone</gnm:Cell>
-        <gnm:Cell Col="2" Row="20" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="20" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="30" Row="20" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="33" Row="20" ValueType="30">100</gnm:Cell>
         <gnm:Cell Col="34" Row="20" ValueType="60">snwe</gnm:Cell>
@@ -1224,7 +1185,7 @@
         <gnm:Cell Col="41" Row="20" ExprID="18">=if(V21&lt;&gt;0,T21/V21,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="21" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="21" ValueType="60">chez-bob</gnm:Cell>
-        <gnm:Cell Col="2" Row="21" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="21" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="4" Row="21" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="8" Row="21" ValueType="30">20</gnm:Cell>
         <gnm:Cell Col="9" Row="21" ValueType="30">1</gnm:Cell>
@@ -1244,7 +1205,7 @@
         <gnm:Cell Col="41" Row="21" ExprID="18"/>
         <gnm:Cell Col="0" Row="22" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="22" ValueType="60">store</gnm:Cell>
-        <gnm:Cell Col="2" Row="22" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="22" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="4" Row="22" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="8" Row="22" ValueType="30">23</gnm:Cell>
         <gnm:Cell Col="9" Row="22" ValueType="30">2</gnm:Cell>
@@ -1266,7 +1227,7 @@
         <gnm:Cell Col="41" Row="22">=if(V23&lt;&gt;0,T23/V23,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="23" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="23" ValueType="60">station-p</gnm:Cell>
-        <gnm:Cell Col="2" Row="23" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="23" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="8" Row="23" ValueType="30">30</gnm:Cell>
         <gnm:Cell Col="9" Row="23" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="10" Row="23" ValueType="30">4</gnm:Cell>
@@ -1289,7 +1250,7 @@
         <gnm:Cell Col="41" Row="23">=if(V24&lt;&gt;0,T24/V24,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="24" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="24" ValueType="60">timberdland-hotel</gnm:Cell>
-        <gnm:Cell Col="2" Row="24" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="24" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="3" Row="24" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="7" Row="24" ValueType="10"></gnm:Cell>
         <gnm:Cell Col="8" Row="24" ValueType="30">27</gnm:Cell>
@@ -1314,7 +1275,7 @@
         <gnm:Cell Col="41" Row="24">=if(V25&lt;&gt;0,T25/V25,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="25" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="25" ValueType="60">hotel</gnm:Cell>
-        <gnm:Cell Col="2" Row="25" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="25" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="3" Row="25" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="5" Row="25" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="6" Row="25" ValueType="30">3</gnm:Cell>
@@ -1339,7 +1300,7 @@
         <gnm:Cell Col="41" Row="25">=if(V26&lt;&gt;0,T26/V26,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="26" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="26" ValueType="60">market</gnm:Cell>
-        <gnm:Cell Col="2" Row="26" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="26" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="3" Row="26" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="8" Row="26" ValueType="30">23</gnm:Cell>
         <gnm:Cell Col="9" Row="26" ValueType="30">2</gnm:Cell>
@@ -1361,7 +1322,7 @@
         <gnm:Cell Col="41" Row="26">=if(V27&lt;&gt;0,T27/V27,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="27" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="27" ValueType="60">resto</gnm:Cell>
-        <gnm:Cell Col="2" Row="27" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="27" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="3" Row="27" ValueType="30">3</gnm:Cell>
         <gnm:Cell Col="5" Row="27" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="6" Row="27" ValueType="30">3</gnm:Cell>
@@ -1388,7 +1349,7 @@
         <gnm:Cell Col="41" Row="27">=if(V28&lt;&gt;0,T28/V28,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="28" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="28" ValueType="60">rusk</gnm:Cell>
-        <gnm:Cell Col="2" Row="28" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="28" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="3" Row="28" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="4" Row="28" ValueType="30">30</gnm:Cell>
         <gnm:Cell Col="7" Row="28" ValueType="30">10</gnm:Cell>
@@ -1414,7 +1375,7 @@
         <gnm:Cell Col="41" Row="28">=if(V29&lt;&gt;0,T29/V29,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="29" ValueType="60">commercial</gnm:Cell>
         <gnm:Cell Col="1" Row="29" ValueType="60">icarus</gnm:Cell>
-        <gnm:Cell Col="2" Row="29" ValueType="60">C</gnm:Cell>
+        <gnm:Cell Col="2" Row="29" ValueType="60">c</gnm:Cell>
         <gnm:Cell Col="3" Row="29" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="5" Row="29" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="6" Row="29" ValueType="30">10</gnm:Cell>
@@ -1440,7 +1401,7 @@
         <gnm:Cell Col="41" Row="29">=if(V30&lt;&gt;0,T30/V30,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="30" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="30" ValueType="60">i_zone</gnm:Cell>
-        <gnm:Cell Col="2" Row="30" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="30" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="30" Row="30" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="33" Row="30" ValueType="30">60</gnm:Cell>
         <gnm:Cell Col="34" Row="30" ValueType="60">snwe</gnm:Cell>
@@ -1450,7 +1411,7 @@
         <gnm:Cell Col="41" Row="30" ExprID="20">=if(V31&lt;&gt;0,T31/V31,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="31" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="31" ValueType="60">waste_ground</gnm:Cell>
-        <gnm:Cell Col="2" Row="31" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="31" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="8" Row="31" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="9" Row="31" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="10" Row="31" ValueType="30">0</gnm:Cell>
@@ -1467,7 +1428,7 @@
         <gnm:Cell Col="41" Row="31" ExprID="20"/>
         <gnm:Cell Col="0" Row="32" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="32" ValueType="60">warehouse</gnm:Cell>
-        <gnm:Cell Col="2" Row="32" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="32" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="12" Row="32" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="14" Row="32" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="15" Row="32" ValueType="30">1</gnm:Cell>
@@ -1485,7 +1446,7 @@
         <gnm:Cell Col="41" Row="32">=if(V33&lt;&gt;0,T33/V33,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="33" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="33" ValueType="60">beef</gnm:Cell>
-        <gnm:Cell Col="2" Row="33" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="33" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="6" Row="33" ValueType="30">-2</gnm:Cell>
         <gnm:Cell Col="12" Row="33" ValueType="30">19</gnm:Cell>
         <gnm:Cell Col="13" Row="33" ValueType="30">1</gnm:Cell>
@@ -1508,7 +1469,7 @@
         <gnm:Cell Col="41" Row="33">=if(V34&lt;&gt;0,T34/V34,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="34" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="34" ValueType="60">hang</gnm:Cell>
-        <gnm:Cell Col="2" Row="34" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="34" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="12" Row="34" ValueType="30">12</gnm:Cell>
         <gnm:Cell Col="13" Row="34" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="14" Row="34" ValueType="30">3</gnm:Cell>
@@ -1528,7 +1489,7 @@
         <gnm:Cell Col="41" Row="34">=if(V35&lt;&gt;0,T35/V35,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="35" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="35" ValueType="60">tank</gnm:Cell>
-        <gnm:Cell Col="2" Row="35" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="35" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="12" Row="35" ValueType="30">21</gnm:Cell>
         <gnm:Cell Col="13" Row="35" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="14" Row="35" ValueType="30">4</gnm:Cell>
@@ -1548,7 +1509,7 @@
         <gnm:Cell Col="41" Row="35">=if(V36&lt;&gt;0,T36/V36,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="36" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="36" ValueType="60">containers</gnm:Cell>
-        <gnm:Cell Col="2" Row="36" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="36" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="6" Row="36" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="8" Row="36" ValueType="30">8</gnm:Cell>
         <gnm:Cell Col="10" Row="36" ValueType="30">-1</gnm:Cell>
@@ -1570,7 +1531,7 @@
         <gnm:Cell Col="41" Row="36">=if(V37&lt;&gt;0,T37/V37,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="37" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="37" ValueType="60">steel</gnm:Cell>
-        <gnm:Cell Col="2" Row="37" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="37" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="11" Row="37" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="12" Row="37" ValueType="30">22</gnm:Cell>
         <gnm:Cell Col="13" Row="37" ValueType="30">3</gnm:Cell>
@@ -1592,7 +1553,7 @@
         <gnm:Cell Col="41" Row="37">=if(V38&lt;&gt;0,T38/V38,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="38" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="38" ValueType="60">chemical-tank</gnm:Cell>
-        <gnm:Cell Col="2" Row="38" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="38" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="6" Row="38" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="10" Row="38" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="11" Row="38" ValueType="30">3</gnm:Cell>
@@ -1613,7 +1574,7 @@
         <gnm:Cell Col="41" Row="38">=if(V39&lt;&gt;0,T39/V39,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="39" ValueType="60">industrial</gnm:Cell>
         <gnm:Cell Col="1" Row="39" ValueType="60">aeronautics-study</gnm:Cell>
-        <gnm:Cell Col="2" Row="39" ValueType="60">I</gnm:Cell>
+        <gnm:Cell Col="2" Row="39" ValueType="60">i</gnm:Cell>
         <gnm:Cell Col="3" Row="39" ValueType="30">3</gnm:Cell>
         <gnm:Cell Col="7" Row="39" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="12" Row="39" ValueType="30">80</gnm:Cell>
@@ -1638,7 +1599,7 @@
         <gnm:Cell Col="41" Row="39">=if(V40&lt;&gt;0,T40/V40,0)</gnm:Cell>
         <gnm:Cell Col="0" Row="40" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="40" ValueType="60">coal</gnm:Cell>
-        <gnm:Cell Col="2" Row="40" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="40" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="5" Row="40" ValueType="30">-4</gnm:Cell>
         <gnm:Cell Col="6" Row="40" ValueType="30">-10</gnm:Cell>
         <gnm:Cell Col="9" Row="40" ValueType="30">-1</gnm:Cell>
@@ -1661,7 +1622,7 @@
         <gnm:Cell Col="43" Row="40">=AG41/AE41</gnm:Cell>
         <gnm:Cell Col="0" Row="41" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="41" ValueType="60">nuclear</gnm:Cell>
-        <gnm:Cell Col="2" Row="41" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="41" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="6" Row="41" ValueType="30">-2</gnm:Cell>
         <gnm:Cell Col="14" Row="41" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="17" Row="41" ValueType="30">10</gnm:Cell>
@@ -1681,7 +1642,7 @@
         <gnm:Cell Col="43" Row="41" ExprID="22">=AG42/AE42</gnm:Cell>
         <gnm:Cell Col="0" Row="42" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="42" ValueType="60">line_n_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="42" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="42" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="42" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="42" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="42" ValueType="30">3</gnm:Cell>
@@ -1691,7 +1652,7 @@
         <gnm:Cell Col="43" Row="42" ExprID="22"/>
         <gnm:Cell Col="0" Row="43" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="43" ValueType="60">line_n_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="43" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="43" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="43" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="43" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="43" ValueType="30">3</gnm:Cell>
@@ -1701,7 +1662,7 @@
         <gnm:Cell Col="43" Row="43" ExprID="22"/>
         <gnm:Cell Col="0" Row="44" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="44" ValueType="60">line_n_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="44" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="44" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="44" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="44" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="44" ValueType="30">3</gnm:Cell>
@@ -1711,7 +1672,7 @@
         <gnm:Cell Col="43" Row="44" ExprID="22"/>
         <gnm:Cell Col="0" Row="45" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="45" ValueType="60">line_o_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="45" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="45" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="45" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="45" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="45" ValueType="30">3</gnm:Cell>
@@ -1721,7 +1682,7 @@
         <gnm:Cell Col="43" Row="45" ExprID="22"/>
         <gnm:Cell Col="0" Row="46" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="46" ValueType="60">line_o_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="46" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="46" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="46" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="46" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="46" ValueType="30">3</gnm:Cell>
@@ -1731,7 +1692,7 @@
         <gnm:Cell Col="43" Row="46" ExprID="22"/>
         <gnm:Cell Col="0" Row="47" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="47" ValueType="60">line_o_s</gnm:Cell>
-        <gnm:Cell Col="2" Row="47" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="47" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="47" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="47" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="47" ValueType="30">3</gnm:Cell>
@@ -1741,7 +1702,7 @@
         <gnm:Cell Col="43" Row="47" ExprID="22"/>
         <gnm:Cell Col="0" Row="48" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="48" ValueType="60">line_o_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="48" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="48" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="48" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="48" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="48" ValueType="30">3</gnm:Cell>
@@ -1751,7 +1712,7 @@
         <gnm:Cell Col="43" Row="48" ExprID="22"/>
         <gnm:Cell Col="0" Row="49" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="49" ValueType="60">line_s_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="49" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="49" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="49" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="49" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="49" ValueType="30">3</gnm:Cell>
@@ -1761,7 +1722,7 @@
         <gnm:Cell Col="43" Row="49" ExprID="22"/>
         <gnm:Cell Col="0" Row="50" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="50" ValueType="60">line_s_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="50" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="50" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="50" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="50" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="50" ValueType="30">3</gnm:Cell>
@@ -1771,7 +1732,7 @@
         <gnm:Cell Col="43" Row="50" ExprID="22"/>
         <gnm:Cell Col="0" Row="51" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="51" ValueType="60">line_s_n_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="51" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="51" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="51" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="51" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="51" ValueType="30">3</gnm:Cell>
@@ -1781,7 +1742,7 @@
         <gnm:Cell Col="43" Row="51" ExprID="22"/>
         <gnm:Cell Col="0" Row="52" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="52" ValueType="60">line_s_n_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="52" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="52" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="52" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="52" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="52" ValueType="30">3</gnm:Cell>
@@ -1791,7 +1752,7 @@
         <gnm:Cell Col="43" Row="52" ExprID="22"/>
         <gnm:Cell Col="0" Row="53" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="53" ValueType="60">line_s_n_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="53" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="53" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="53" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="53" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="53" ValueType="30">3</gnm:Cell>
@@ -1801,7 +1762,7 @@
         <gnm:Cell Col="43" Row="53" ExprID="22"/>
         <gnm:Cell Col="0" Row="54" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="54" ValueType="60">line_s_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="54" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="54" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="54" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="54" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="54" ValueType="30">3</gnm:Cell>
@@ -1811,7 +1772,7 @@
         <gnm:Cell Col="43" Row="54" ExprID="22"/>
         <gnm:Cell Col="0" Row="55" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="55" ValueType="60">line_s_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="55" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="55" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="55" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="55" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="55" ValueType="30">3</gnm:Cell>
@@ -1821,7 +1782,7 @@
         <gnm:Cell Col="43" Row="55" ExprID="22"/>
         <gnm:Cell Col="0" Row="56" ValueType="60">electricity</gnm:Cell>
         <gnm:Cell Col="1" Row="56" ValueType="60">line_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="56" ValueType="60">E</gnm:Cell>
+        <gnm:Cell Col="2" Row="56" ValueType="60">e</gnm:Cell>
         <gnm:Cell Col="26" Row="56" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="56" ValueType="30">15</gnm:Cell>
         <gnm:Cell Col="31" Row="56" ValueType="30">3</gnm:Cell>
@@ -1831,7 +1792,7 @@
         <gnm:Cell Col="43" Row="56" ExprID="22"/>
         <gnm:Cell Col="0" Row="57" ValueType="60">educationdept</gnm:Cell>
         <gnm:Cell Col="1" Row="57" ValueType="60">school-medium</gnm:Cell>
-        <gnm:Cell Col="2" Row="57" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="57" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="3" Row="57" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="4" Row="57" ValueType="30">30</gnm:Cell>
         <gnm:Cell Col="5" Row="57" ValueType="30">1</gnm:Cell>
@@ -1855,7 +1816,7 @@
         <gnm:Cell Col="43" Row="57">=AG58/AE58</gnm:Cell>
         <gnm:Cell Col="0" Row="58" ValueType="60">firedept</gnm:Cell>
         <gnm:Cell Col="1" Row="58" ValueType="60">medium</gnm:Cell>
-        <gnm:Cell Col="2" Row="58" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="58" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="4" Row="58" ValueType="30">50</gnm:Cell>
         <gnm:Cell Col="5" Row="58" ValueType="10"></gnm:Cell>
         <gnm:Cell Col="6" Row="58" ValueType="30">3</gnm:Cell>
@@ -1880,7 +1841,7 @@
         <gnm:Cell Col="43" Row="58">=AG59/AE59</gnm:Cell>
         <gnm:Cell Col="0" Row="59" ValueType="60">hospitaldept</gnm:Cell>
         <gnm:Cell Col="1" Row="59" ValueType="60">large</gnm:Cell>
-        <gnm:Cell Col="2" Row="59" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="59" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="3" Row="59" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="4" Row="59" ValueType="30">70</gnm:Cell>
         <gnm:Cell Col="6" Row="59" ValueType="30">6</gnm:Cell>
@@ -1905,7 +1866,7 @@
         <gnm:Cell Col="43" Row="59">=AG60/AE60</gnm:Cell>
         <gnm:Cell Col="0" Row="60" ValueType="60">monument</gnm:Cell>
         <gnm:Cell Col="1" Row="60" ValueType="60">arc-de-triomphe</gnm:Cell>
-        <gnm:Cell Col="2" Row="60" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="60" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="9" Row="60" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="10" Row="60" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="17" Row="60" ValueType="30">12</gnm:Cell>
@@ -1922,7 +1883,7 @@
         <gnm:Cell Col="43" Row="60">=AG61/AE61</gnm:Cell>
         <gnm:Cell Col="0" Row="61" ValueType="60">monument</gnm:Cell>
         <gnm:Cell Col="1" Row="61" ValueType="60">church-bruges</gnm:Cell>
-        <gnm:Cell Col="2" Row="61" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="61" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="3" Row="61" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="4" Row="61" ValueType="30">45</gnm:Cell>
         <gnm:Cell Col="5" Row="61" ValueType="30">1</gnm:Cell>
@@ -1947,7 +1908,7 @@
         <gnm:Cell Col="43" Row="61">=AG62/AE62</gnm:Cell>
         <gnm:Cell Col="0" Row="62" ValueType="60">park</gnm:Cell>
         <gnm:Cell Col="1" Row="62" ValueType="60">city</gnm:Cell>
-        <gnm:Cell Col="2" Row="62" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="62" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="3" Row="62" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="4" Row="62" ValueType="30">35</gnm:Cell>
         <gnm:Cell Col="6" Row="62" ValueType="30">2</gnm:Cell>
@@ -1968,7 +1929,7 @@
         <gnm:Cell Col="43" Row="62">=AG63/AE63</gnm:Cell>
         <gnm:Cell Col="0" Row="63" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="63" ValueType="60">road_n_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="63" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="63" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="63" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="63" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="63" ValueType="30">4</gnm:Cell>
@@ -1978,7 +1939,7 @@
         <gnm:Cell Col="43" Row="63" ExprID="22"/>
         <gnm:Cell Col="0" Row="64" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="64" ValueType="60">road_n_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="64" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="64" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="64" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="64" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="64" ValueType="30">4</gnm:Cell>
@@ -1988,7 +1949,7 @@
         <gnm:Cell Col="43" Row="64" ExprID="22"/>
         <gnm:Cell Col="0" Row="65" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="65" ValueType="60">road_n_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="65" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="65" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="65" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="65" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="65" ValueType="30">4</gnm:Cell>
@@ -1998,7 +1959,7 @@
         <gnm:Cell Col="43" Row="65" ExprID="22"/>
         <gnm:Cell Col="0" Row="66" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="66" ValueType="60">road_o_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="66" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="66" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="66" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="66" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="66" ValueType="30">4</gnm:Cell>
@@ -2008,7 +1969,7 @@
         <gnm:Cell Col="43" Row="66" ExprID="22"/>
         <gnm:Cell Col="0" Row="67" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="67" ValueType="60">road_o_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="67" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="67" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="67" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="67" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="67" ValueType="30">4</gnm:Cell>
@@ -2018,7 +1979,7 @@
         <gnm:Cell Col="43" Row="67" ExprID="22"/>
         <gnm:Cell Col="0" Row="68" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="68" ValueType="60">road_o_s</gnm:Cell>
-        <gnm:Cell Col="2" Row="68" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="68" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="68" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="68" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="68" ValueType="30">4</gnm:Cell>
@@ -2028,7 +1989,7 @@
         <gnm:Cell Col="43" Row="68" ExprID="22"/>
         <gnm:Cell Col="0" Row="69" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="69" ValueType="60">road_o_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="69" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="69" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="69" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="69" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="69" ValueType="30">4</gnm:Cell>
@@ -2038,7 +1999,7 @@
         <gnm:Cell Col="43" Row="69" ExprID="22"/>
         <gnm:Cell Col="0" Row="70" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="70" ValueType="60">road_s_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="70" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="70" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="70" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="70" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="70" ValueType="30">4</gnm:Cell>
@@ -2048,7 +2009,7 @@
         <gnm:Cell Col="43" Row="70" ExprID="22"/>
         <gnm:Cell Col="0" Row="71" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="71" ValueType="60">road_s_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="71" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="71" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="71" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="71" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="71" ValueType="30">4</gnm:Cell>
@@ -2058,7 +2019,7 @@
         <gnm:Cell Col="43" Row="71" ExprID="22"/>
         <gnm:Cell Col="0" Row="72" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="72" ValueType="60">road_s_n_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="72" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="72" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="72" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="72" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="72" ValueType="30">4</gnm:Cell>
@@ -2068,7 +2029,7 @@
         <gnm:Cell Col="43" Row="72" ExprID="22"/>
         <gnm:Cell Col="0" Row="73" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="73" ValueType="60">road_s_n_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="73" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="73" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="73" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="73" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="73" ValueType="30">4</gnm:Cell>
@@ -2078,7 +2039,7 @@
         <gnm:Cell Col="43" Row="73" ExprID="22"/>
         <gnm:Cell Col="0" Row="74" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="74" ValueType="60">road_s_n_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="74" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="74" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="74" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="74" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="74" ValueType="30">4</gnm:Cell>
@@ -2088,7 +2049,7 @@
         <gnm:Cell Col="43" Row="74" ExprID="22"/>
         <gnm:Cell Col="0" Row="75" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="75" ValueType="60">road_s_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="75" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="75" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="75" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="75" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="75" ValueType="30">4</gnm:Cell>
@@ -2098,7 +2059,7 @@
         <gnm:Cell Col="43" Row="75" ExprID="22"/>
         <gnm:Cell Col="0" Row="76" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="76" ValueType="60">road_s_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="76" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="76" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="76" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="76" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="76" ValueType="30">4</gnm:Cell>
@@ -2108,7 +2069,7 @@
         <gnm:Cell Col="43" Row="76" ExprID="22"/>
         <gnm:Cell Col="0" Row="77" ValueType="60">path/road</gnm:Cell>
         <gnm:Cell Col="1" Row="77" ValueType="60">road_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="77" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="77" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="26" Row="77" ValueType="30">-1</gnm:Cell>
         <gnm:Cell Col="30" Row="77" ValueType="30">10</gnm:Cell>
         <gnm:Cell Col="31" Row="77" ValueType="30">4</gnm:Cell>
@@ -2118,7 +2079,7 @@
         <gnm:Cell Col="43" Row="77" ExprID="22"/>
         <gnm:Cell Col="0" Row="78" ValueType="60">policedept</gnm:Cell>
         <gnm:Cell Col="1" Row="78" ValueType="60">medium</gnm:Cell>
-        <gnm:Cell Col="2" Row="78" ValueType="60">Gov</gnm:Cell>
+        <gnm:Cell Col="2" Row="78" ValueType="60">government</gnm:Cell>
         <gnm:Cell Col="4" Row="78" ValueType="30">40</gnm:Cell>
         <gnm:Cell Col="6" Row="78" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="10" Row="78" ValueType="30">6</gnm:Cell>
@@ -2140,7 +2101,7 @@
         <gnm:Cell Col="43" Row="78" ExprID="25">=AG79/AE79</gnm:Cell>
         <gnm:Cell Col="0" Row="79" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="1" Row="79" ValueType="60">fir1</gnm:Cell>
-        <gnm:Cell Col="2" Row="79" ValueType="60">Nat</gnm:Cell>
+        <gnm:Cell Col="2" Row="79" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="25" Row="79" ValueType="30">-3</gnm:Cell>
         <gnm:Cell Col="26" Row="79" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="29" Row="79" ValueType="30">2</gnm:Cell>
@@ -2149,7 +2110,7 @@
         <gnm:Cell Col="34" Row="79" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="0" Row="80" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="1" Row="80" ValueType="60">peking-willow1</gnm:Cell>
-        <gnm:Cell Col="2" Row="80" ValueType="60">Nat</gnm:Cell>
+        <gnm:Cell Col="2" Row="80" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="25" Row="80" ValueType="30">-3</gnm:Cell>
         <gnm:Cell Col="26" Row="80" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="29" Row="80" ValueType="30">2</gnm:Cell>
@@ -2158,7 +2119,7 @@
         <gnm:Cell Col="34" Row="80" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="0" Row="81" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="1" Row="81" ValueType="60">pine2</gnm:Cell>
-        <gnm:Cell Col="2" Row="81" ValueType="60">Nat</gnm:Cell>
+        <gnm:Cell Col="2" Row="81" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="25" Row="81" ValueType="30">-3</gnm:Cell>
         <gnm:Cell Col="26" Row="81" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="29" Row="81" ValueType="30">2</gnm:Cell>
@@ -2167,7 +2128,7 @@
         <gnm:Cell Col="34" Row="81" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="0" Row="82" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="1" Row="82" ValueType="60">pine3</gnm:Cell>
-        <gnm:Cell Col="2" Row="82" ValueType="60">Nat</gnm:Cell>
+        <gnm:Cell Col="2" Row="82" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="25" Row="82" ValueType="30">-3</gnm:Cell>
         <gnm:Cell Col="26" Row="82" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="29" Row="82" ValueType="30">2</gnm:Cell>
@@ -2176,7 +2137,7 @@
         <gnm:Cell Col="34" Row="82" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="0" Row="83" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="1" Row="83" ValueType="60">tree007</gnm:Cell>
-        <gnm:Cell Col="2" Row="83" ValueType="60">Nat</gnm:Cell>
+        <gnm:Cell Col="2" Row="83" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="25" Row="83" ValueType="30">-3</gnm:Cell>
         <gnm:Cell Col="26" Row="83" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="29" Row="83" ValueType="30">2</gnm:Cell>
@@ -2185,7 +2146,7 @@
         <gnm:Cell Col="34" Row="83" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="0" Row="84" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="1" Row="84" ValueType="60">tree53_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="84" ValueType="60">Nat</gnm:Cell>
+        <gnm:Cell Col="2" Row="84" ValueType="60">tree</gnm:Cell>
         <gnm:Cell Col="25" Row="84" ValueType="30">-3</gnm:Cell>
         <gnm:Cell Col="26" Row="84" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="29" Row="84" ValueType="30">2</gnm:Cell>
@@ -2193,48 +2154,46 @@
         <gnm:Cell Col="31" Row="84" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="34" Row="84" ValueType="60">snwe</gnm:Cell>
         <gnm:Cell Col="1" Row="85" ValueType="60">empty</gnm:Cell>
-        <gnm:Cell Col="2" Row="85" ValueType="60">Nat</gnm:Cell>
         <gnm:Cell Col="26" Row="85" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="29" Row="85" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="1" Row="86" ValueType="60">water</gnm:Cell>
-        <gnm:Cell Col="2" Row="86" ValueType="60">Nat</gnm:Cell>
         <gnm:Cell Col="26" Row="86" ValueType="30">3</gnm:Cell>
         <gnm:Cell Col="29" Row="86" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="0" Row="87" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="87" ValueType="60">buickS</gnm:Cell>
-        <gnm:Cell Col="2" Row="87" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="87" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="87" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="88" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="88" ValueType="60">clior</gnm:Cell>
-        <gnm:Cell Col="2" Row="88" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="88" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="88" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="89" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="89" ValueType="60">dynax</gnm:Cell>
-        <gnm:Cell Col="2" Row="89" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="89" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="89" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="90" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="90" ValueType="60">fire</gnm:Cell>
-        <gnm:Cell Col="2" Row="90" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="90" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="90" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="91" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="91" ValueType="60">helicopter</gnm:Cell>
-        <gnm:Cell Col="2" Row="91" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="91" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="91" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="92" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="92" ValueType="60">police</gnm:Cell>
-        <gnm:Cell Col="2" Row="92" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="92" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="92" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="93" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="93" ValueType="60">renault8-sport</gnm:Cell>
-        <gnm:Cell Col="2" Row="93" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="93" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="93" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="94" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="1" Row="94" ValueType="60">truck</gnm:Cell>
-        <gnm:Cell Col="2" Row="94" ValueType="60">Veh</gnm:Cell>
+        <gnm:Cell Col="2" Row="94" ValueType="60">vehicle</gnm:Cell>
         <gnm:Cell Col="34" Row="94" ValueType="60">os</gnm:Cell>
         <gnm:Cell Col="0" Row="95" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="95" ValueType="60">pipe_n_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="95" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="95" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="95" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="95" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="95" ValueType="30">1</gnm:Cell>
@@ -2245,7 +2204,7 @@
         <gnm:Cell Col="43" Row="95" ExprID="25"/>
         <gnm:Cell Col="0" Row="96" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="96" ValueType="60">pipe_n_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="96" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="96" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="96" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="96" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="96" ValueType="30">1</gnm:Cell>
@@ -2256,7 +2215,7 @@
         <gnm:Cell Col="43" Row="96" ExprID="25"/>
         <gnm:Cell Col="0" Row="97" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="97" ValueType="60">pipe_n_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="97" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="97" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="97" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="97" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="97" ValueType="30">1</gnm:Cell>
@@ -2267,7 +2226,7 @@
         <gnm:Cell Col="43" Row="97" ExprID="25"/>
         <gnm:Cell Col="0" Row="98" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="98" ValueType="60">pipe_o_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="98" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="98" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="98" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="98" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="98" ValueType="30">1</gnm:Cell>
@@ -2278,7 +2237,7 @@
         <gnm:Cell Col="43" Row="98" ExprID="25"/>
         <gnm:Cell Col="0" Row="99" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="99" ValueType="60">pipe_o_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="99" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="99" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="99" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="99" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="99" ValueType="30">1</gnm:Cell>
@@ -2289,7 +2248,7 @@
         <gnm:Cell Col="43" Row="99" ExprID="25"/>
         <gnm:Cell Col="0" Row="100" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="100" ValueType="60">pipe_o_s</gnm:Cell>
-        <gnm:Cell Col="2" Row="100" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="100" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="100" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="100" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="100" ValueType="30">1</gnm:Cell>
@@ -2300,7 +2259,7 @@
         <gnm:Cell Col="43" Row="100" ExprID="25"/>
         <gnm:Cell Col="0" Row="101" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="101" ValueType="60">pipe_o_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="101" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="101" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="101" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="101" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="101" ValueType="30">1</gnm:Cell>
@@ -2311,7 +2270,7 @@
         <gnm:Cell Col="43" Row="101" ExprID="25"/>
         <gnm:Cell Col="0" Row="102" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="102" ValueType="60">pipe_s_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="102" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="102" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="102" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="102" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="102" ValueType="30">1</gnm:Cell>
@@ -2322,7 +2281,7 @@
         <gnm:Cell Col="43" Row="102" ExprID="25"/>
         <gnm:Cell Col="0" Row="103" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="103" ValueType="60">pipe_s_n</gnm:Cell>
-        <gnm:Cell Col="2" Row="103" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="103" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="103" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="103" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="103" ValueType="30">1</gnm:Cell>
@@ -2333,7 +2292,7 @@
         <gnm:Cell Col="43" Row="103" ExprID="25"/>
         <gnm:Cell Col="0" Row="104" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="104" ValueType="60">pipe_s_n_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="104" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="104" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="104" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="104" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="104" ValueType="30">1</gnm:Cell>
@@ -2344,7 +2303,7 @@
         <gnm:Cell Col="43" Row="104" ExprID="25"/>
         <gnm:Cell Col="0" Row="105" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="105" ValueType="60">pipe_s_n_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="105" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="105" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="105" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="105" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="105" ValueType="30">1</gnm:Cell>
@@ -2355,7 +2314,7 @@
         <gnm:Cell Col="43" Row="105" ExprID="25"/>
         <gnm:Cell Col="0" Row="106" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="106" ValueType="60">pipe_s_n_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="106" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="106" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="106" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="106" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="106" ValueType="30">1</gnm:Cell>
@@ -2366,7 +2325,7 @@
         <gnm:Cell Col="43" Row="106" ExprID="25"/>
         <gnm:Cell Col="0" Row="107" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="107" ValueType="60">pipe_s_w</gnm:Cell>
-        <gnm:Cell Col="2" Row="107" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="107" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="107" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="107" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="107" ValueType="30">1</gnm:Cell>
@@ -2377,7 +2336,7 @@
         <gnm:Cell Col="43" Row="107" ExprID="25"/>
         <gnm:Cell Col="0" Row="108" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="108" ValueType="60">pipe_s_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="108" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="108" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="108" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="108" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="108" ValueType="30">1</gnm:Cell>
@@ -2388,7 +2347,7 @@
         <gnm:Cell Col="43" Row="108" ExprID="25"/>
         <gnm:Cell Col="0" Row="109" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="109" ValueType="60">pipe_w_e</gnm:Cell>
-        <gnm:Cell Col="2" Row="109" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="109" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="30" Row="109" ValueType="30">17</gnm:Cell>
         <gnm:Cell Col="31" Row="109" ValueType="30">5</gnm:Cell>
         <gnm:Cell Col="32" Row="109" ValueType="30">1</gnm:Cell>
@@ -2399,7 +2358,7 @@
         <gnm:Cell Col="43" Row="109" ExprID="25"/>
         <gnm:Cell Col="0" Row="110" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="110" ValueType="60">pump</gnm:Cell>
-        <gnm:Cell Col="2" Row="110" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="110" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="17" Row="110" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="18" Row="110" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="20" Row="110" ValueType="30">35</gnm:Cell>
@@ -2417,7 +2376,7 @@
         <gnm:Cell Col="43" Row="110" ExprID="25"/>
         <gnm:Cell Col="0" Row="111" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="111" ValueType="60">purifier</gnm:Cell>
-        <gnm:Cell Col="2" Row="111" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="111" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="17" Row="111" ValueType="30">2</gnm:Cell>
         <gnm:Cell Col="18" Row="111" ValueType="30">4</gnm:Cell>
         <gnm:Cell Col="19" Row="111" ValueType="30">3</gnm:Cell>
@@ -2435,7 +2394,7 @@
         <gnm:Cell Col="43" Row="111" ExprID="25"/>
         <gnm:Cell Col="0" Row="112" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="112" ValueType="60">tank</gnm:Cell>
-        <gnm:Cell Col="2" Row="112" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="112" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="18" Row="112" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="20" Row="112" ValueType="30">20</gnm:Cell>
         <gnm:Cell Col="26" Row="112" ValueType="30">-1</gnm:Cell>
@@ -2451,7 +2410,7 @@
         <gnm:Cell Col="43" Row="112" ExprID="25"/>
         <gnm:Cell Col="0" Row="113" ValueType="60">water</gnm:Cell>
         <gnm:Cell Col="1" Row="113" ValueType="60">tower</gnm:Cell>
-        <gnm:Cell Col="2" Row="113" ValueType="60">W</gnm:Cell>
+        <gnm:Cell Col="2" Row="113" ValueType="60">w</gnm:Cell>
         <gnm:Cell Col="18" Row="113" ValueType="30">1</gnm:Cell>
         <gnm:Cell Col="20" Row="113" ValueType="30">30</gnm:Cell>
         <gnm:Cell Col="21" Row="113" ValueType="30">3</gnm:Cell>
@@ -2467,7 +2426,7 @@
         <gnm:Cell Col="42" Row="113" ExprID="24"/>
         <gnm:Cell Col="43" Row="113" ExprID="25"/>
       </gnm:Cells>
-      <gnm:SheetLayout TopLeft="P82">
+      <gnm:SheetLayout TopLeft="C5">
         <gnm:FreezePanes FrozenTopLeft="A1" UnfrozenTopLeft="C5"/>
       </gnm:SheetLayout>
       <gnm:Solver ProblemType="1" Inputs="" MaxTime="0" MaxIter="0" NonNeg="1" Discr="0" AutoScale="0" ShowIter="0" AnswerR="0" SensitivityR="0" LimitsR="0" PerformR="0" ProgramR="0"/>
