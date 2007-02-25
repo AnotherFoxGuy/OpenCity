@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' worker='1' inhabitant='36' type='r'>
+    <cost destroy='4800' income='129'/>
+    <r>
+      <need max='37' min='3'/>
+      <provide max='5' min='3'/>
+    </r>
+    <c>
+      <need max='23' min='2'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='15'/>
+      <provide/>
+    </i>
+    <t>
+      <need max='42' min='3'/>
+      <provide max='18' min='5'/>
+    </t>
+    <w need='7'/>
+    <e need='4'/>
+    <g need='3'/>
+    <nat need='-10' provide='-2'/>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.6' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='en'>Illac</name>
+    <description lang='fr'>Ville de Jean, oui mais le quel ?</description>
+    <description lang='en'>City of Jean, yes but which?</description>
+    <url lang='fr'>http://fr.wikipedia.org/wiki/Saint-Jean-d'Illac</url>
+  </model>
+</object>
