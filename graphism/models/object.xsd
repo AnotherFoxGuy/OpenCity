@@ -9,42 +9,16 @@
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
 
-	<xs:simpleType name="allNNI">
-		<xs:annotation>
-			<xs:documentation>All non negative integer</xs:documentation>
-		</xs:annotation>
-		<xs:union>
-			<xs:simpleType>
-				<xs:restriction base="xs:integer"/>
-			</xs:simpleType>
-			<xs:simpleType>
-				<xs:restriction base="xs:string">
-					<xs:enumeration value="unbounded"/>
-				</xs:restriction>
-			</xs:simpleType>
-		</xs:union>
-	</xs:simpleType>
-
 	<xs:complexType name="minMaxType">
 		<xs:attribute name="min" type="xs:integer" default="0"/>
-		<xs:attribute name="max" type="allNNI" default="unbounded"/>
+		<xs:attribute name="max" type="xs:integer" use="required"/>
 	</xs:complexType>
 
-	<xs:complexType name="needProvideMinMaxType">
+	<xs:complexType name="needProvideType">
 		<xs:sequence>
 			<xs:element name="need" type="minMaxType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="provide" type="minMaxType" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
-	</xs:complexType>
-
-	<xs:complexType name="needProvideType">
-		<xs:attribute name="need" type="xs:nonNegativeInteger" default="0"/>
-		<xs:attribute name="provide" type="xs:nonNegativeInteger" default="0"/>
-	</xs:complexType>
-
-	<xs:complexType name="needProvideZType">
-		<xs:attribute name="need" type="xs:integer" default="0"/>
-		<xs:attribute name="provide" type="xs:integer" default="0"/>
 	</xs:complexType>
 
 	<xs:simpleType name="propertyTypeType">
@@ -105,14 +79,14 @@
 	<xs:complexType name="propertyType">
 		<xs:sequence>
 			<xs:element name="cost" type="costType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="r" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="c" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="i" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="t" type="needProvideMinMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="r" type="needProvideType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="c" type="needProvideType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="i" type="needProvideType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="t" type="needProvideType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="w" type="needProvideType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="e" type="needProvideType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="g" type="needProvideType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="nat" type="needProvideZType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="nature" type="needProvideType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="direction" type="directionType" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
 		<xs:attribute name="type" type="propertyTypeType" use="required"/>
