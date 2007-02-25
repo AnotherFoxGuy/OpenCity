@@ -9,15 +9,36 @@
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
 
-	<xs:complexType name="minMaxType">
+        <xs:simpleType name="unboundedInteger">
+                <xs:annotation>
+                        <xs:documentation>Unbounded integer</xs:documentation>
+                </xs:annotation>
+               <xs:union>
+                       <xs:simpleType>
+                               <xs:restriction base="xs:integer"/>
+                       </xs:simpleType>
+                       <xs:simpleType>
+                               <xs:restriction base="xs:string">
+                                       <xs:enumeration value="unbounded"/>
+                               </xs:restriction>
+                       </xs:simpleType>
+               </xs:union>
+        </xs:simpleType>
+
+	<xs:complexType name="provideMinMaxType">
 		<xs:attribute name="min" type="xs:integer" default="0"/>
-		<xs:attribute name="max" type="xs:integer" use="required"/>
+		<xs:attribute name="max" type="xs:integer" default="0"/>
+	</xs:complexType>
+
+	<xs:complexType name="needMinMaxType">
+		<xs:attribute name="min" type="xs:integer" default="0"/>
+		<xs:attribute name="max" type="unboundedInteger" default="unbounded"/>
 	</xs:complexType>
 
 	<xs:complexType name="needProvideType">
 		<xs:sequence>
-			<xs:element name="need" type="minMaxType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="provide" type="minMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="need" type="needMinMaxType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="provide" type="provideMinMaxType" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
 

@@ -18,10 +18,22 @@
       <need/>
       <provide max='4' min='1'/>
     </t>
-    <w need='5'/>
-    <e need='5'/>
-    <g need='3'/>
-    <nat provide='-2'/>
+    <w>
+      <need max='5'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='5'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='3'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-2'/>
+    </nature>
     <direction value='snw'/>
   </property>
   <model length='1' height='0.7' width='1'>
