@@ -39,7 +39,7 @@ doc = Document.new(file)
 "xsi:schemaLocation"=>"urn:oc:object http://www.opencity.info/xml/object.xsd",
 "xmlns"=>"urn:oc:object"})
 
-		property = root.add_element("property", {"type"=>i['type'], "radius"=>i['radius']})
+		property = root.add_element("property", {"type"=>i['type'], "radius"=>i['radius'], "inhabitant"=>i['pop'], "worker"=>i['work']})
 			property.add_element("cost", {"build"=>i['const'], "destroy"=>i['dest'], "income"=>i['income'], "support"=>i['support']})
 				r = property.add_element("r")
 					r.add_element("need", {"min"=>i['rNeedMin'], "max"=>i['rNeedMax']})
