@@ -9,21 +9,21 @@
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
 
-        <xs:simpleType name="unboundedInteger">
-                <xs:annotation>
-                        <xs:documentation>Unbounded integer</xs:documentation>
-                </xs:annotation>
-               <xs:union>
-                       <xs:simpleType>
-                               <xs:restriction base="xs:integer"/>
-                       </xs:simpleType>
-                       <xs:simpleType>
-                               <xs:restriction base="xs:string">
-                                       <xs:enumeration value="unbounded"/>
-                               </xs:restriction>
-                       </xs:simpleType>
-               </xs:union>
-        </xs:simpleType>
+	<xs:simpleType name="unboundedInteger">
+		<xs:annotation>
+			<xs:documentation>Unbounded integer</xs:documentation>
+		</xs:annotation>
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:integer"/>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="unbounded"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
 
 	<xs:complexType name="provideMinMaxType">
 		<xs:attribute name="min" type="xs:integer" default="0"/>
