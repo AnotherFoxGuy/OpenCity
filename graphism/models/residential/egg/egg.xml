@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='3' worker='1' inhabitant='76' type='r'>
+    <cost destroy='8200' income='131'/>
+    <r>
+      <need max='36' min='5'/>
+      <provide max='11' min='5'/>
+    </r>
+    <c>
+      <need min='2'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='23'/>
+      <provide/>
+    </i>
+    <t>
+      <need max='67' min='5'/>
+      <provide max='32' min='16'/>
+    </t>
+    <w>
+      <need max='11'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='7'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='4'/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-9'/>
+      <provide max='-2'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='2' width='2'>
+    <author>
+      <name>Pucelo20</name>
+      <email>pucelo20 terra.es</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='en'>Egg</name>
+    <description lang='fr'>Un concept de bâtiment vraiment sans intérêt.</description>
+    <description lang='en'>Realy uninteresting building concept.</description>
+  </model>
+</object>
