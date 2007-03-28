@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='9' worker='48' type='c'>
+    <cost destroy='26000' income='138'/>
+    <r>
+      <need max='67' min='4'/>
+      <provide/>
+    </r>
+    <c>
+      <need max='75' min='3'/>
+      <provide max='28' min='12'/>
+    </c>
+    <i>
+      <need max='68'/>
+      <provide/>
+    </i>
+    <t>
+      <need min='15'/>
+      <provide max='57' min='20'/>
+    </t>
+    <w>
+      <need max='16'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='13'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='7'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-2'/>
+    </nature>
+    <direction value='se'/>
+  </property>
+  <model length='3' height='3.2' width='3'>
+    <author>
+      <name>brupje</name>
+      <license>GPL</license>
+      <year>2007</year>
+      <url>http://www.tt-forums.net/viewtopic.php?t=14549&amp;postdays=0&amp;postorder=asc&amp;start=2580</url>
+      <object>concept</object>
+    </author>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='en'>Brupje</name>
+    <description lang='fr'>Immeuble de bureaux Rdam-Brupje.</description>
+    <description lang='en'>Rdam-Brupje office building.</description>
+  </model>
+</object>
