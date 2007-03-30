@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='3' inhabitant='4' type='r'>
+    <cost destroy='2100' income='116'/>
+    <r>
+      <need max='20' min='1'/>
+      <provide max='5'/>
+    </r>
+    <c>
+      <need max='24' min='1'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='34'/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide max='2' min='1'/>
+    </t>
+    <w>
+      <need max='2'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='3'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='1'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='0.52' width='1'>
+    <author>
+      <name>brupje</name>
+      <license>GPL</license>
+      <year>2007</year>
+      <url>http://www.tt-forums.net/viewtopic.php?t=14549&amp;postdays=0&amp;postorder=asc&amp;start=2520</url>
+      <object>concept</object>
+    </author>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='en'>Cottage</name>
+    <description lang='en'>Home sweet home.</description>
+  </model>
+</object>
