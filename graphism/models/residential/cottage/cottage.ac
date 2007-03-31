@@ -7,7 +7,7 @@ name "Cube_1"
 loc 0.49238 0.256915 0.475001
 data 8
 Cube.001
-texture "cottage.gif"
+texture "cottage.png"
 crease 30.000000
 numvert 4
 0.30762 -0.256915 0.0249995
@@ -26,7 +26,7 @@ kids 0
 OBJECT poly
 name "rect"
 loc 0.45 0.3875 0.475
-texture "cottage.gif"
+texture "cottage.png"
 crease 45.000000
 numvert 18
 0.15 0.125 0.05
@@ -117,7 +117,7 @@ name "Cube_1"
 loc 0.49238 0.256915 0.475001
 data 8
 Cube.001
-texture "cottage.gif"
+texture "cottage.png"
 crease 30.000000
 numvert 16
 -0.25488 0.118085 0.0124995
@@ -234,7 +234,7 @@ name "Cube_1"
 loc 0.49238 0.256915 0.475001
 data 8
 Cube.001
-texture "cottage.gif"
+texture "cottage.png"
 crease 30.000000
 numvert 10
 -0.11738 0.143085 0.049999
@@ -288,7 +288,7 @@ name "Cube_1"
 loc 0.49238 0.256915 0.475001
 data 8
 Cube.001
-texture "cottage.gif"
+texture "cottage.png"
 crease 30.000000
 numvert 16
 -0.27988 -0.256915 0.0249995
@@ -353,7 +353,7 @@ name "Cube_1"
 loc 0.49238 0.256915 0.437501
 data 8
 Cube.001
-texture "cottage.gif"
+texture "cottage.png"
 crease 30.000000
 numvert 8
 0.30762 -0.131915 0.0249995
@@ -397,7 +397,7 @@ kids 0
 OBJECT poly
 name "object"
 loc 0.50005 0.05005 0.50005
-texture "cottage.gif"
+texture "cottage.png"
 crease 45.000000
 numvert 30
 0.30005 0.05005 -0.49995
@@ -554,7 +554,7 @@ kids 0
 OBJECT poly
 name "poly"
 loc 0.675 0 0.75
-texture "cottage.gif"
+texture "cottage.png"
 crease 45.000000
 numvert 8
 0.075 0 -0.1
