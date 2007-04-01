@@ -26,11 +26,11 @@
     <linearGradient
        id="linearGradient3259">
       <stop
-         style="stop-color:#c3c3c3;stop-opacity:1;"
+         style="stop-color:#a6a6a6;stop-opacity:1;"
          offset="0"
          id="stop3261" />
       <stop
-         style="stop-color:#d7d7d7;stop-opacity:1;"
+         style="stop-color:#c8c8c8;stop-opacity:1;"
          offset="1"
          id="stop3263" />
     </linearGradient>
@@ -306,9 +306,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="117.00298"
-     inkscape:cy="87.452389"
+     inkscape:zoom="1.979899"
+     inkscape:cx="204.34331"
+     inkscape:cy="362.90902"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -412,7 +412,7 @@
       <g
          id="g4367">
         <rect
-           style="opacity:1;color:#000000;fill:#0e6fae;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="opacity:1;color:#000000;fill:#15364b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="rect3366"
            width="64"
            height="64"
@@ -468,7 +468,7 @@
          id="g4737">
         <path
            sodipodi:type="arc"
-           style="opacity:1;color:#000000;fill:#0e6fae;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           style="opacity:1;color:#000000;fill:#15364b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
            id="path4712"
            sodipodi:cx="232"
            sodipodi:cy="-280"
@@ -811,7 +811,7 @@
        sodipodi:absref="/home/fred/work/r-opencity/graphism/models/tree/pine3/IMG_5233_.png"
        xlink:href="/home/fred/work/r-opencity/graphism/models/tree/pine3/IMG_5233_.png" />
     <rect
-       style="opacity:1;color:#000000;fill:url(#radialGradient3265);fill-opacity:1;fill-rule:nonzero;stroke:#9e9e9e;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;color:#000000;fill:url(#radialGradient3265);fill-opacity:1;fill-rule:nonzero;stroke:#717171;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3257"
        width="8"
        height="8"
