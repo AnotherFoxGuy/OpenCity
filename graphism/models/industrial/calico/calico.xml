@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='7' worker='56' type='i'>
+    <cost destroy='16500' income='108'/>
+    <r>
+      <need min='6'/>
+      <provide/>
+    </r>
+    <c>
+      <need/>
+      <provide/>
+    </c>
+    <i>
+      <need max='50' min='2'/>
+      <provide max='27' min='2'/>
+    </i>
+    <t>
+      <need min='8'/>
+      <provide max='18' min='1'/>
+    </t>
+    <w>
+      <need max='17'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='9'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-18'/>
+    </nature>
+    <direction value='sn'/>
+  </property>
+  <model length='1' height='0.52' width='1'>
+    <author>
+      <name>thgergo</name>
+      <email>th_gergo freemail.hu</email>
+      <license>GPL</license>
+      <year>2006</year>
+      <url>http://www.tt-forums.net/viewtopic.php?t=14549&amp;postdays=0&amp;postorder=asc&amp;start=740</url>
+      <object>concept</object>
+    </author>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='fr'>Usine de calicot</name>
+    <name lang='en'>Calico factory</name>
+    <description lang='fr'>Usine de calicot de qualité standard.</description>
+    <description lang='en'>Standard quality calico factory.</description>
+    <url lang='en'>http://en.wikipedia.org/wiki/The_Wheels_of_Chance</url>
+    <url lang='fr'>http://fr.wikipedia.org/wiki/La_burlesque_%C3%A9quip%C3%A9e_du_cycliste</url>
+  </model>
+</object>
