@@ -3,6 +3,7 @@ MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  
 OBJECT world
 kids 2
 OBJECT poly
+name "object"
 loc 0.625 -0.15 0.5
 texture "../pipe_texture.gif"
 crease 45.000000
@@ -24,56 +25,56 @@ numvert 16
 0.375 -0.0176777 -0.0176775
 0.375 0 -0.0249998
 numsurf 8
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 1 1 0.125
 9 0 0.125
 8 0 2.98023e-08
 0 1 0
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 2 1 0.25
 10 0 0.25
 9 0 0.125
 1 1 0.125
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 3 1 0.375
 11 0 0.375
 10 0 0.25
 2 1 0.25
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 4 1 0.5
 12 0 0.5
 11 0 0.375
 3 1 0.375
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 5 1 0.625
 13 0 0.625
 12 0 0.5
 4 1 0.5
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 6 1 0.75
 14 0 0.75
 13 0 0.625
 5 1 0.625
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 7 1 0.875
 15 2.98023e-08 0.875
 14 0 0.75
 6 1 0.75
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 0 1 1
@@ -82,6 +83,7 @@ refs 4
 7 1 0.875
 kids 0
 OBJECT poly
+name "object"
 loc 0.75 -0.15 0.5
 texture "../pipe_texture.gif"
 crease 45.000000
@@ -103,56 +105,56 @@ numvert 16
 -0.25 0.025 -0.5
 -0.232322 0.0176777 -0.5
 numsurf 8
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 15 1 1
 7 2.98023e-08 1
 0 2.98023e-08 0.875
 8 1 0.875
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 8 1 0.875
 0 2.98023e-08 0.875
 1 0 0.75
 9 1 0.75
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 9 1 0.75
 1 0 0.75
 2 0 0.625
 10 1 0.625
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 10 1 0.625
 2 0 0.625
 3 0 0.5
 11 1 0.5
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 11 1 0.5
 3 0 0.5
 4 0 0.375
 12 1 0.375
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 12 1 0.375
 4 0 0.375
 5 0 0.25
 13 1 0.25
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 13 1 0.25
 5 0 0.25
 6 0 0.125
 14 1 0.125
-SURF 0x20
+SURF 0x0
 mat 0
 refs 4
 14 1 0.125
