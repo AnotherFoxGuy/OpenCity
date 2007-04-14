@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="256"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel"
+   sodipodi:docname="gratte-ciel.svg"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/gratte-ciel.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern4735"
+       id="pattern4759"
+       patternTransform="matrix(1,0,0,0.7987421,128,0.1006289)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3664"
+       id="pattern4735"
+       patternTransform="matrix(1,0,0,0.7987421,128,0.1006289)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3664"
+       id="pattern4722"
+       patternTransform="matrix(1,0,0,0.7987421,127.87384,128)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern2687"
+       id="pattern2690" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern2684"
+       id="pattern2687" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern2678"
+       id="pattern2684" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="128"
+       height="48"
+       patternTransform="translate(384,0)"
+       id="pattern2662">
+      <image
+         y="0"
+         x="0"
+         id="image2638"
+         height="48"
+         width="128"
+         sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f1.jpeg"
+         xlink:href="include/f1.jpeg" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="128"
+       height="192"
+       id="pattern2678">
+      <image
+         xlink:href="include/f1.jpeg"
+         sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f1.jpeg"
+         width="128"
+         height="192"
+         id="image2256"
+         x="0"
+         y="0" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="256"
+       height="160"
+       patternTransform="matrix(1,0,0,0.7987421,128,0.1006289)"
+       id="pattern3664">
+      <image
+         xlink:href="include/f2.jpeg"
+         sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2.jpeg"
+         width="256"
+         height="160"
+         id="image2443"
+         x="0"
+         y="0" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1501549"
+     inkscape:cx="325.86258"
+     inkscape:cy="150.25086"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     gridspacingx="2px"
+     gridspacingy="2px"
+     gridempspacing="8"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="false"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="false"
+     inkscape:guide-points="true"
+     inkscape:guide-bbox="false"
+     objecttolerance="4"
+     gridtolerance="4"
+     guidetolerance="4"
+     inkscape:window-width="1248"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     width="512px"
+     height="256px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#696969;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 126,10 L 2,10 M 2,6 L 126,6"
+       id="path2693"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="stroke:none;fill:url(#pattern2690)"
+       d="M 0 0 L 0 192 L 128 192 L 128 0 L 0 0 z M 2 2 L 14 2 L 14 14 L 2 14 L 2 2 z M 16 2 L 52 2 L 52 14 L 16 14 L 16 2 z M 54 2 L 88 2 L 88 14 L 54 14 L 54 2 z M 90 2 L 126 2 L 126 14 L 90 14 L 90 2 z "
+       id="rect2681" />
+    <image
+       y="133.30998"
+       x="47.453018"
+       id="image2299"
+       height="58.690022"
+       width="49.537125"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f1-0.png"
+       xlink:href="include/f1-0.png" />
+    <image
+       y="79.094299"
+       x="29.081568"
+       id="image2342"
+       height="32.905701"
+       width="86.280022"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f1-1.png"
+       xlink:href="include/f1-1.png" />
+    <image
+       y="32"
+       x="27.724909"
+       id="image2385"
+       height="30.810665"
+       width="88.99334"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f1-2.png"
+       xlink:href="include/f1-2.png" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path4684"
+       d="M 384.12616,8.0880508 L 128,8.0880508 M 128,4.8930824 L 384.12616,4.8930824"
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#696969;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="fill:url(#pattern4759);stroke:none"
+       d="M 128 0.09375 L 128 127.90625 L 384 127.90625 L 384 0.09375 L 128 0.09375 z M 129.78125 1.6875 L 156.4375 1.6875 L 156.4375 11.28125 L 129.78125 11.28125 L 129.78125 1.6875 z M 158.21875 1.6875 L 183.125 1.6875 L 183.125 11.28125 L 158.21875 11.28125 L 158.21875 1.6875 z M 184.875 1.6875 L 211.5625 1.6875 L 211.5625 11.28125 L 184.875 11.28125 L 184.875 1.6875 z M 213.34375 1.6875 L 232.875 1.6875 L 232.875 11.28125 L 213.34375 11.28125 L 213.34375 1.6875 z M 234.65625 1.6875 L 254.21875 1.6875 L 254.21875 11.28125 L 234.65625 11.28125 L 234.65625 1.6875 z M 257.78125 1.6875 L 277.34375 1.6875 L 277.34375 11.28125 L 257.78125 11.28125 L 257.78125 1.6875 z M 279.125 1.6875 L 298.65625 1.6875 L 298.65625 11.28125 L 279.125 11.28125 L 279.125 1.6875 z M 300.4375 1.6875 L 327.125 1.6875 L 327.125 11.28125 L 300.4375 11.28125 L 300.4375 1.6875 z M 328.875 1.6875 L 353.78125 1.6875 L 353.78125 11.28125 L 328.875 11.28125 L 328.875 1.6875 z M 355.5625 1.6875 L 382.21875 1.6875 L 382.21875 11.28125 L 355.5625 11.28125 L 355.5625 1.6875 z M 176 96 L 208 96 L 208 112 L 176 112 L 176 96 z M 304 96 L 336 96 L 336 112 L 304 112 L 304 96 z "
+       id="rect3667" />
+    <image
+       y="55.349388"
+       x="201.89267"
+       id="image2486"
+       height="26.824545"
+       width="108.02689"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-1.png"
+       xlink:href="include/f2-1.png" />
+    <image
+       y="14.627949"
+       x="288"
+       id="image2572"
+       height="44.108723"
+       width="36.444798"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2p.png"
+       xlink:href="include/f2-2p.png" />
+    <image
+       y="18.091196"
+       x="208"
+       id="image2579"
+       height="24.72327"
+       width="15.476377"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       xlink:href="include/f2-2.png" />
+    <image
+       xlink:href="include/f2-2.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       width="15.476377"
+       height="24.72327"
+       id="image2585"
+       x="239.47638"
+       y="18.091196" />
+    <image
+       y="18.091196"
+       x="271.47638"
+       id="image2587"
+       height="24.72327"
+       width="15.476377"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       xlink:href="include/f2-2.png" />
+    <image
+       y="192"
+       x="0"
+       id="image2635"
+       height="64"
+       width="95.255814"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/esc.png"
+       xlink:href="include/esc.png" />
+    <path
+       style="stroke:none;fill:url(#pattern2662)"
+       d="M 384,0 L 384,48 L 392,48 L 392,8 L 504,8 L 504,48 L 512,48 L 512,0 L 384,0 z "
+       id="rect2665"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#696969;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 384,135.98742 L 127.87384,135.98742 M 127.87384,132.79245 L 384,132.79245"
+       id="path4686"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:url(#pattern4722);stroke:none"
+       d="M 127.875 128 L 127.875 255.8125 L 383.875 255.8125 L 383.875 128 L 127.875 128 z M 213.21875 129.59375 L 232.75 129.59375 L 232.75 139.1875 L 213.21875 139.1875 L 213.21875 129.59375 z M 234.53125 129.59375 L 254.09375 129.59375 L 254.09375 139.1875 L 234.53125 139.1875 L 234.53125 129.59375 z M 257.65625 129.59375 L 277.21875 129.59375 L 277.21875 139.1875 L 257.65625 139.1875 L 257.65625 129.59375 z M 279 129.59375 L 298.53125 129.59375 L 298.53125 139.1875 L 279 139.1875 L 279 129.59375 z "
+       id="rect4688" />
+    <image
+       xlink:href="include/f2-1.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-1.png"
+       width="108.02689"
+       height="26.824545"
+       id="image4690"
+       x="201.76651"
+       y="183.24876" />
+    <image
+       xlink:href="include/f2-2p.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2p.png"
+       width="36.444798"
+       height="44.108723"
+       id="image4692"
+       x="287.87384"
+       y="142.52731" />
+    <image
+       xlink:href="include/f2-2.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       width="15.476377"
+       height="24.72327"
+       id="image4694"
+       x="207.87384"
+       y="145.99057" />
+    <image
+       y="145.99057"
+       x="239.35022"
+       id="image4696"
+       height="24.72327"
+       width="15.476377"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       xlink:href="include/f2-2.png" />
+    <image
+       xlink:href="include/f2-2.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       width="15.476377"
+       height="24.72327"
+       id="image4698"
+       x="271.35022"
+       y="145.99057" />
+    <image
+       xlink:href="include/f2-2.png"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       width="15.476377"
+       height="24.72327"
+       id="image4750"
+       x="304"
+       y="215.27673" />
+    <image
+       y="215.27673"
+       x="192.52362"
+       id="image4752"
+       height="24.72327"
+       width="15.476377"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/f2-2.png"
+       xlink:href="include/f2-2.png" />
+    <image
+       y="128"
+       x="384"
+       id="image4802"
+       height="128"
+       width="128"
+       sodipodi:absref="/home/fred/work/r-opencity/graphism/models/residential/fruges_gratte-ciel/include/pav.png"
+       xlink:href="include/pav.png" />
+  </g>
+</svg>
