@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg width="80" height="80">
+  <g class="icon" id="policedept">
+    <rect
+       class="contener"
+       width="80.000000"
+       height="80.000000"
+       x="0.0000000"
+       y="0.0000000"
+       rx="20.000000"
+       ry="20.000000" />
+    <path class="content" transform="matrix(0.912997,0.000000,0.000000,0.912997,119.8872,76.51989)" d="M -65.954961,-61.051888 L -68.469507,-47.625800 L -57.379424,-39.651290 L -68.651155,-31.935664 L -66.448112,-18.454961 L -79.874200,-20.969507 L -87.848710,-9.8794236 L -95.564336,-21.151155 L -109.04504,-18.948112 L -106.53049,-32.374200 L -117.62058,-40.348710 L -106.34885,-48.064336 L -108.55189,-61.545039 L -95.125800,-59.030493 L -87.151290,-70.120576 L -79.435664,-58.848845 L -65.954961,-61.051888 z " />
+  </g>
+</svg>

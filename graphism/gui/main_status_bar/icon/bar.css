@@ -1,0 +1,17 @@
+
+.icon {
+    filter:url(dropShadow.svg#specularLighting);
+}
+
+.contener {
+    display:none;
+}
+
+.content {
+    fill:#DED4B0;
+    filter:url(dropShadow.svg#dropShadow);
+}
+
+.content2 {
+    fill:#A19677;
+}

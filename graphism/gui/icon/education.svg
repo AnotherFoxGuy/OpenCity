@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg width="80" height="80">
+  <g class="icon" id="educationdept">
+    <rect
+       class="contener"
+       width="80.000000"
+       height="80.000000"
+       x="0.0000000"
+       y="0.0000000"
+       rx="20.000000"
+       ry="20.000000" />
+    <g class="content" transform="matrix(1.000000,0.000000,0.732496,1.000000,179.7626,32.50000)">
+      <path d="M -139.86324,19.966588 L -110.00000,5.0000000 L -150.00000,5.0000000 L -180.00000,20.000000" />
+      <path d="M -140.00000,-2.5000000 L -115.00000,-2.5000000 L -115.00000,5.0000000 L -140.00000,17.500000" />
+      <path d="M -139.86324,9.9665882 L -110.00000,-5.0000000 L -150.00000,-5.0000000 L -180.00000,10.000000" />
+      <path d="M -180.00000,10.000000 L -140.00000,10.000000 C -142.50000,10.000000 -142.50000,20.000000 -140.00000,20.000000 L -180.00000,20.000000 C -182.50000,20.000000 -182.50000,10.000000 -180.00000,10.000000 z " />
+    </g>
+  </g>
+</svg>

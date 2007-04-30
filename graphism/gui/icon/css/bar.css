@@ -1,0 +1,18 @@
+
+.icon {
+    filter:url(dropShadow.svg#specularLighting);
+}
+
+.contener {
+    fill:#00ffff;
+    opacity:0.13201318;
+}
+
+.content {
+    fill:#DED4B0;
+    filter:url(dropShadow.svg#dropShadow);
+}
+
+.content2 {
+    fill:#A19677;
+}

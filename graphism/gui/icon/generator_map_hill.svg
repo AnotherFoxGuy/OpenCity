@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg height="80" width="80">
+  <g class="icon" id="generatorMap">
+    <rect
+       ry="20"
+       rx="20"
+       y="0"
+       x="0"
+       height="80"
+       width="80"
+       class="contener"/>
+    <path class="content" d="M 5,50 L 5,65 L 75,65 L 75,50 C 69,50.333333 62.833333,60 57,60 C 51.166667,60 45.833333,50.333333 40,50 C 34.166667,49.666667 27.833334,40 22,40 C 16.166666,40 10.666667,49.666667 5,50 z "/>
+  </g>
+</svg>

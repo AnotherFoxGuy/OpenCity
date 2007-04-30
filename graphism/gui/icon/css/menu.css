@@ -1,0 +1,136 @@
+
+.icon {
+    filter:url(dropShadow.svg#specularLighting);
+}
+
+.contener {
+}
+
+.content {
+    fill:#DED4B0;
+    filter:url(dropShadow.svg#dropShadow);
+}
+
+.content2 {
+    fill:#A19677;
+}
+
+
+#commercial {
+    fill:blue;
+}
+
+#industrial {
+    fill:#C0C000;
+}
+
+#residential {
+    fill:green;
+}
+
+
+
+#educationdept {
+    fill:olive;
+}
+
+#power {
+    fill:#C0C000;
+}
+
+#firedept {
+    fill:red;
+}
+
+#government {
+    fill:gray;
+}
+
+#nature {
+    fill:green;
+}
+
+#park {
+    fill:green;
+}
+
+#tree {
+    fill:green;
+}
+
+#policedept {
+    fill:navy;
+}
+
+#vehicle {
+    fill:gray;
+}
+
+#water {
+    fill:#8080FF;
+}
+
+
+#back {
+    fill:blue;
+}
+
+#tool {
+    fill:brown;
+}
+
+#hospitaldept {
+    fill:red;
+}
+
+#powerLine {
+    fill:#C0C000;
+}
+
+#powerPlant {
+    fill:#C0C000;
+}
+
+#road {
+    fill:gray;
+}
+
+#save {
+    fill:green;
+}
+
+#saveSave {
+    fill:#C00000;
+}
+
+#saveLoad {
+    fill:green;
+}
+
+#generatorMap {
+    fill:olive;
+}
+
+#generatorWater {
+    fill:blue;
+}
+
+#generatorTree {
+    fill:green;
+}
+
+#speedPause {
+    fill:#C0C000;
+}
+
+#speedNormal {
+    fill:green;
+}
+
+#monument {
+    fill:orange;
+}
+
+#monumentArcDeTriomphe {
+    fill:gray;
+}

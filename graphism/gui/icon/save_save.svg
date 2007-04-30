@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg height="80" width="80">
+  <g class="icon" id="saveSave">
+    <rect
+       ry="20"
+       rx="20"
+       y="0"
+       x="0"
+       height="80"
+       width="80"
+       class="contener"
+       id="rect1875" />
+    <g
+       id="g1914"
+       transform="matrix(0.6,0,0,0.6,26,31)">
+      <path
+         class="content"
+         id="path1920"
+         d="M 56.666667,15 L 15,15 L 15,65 L 65,65 L 65,23.333333 L 56.666667,15 z " />
+      <path
+         class="content2"
+         id="rect1879"
+         d="M 25,15 L 25,30 L 55,30 L 55,15 L 25,15 z M 45,16.46875 L 50,16.46875 L 50,28.53125 L 45,28.53125 L 45,16.46875 z " />
+      <rect
+         class="content2"
+         y="35"
+         x="20"
+         height="30"
+         width="40"
+         id="rect1884" />
+    </g>
+    <path
+       d="M 16,16 L 44,16 L 30,44 L 16,16 z "
+       id="path1886"
+       class="content" />
+  </g>
+</svg>

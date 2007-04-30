@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg height="80" width="80">
+  <g class="icon" id="generatorTree">
+    <rect
+       ry="20"
+       rx="20"
+       y="0"
+       x="0"
+       height="80"
+       width="80"
+       class="contener"/>
+    <path class="content" d="M 40,15 L 33,32.5 L 38,30 L 28,45 L 38,40 L 25,55 L 38,50 L 38,60 L 42,60 L 42,50 L 55,55 L 42,40 L 52,45 L 42,30 L 47,32.5 L 40,15 z "/>
+    <path class="content" d="M 20,15 L 13,32.5 L 18,30 L 8,45 L 18,40 L 5,55 L 18,50 L 18,60 L 5,60 L 5,65 L 75,65 L 75,60 L 62,60 L 62,50 L 75,55 L 62,40 L 72,45 L 62,30 L 67,32.5 L 60,15 L 53,32.5 L 58,30 L 48,45 L 58,40 L 45,55 L 58,50 L 58,60 L 22,60 L 22,50 L 35,55 L 22,40 L 32,45 L 22,30 L 27,32.5 L 20,15 z "/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="bar.css" ?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="80"
+   width="80"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docname="calendar.svg"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/main_status_bar/icon">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     inkscape:window-height="1002"
+     inkscape:window-width="1248"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="true"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="false"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="false"
+     inkscape:zoom="6.9650018"
+     inkscape:cx="72.137913"
+     inkscape:cy="34.497359"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     class="icon"
+     id="calendar">
+    <rect
+       ry="20"
+       rx="20"
+       y="0"
+       x="0"
+       height="80"
+       width="80"
+       class="contener"
+       id="rect5" />
+    <path
+       d="M 20,10 L 20,70 L 60,70 L 60,10 L 51.5,10 L 51.5,15.25 C 53.52041,15.892057 55,17.76785 55,20 C 55,22.76 52.76,25 50,25 C 47.24,25 45,22.76 45,20 C 45,17.76785 46.47959,15.892057 48.5,15.25 L 48.5,10 L 31.34375,10 L 31.34375,15.25 C 33.378682,15.883369 34.84375,17.7575 34.84375,20 C 34.843749,22.76 32.60375,25 29.84375,25 C 27.083751,25 24.84375,22.76 24.84375,20 C 24.843751,17.76785 26.32334,15.892057 28.34375,15.25 L 28.34375,10 L 20,10 z "
+       id="rect1875"
+       class="content" />
+    <path
+       transform="translate(-13.89894,21.32447)"
+       d="M 66.470945,31.579529 L 64.006945,31.579529 L 63.446945,34.435529 C 62.718945,38.019526 62.270941,38.411529 58.798945,38.411529 L 46.254945,38.411529 C 50.118941,34.379534 51.406948,33.203527 54.990945,30.403529 C 60.08694,26.483533 62.270946,24.523528 63.558945,22.843529 C 65.350943,20.379532 66.246945,17.859527 66.246945,15.171529 C 66.246945,8.8435358 60.926937,4.2515295 53.646945,4.2515295 C 46.534952,4.2515295 41.046945,8.8435354 41.046945,14.779529 C 41.046945,18.307526 42.838947,20.715529 45.526945,20.715529 C 47.598943,20.715529 48.998945,19.315527 48.998945,17.299529 C 48.998945,15.899531 48.214943,14.611529 46.982945,14.107529 C 44.910947,13.21153 44.798945,13.155529 44.798945,12.427529 C 44.798945,11.58753 45.358945,10.299529 46.142945,9.3475295 C 47.542943,7.6675312 49.894947,6.6595295 52.526945,6.6595295 C 57.11894,6.6595295 59.918945,9.5155342 59.918945,14.219529 C 59.918945,18.363525 57.95894,22.115534 53.310945,27.043529 L 50.006945,30.515529 L 45.638945,35.219529 C 43.622947,37.571527 42.614942,38.859533 40.150945,42.107529 L 40.150945,43.675529 L 65.406945,43.675529 L 66.470945,31.579529"
+       id="text1889"
+       class="content2" />
+  </g>
+</svg>

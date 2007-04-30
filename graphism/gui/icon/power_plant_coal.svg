@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg width="80" height="80">
+  <g class="icon" id="powerPlant">
+    <rect
+       width="80"
+       height="80"
+       x="0"
+       y="0"
+       rx="20"
+       ry="20"
+       class="contener"/>
+    <g transform="translate(-80,-4)">
+      <path d="M 85,69 L 155,69 L 155,64 L 140,64 L 137.5,24 L 127.5,24 L 125,64 L 85,64" class="content" />
+      <g class="content2">
+        <path d="M 136 22 A 8 6 0 1 1  120,22 A 8 6 0 1 1  136 22 z" />
+        <path d="M 124 18 A 8 6 0 1 1  108,18 A 8 6 0 1 1  124 18 z" />
+        <path d="M 124 24 A 8 4 0 1 1  108,24 A 8 4 0 1 1  124 24 z" />
+        <path d="M 128 16 A 4 4 0 1 1  120,16 A 4 4 0 1 1  128 16 z" />
+        <path d="M 112 16 A 4 4 0 1 1  104,16 A 4 4 0 1 1  112 16 z" />
+        <path d="M 124 20 A 6 4 0 1 1  112,20 A 6 4 0 1 1  124 20 z" />
+        <path d="M 108 12 A 4 4 0 1 1  100,12 A 4 4 0 1 1  108 12 z" />
+        <path d="M 124 8 A 6 4 0 1 1  112,8 A 6 4 0 1 1  124 8 z" transform="translate(2,4)" />
+        <path d="M 116 12 A 6 4 0 1 1  104,12 A 6 4 0 1 1  116 12 z" />
+        <path d="M 112 20 A 8 4 0 1 1  96,20 A 8 4 0 1 1  112 20 z" />
+        <path d="M 108 12 A 10 4 0 1 1  88,12 A 10 4 0 1 1  108 12 z" transform="translate(2,4)" />
+      </g>
+    </g>
+  </g>
+</svg>

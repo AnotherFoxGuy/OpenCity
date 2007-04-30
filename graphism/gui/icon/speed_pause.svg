@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<svg width="80" height="80">
+  <g
+     class="icon"
+     id="speedPause">
+    <rect
+       width="80"
+       height="80"
+       x="0"
+       y="0"
+       rx="20"
+       ry="20"
+       class="contener"/>
+    <g class="content">
+      <rect
+         width="12"
+         height="48"
+         x="24"
+         y="16"
+         rx="4"
+         ry="4" />
+      <rect
+         width="12"
+         height="48"
+         x="44"
+         y="16"
+         rx="4"
+         ry="4" />
+    </g>
+  </g>
+</svg>
