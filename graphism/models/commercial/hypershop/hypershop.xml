@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='9' worker='25' type='c'>
+    <cost destroy='11000' income='129'/>
+    <r>
+      <need max='45' min='1'/>
+      <provide/>
+    </r>
+    <c>
+      <need max='55' min='1'/>
+      <provide max='25' min='6'/>
+    </c>
+    <i>
+      <need max='75'/>
+      <provide/>
+    </i>
+    <t>
+      <need min='30'/>
+      <provide max='250' min='50'/>
+    </t>
+    <w>
+      <need max='9'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='11'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='6'/>
+      <provide/>
+    </g>
+    <nature>
+      <need max='-5'/>
+      <provide max='-2'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='3' height='2' width='3'>
+    <author>
+      <name>Benoît Gross</name>
+      <email>benawatt free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='en'>HyperShop</name>
+    <description lang='fr'>HyperShop, du monde, de l'argent, des promos...</description>
+    <description lang='en'>HyperShop, people, money...</description>
+  </model>
+</object>
