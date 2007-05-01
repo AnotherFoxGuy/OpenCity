@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='4' inhabitant='28' type='r'>
+    <cost destroy='10400' income='113'/>
+    <r>
+      <need max='13'/>
+      <provide max='12'/>
+    </r>
+    <c>
+      <need max='17'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='40' min='1'/>
+      <provide/>
+    </i>
+    <t>
+      <need/>
+      <provide max='14' min='4'/>
+    </t>
+    <w>
+      <need max='6'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='6'/>
+      <provide/>
+    </e>
+    <g>
+      <need max='3'/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='7' height='0.7' width='2'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL</license>
+      <year>2007</year>
+    </author>
+    <name lang='fr'>Cité Frugès, gratte-arcades</name>
+    <name lang='en'>Cite Fruges, gratte-arcades</name>
+    <description lang='fr'>Cité Frugès de Pessac, dans la banlieue de Bordeaux, est l’un lotissements conçus par l’architecte Le Corbusier en 1924.</description>
+    <description lang='en'>Cite Fruges of Pesac, downtown of Bordeaux, is an allotments designed by architect Le Corbusier in 1924.</description>
+    <url lang='fr'>http://fr.wikipedia.org/wiki/Cité_Frugès_à_Pessac</url>
+  </model>
+</object>
