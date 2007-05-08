@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400.00000px"
+   height="400.00000px"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/fred"
+   sodipodi:docname="⌁-electric.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35000000"
+     inkscape:cx="361.86802"
+     inkscape:cy="660.41120"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="991"
+     inkscape:window-height="748"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showgrid="true"
+     inkscape:grid-bbox="false"
+     inkscape:grid-points="true"
+     gridspacingx="16.000000px"
+     gridspacingy="16.000000px"
+     gridtolerance="10.000000px"
+     gridempspacing="4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1.0000000;color:#000000;fill:#f7b000;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#000000;stroke-width:22.000000;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;visibility:visible;display:inline;overflow:visible"
+       d="M 256.00000,284.36218 L 80.000000,604.36218 L 432.00000,604.36218 L 256.00000,284.36218 z "
+       id="path1460"
+       transform="translate(-48.00000,-256.0000)" />
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       id="path2085"
+       d="M 747.40625,441.90625 L 713.55469,578.69382 L 760.29748,557.67228 L 752.47189,613.07803 L 741.01657,612.08692 L 755.56250,654.50000 L 785.05651,614.32148 L 771.85394,611.08300 L 791.37462,521.19375 L 745.03125,543.34375 L 776.60444,455.64240 L 758.14257,456.68671 L 747.40625,441.90625 z "
+       style="fill:#000000;fill-opacity:1.0000000"
+       transform="translate(-544.4647,-333.5441)" />
+  </g>
+</svg>
