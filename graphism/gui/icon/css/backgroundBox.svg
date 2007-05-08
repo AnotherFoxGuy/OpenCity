@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="bar_over.css" alternate="yes" ?>
+<svg>
+		<rect
+			id="roundBox"
+    	   	ry="20"
+       		rx="20"
+ 	      	y="0"
+    	   	x="0"
+       		height="80"
+	       	width="80"
+    	   	class="contener" />
+</svg>

@@ -7,16 +7,9 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg height="80" width="80">
+<svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="generatorWater">
-    <rect
-       ry="20"
-       rx="20"
-       y="0"
-       x="0"
-       height="80"
-       width="80"
-       class="contener"/>
+	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
     <rect
        class="content2"
        width="70"

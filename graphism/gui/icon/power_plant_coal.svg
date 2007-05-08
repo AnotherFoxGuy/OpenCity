@@ -7,16 +7,9 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg width="80" height="80">
+<svg width="80" height="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="powerPlant">
-    <rect
-       width="80"
-       height="80"
-       x="0"
-       y="0"
-       rx="20"
-       ry="20"
-       class="contener"/>
+	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
     <g transform="translate(-80,-4)">
       <path d="M 85,69 L 155,69 L 155,64 L 140,64 L 137.5,24 L 127.5,24 L 125,64 L 85,64" class="content" />
       <g class="content2">

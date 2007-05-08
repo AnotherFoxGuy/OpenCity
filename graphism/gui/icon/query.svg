@@ -7,17 +7,9 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg width="80" height="80">
+<svg width="80" height="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="query" class="icon">
-    <rect
-       id="rect1340"
-       class="contener"
-       width="80.000000"
-       height="80.000000"
-       x="0.0000000"
-       y="0.0000000"
-       rx="20.000000"
-       ry="20.000000" />
+	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
     <path class="content" d="M 30.000000,10.000000 C 18.960000,10.000000 10.000000,18.960000 10.000000,30.000000 C 10.000000,41.040000 18.960000,50.000000 30.000000,50.000000 C 32.735759,50.000000 35.343136,49.464470 37.718750,48.468750 L 62.500000,73.250000 L 73.093750,62.656250 L 48.375000,37.906250 C 49.422334,35.479365 50.000000,32.809767 50.000000,30.000000 C 50.000000,18.960000 41.040000,10.000000 30.000000,10.000000 z " />
     <path class="content2" transform="matrix(1.166851,0.000000,0.000000,1.166851,9.944751e-2,9.944751e-2)" d="M 41.250000 25.625000 A 15.625000 15.625000 0 1 1  10.000000,25.625000 A 15.625000 15.625000 0 1 1  41.250000 25.625000 z" />
   </g>

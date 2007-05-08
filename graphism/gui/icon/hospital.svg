@@ -7,16 +7,9 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg width="80" height="80">
+<svg width="80" height="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="hospitaldept">
-    <rect
-       width="80.000000"
-       height="80.000000"
-       x="0.0000000"
-       y="0.0000000"
-       rx="20.000000"
-       ry="20.000000"
-       class="contener" />
+	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
     <path class="content" d="M 50.000000,10.000000 L 30.000000,10.000000 L 30.000000,30.000000 L 10.000000,30.000000 L 10.000000,50.000000 L 30.000000,50.000000 L 30.000000,70.000000 L 50.000000,70.000000 L 50.000000,50.000000 L 70.000000,50.000000 L 70.000000,30.000000 L 50.000000,30.000000 L 50.000000,10.000000 z " />
   </g>
 </svg>

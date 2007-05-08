@@ -16,17 +16,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="80"
-   width="80">
+   width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="layerBuilding">
-    <rect
-       ry="20"
-       rx="20"
-       y="0"
-       x="0"
-       height="80"
-       width="80"
-       class="contener"
-       id="rect5" />
+	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
     <g
        id="g3372"
        transform="translate(-5,68.898809)">

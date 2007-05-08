@@ -7,16 +7,9 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg height="80" width="80">
+<svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="power">
-    <rect
-       ry="20.000000"
-       rx="20.000000"
-       y="0.0000000"
-       x="0.0000000"
-       height="80.000000"
-       width="80.000000"
-       class="contener" />
+	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
     <path class="content" d="M 45.000000,10.000000 L 25.000000,45.000000 L 40.000000,45.000000 L 25.000000,70.000000 L 35.000000,70.000000 L 55.000000,35.000000 L 40.000000,35.000000 L 55.000000,10.000000 L 45.000000,10.000000 z " />
     <rect class="content"
        y="40.000000"
