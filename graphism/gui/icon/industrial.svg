@@ -7,9 +7,10 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="industrial">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
     <path class="content" d="M 55.000000 10.000000 L 55.000000 35.000000 L 45.125000 25.000000 L 45.000000 40.000000 L 30.000000 25.000000 L 30.125000 40.000000 L 15.125000 25.000000 L 15.000000 60.000000 L 5.0000000 60.000000 L 5.0000000 65.000000 L 75.000000 65.000000 L 75.000000 60.000000 L 65.000000 60.000000 L 65.000000 10.000000 L 55.000000 10.000000 z " />
   </g>
 </svg>

@@ -7,9 +7,10 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg width="80" height="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="powerLine">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
     <g class="content">
       <path d="M 37.500000,22.500000 L 42.500000,25.000000 L 42.500000,70.000000 L 37.500000,67.500000 L 37.500000,22.500000 z " />
       <path d="M 22.500000,15.000000 L 57.500000,30.000000 L 57.500000,32.500000 L 22.500000,17.500000 L 22.500000,15.000000 z " />

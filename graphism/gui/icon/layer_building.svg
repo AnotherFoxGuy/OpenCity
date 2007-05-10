@@ -7,31 +7,17 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="80"
-   width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
+<svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="layerBuilding">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
-    <g
-       id="g3372"
-       transform="translate(-5,68.898809)">
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
+    <g transform="translate(-5,68.898809)">
       <path
          class="content2"
-         id="path2210"
-         d="M 15,-13.898809 L 45,-23.898809 L 75,-13.898809 L 45,-3.8988087"
-         sodipodi:nodetypes="cccc" />
+         d="M 15,-13.898809 L 45,-23.898809 L 75,-13.898809 L 45,-3.8988087" />
       <path
          d="M 45,-53.898809 L 25,-36.299603 L 30,-36.299603 L 30,-13.898809 L 60,-13.898809 L 60,-36.299603 L 65,-36.299603 L 45,-53.898809 z "
-         id="rect4279"
-         class="content"
-         sodipodi:nodetypes="cccccccc" />
+         class="content" />
     </g>
   </g>
 </svg>

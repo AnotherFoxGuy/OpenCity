@@ -7,9 +7,10 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="water">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
     <path class="content" transform="translate(0.000000,-2.500000)" d="M 40.000000,65.000000 C 47.500000,65.000000 55.000000,60.000000 55.000000,50.000000 C 55.000000,25.000000 32.500000,12.500000 32.500000,12.500000 C 32.500000,12.500000 40.000000,20.000000 40.000000,30.000000 C 40.000000,37.500000 25.000000,40.000000 25.000000,52.500000 C 25.000000,60.000000 32.500000,65.000000 40.000000,65.000000 z " />
   </g>
 </svg>

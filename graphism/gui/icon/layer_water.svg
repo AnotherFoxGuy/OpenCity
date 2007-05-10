@@ -7,38 +7,19 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="80"
-   width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
+<svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="layerWater">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
-    <g
-       id="g3211"
-       transform="translate(-85,74.963825)">
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
+    <g transform="translate(-85,74.963825)">
       <path
          d="M 125,-35 L 95,-45 L 125,-55 L 155,-45 L 125,-35 z "
-         id="path3188"
-         sodipodi:nodetypes="ccccc"
          class="content2" />
       <path
          transform="matrix(0.3789141,0.1410225,0,0.3804082,97.685291,-14.122007)"
          d="M 45 -27.5 A 12.5 12.5 0 1 1  20,-27.5 A 12.5 12.5 0 1 1  45 -27.5 z"
-         sodipodi:ry="12.5"
-         sodipodi:rx="12.5"
-         sodipodi:cy="-27.5"
-         sodipodi:cx="32.5"
-         id="path3190"
-         sodipodi:type="arc"
          class="content2" />
       <path
-         id="path3194"
          d="M 138.09375,-35.21875 C 137.53763,-35.189453 137.05282,-35.005884 136.625,-34.75 C 136.60503,-34.738059 136.58213,-34.731152 136.5625,-34.71875 L 106.96875,-24.875 L 107,-24.78125 L 107.03125,-24.78125 C 107.84617,-25.143393 108.86846,-25.17113 110,-24.75 C 112.61451,-23.776944 114.75,-20.874817 114.75,-18.25 C 114.75,-16.77354 114.05279,-15.699312 113,-15.21875 L 142.1875,-24.8125 C 143.77524,-25.026235 144.875,-26.281356 144.875,-28.1875 C 144.875,-30.883569 142.68593,-33.875531 140,-34.875 C 139.32852,-35.124867 138.67582,-35.249415 138.09375,-35.21875 z "
          class="content" />
     </g>

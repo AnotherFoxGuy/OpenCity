@@ -1,3 +1,7 @@
+#cursor {
+    display:none;
+}
+
 .icon {
     filter:url(dropShadow.svg#specularLightingHeight);
 }

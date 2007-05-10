@@ -7,9 +7,10 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg width="80" height="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="road">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
     <g class="content" transform="matrix(0.838482,-0.526807,0.739396,0.597403,-24.96361,34.99232)" id="g3666">
       <rect
          ry="4.6618323"

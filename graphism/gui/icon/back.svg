@@ -7,6 +7,7 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg width="80" height="80">
   <g class="icon" id="back">
     <rect
@@ -15,7 +16,7 @@
        x="0"
        y="0"
        rx="40"
-       ry="39.747795"
+       ry="40"
        class="contener" />
     <path class="content" d="M 55,65 L 15,40 L 55,15 L 55,65 z " />
   </g>

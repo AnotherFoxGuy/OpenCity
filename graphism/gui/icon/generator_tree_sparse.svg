@@ -7,9 +7,10 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="generatorTree">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
     <path class="content" d="M 45,50 L 60,55 L 45,40 L 55,45 L 45,30 L 50,32.5 L 40,15 L 30,32.5 L 35,30 L 25,45 L 35,40 L 20,55 L 35,50 L 35,60 L 5,60 L 5,65 L 75,65 L 75,60 L 45,60 L 45,50 z "/>
   </g>
 </svg>

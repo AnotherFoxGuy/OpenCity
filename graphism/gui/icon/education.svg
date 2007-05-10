@@ -7,9 +7,10 @@
 <?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
 <svg width="80" height="80" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g class="icon" id="educationdept">
-	<use xlink:href="css/backgroundBox.svg#roundBox" x="0" y="0"/>
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
     <g class="content" transform="matrix(1.000000,0.000000,0.732496,1.000000,179.7626,32.50000)">
       <path d="M -139.86324,19.966588 L -110.00000,5.0000000 L -150.00000,5.0000000 L -180.00000,20.000000" />
       <path d="M -140.00000,-2.5000000 L -115.00000,-2.5000000 L -115.00000,5.0000000 L -140.00000,17.500000" />

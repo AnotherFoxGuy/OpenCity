@@ -22,3 +22,4 @@ gen MenuActivate menu_activate activate
 gen Splash splash
 gen Bar bar
 gen BarOver bar_over over
+gen Cursor cursor
