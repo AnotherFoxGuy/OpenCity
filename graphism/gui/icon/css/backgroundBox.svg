@@ -8,7 +8,7 @@
 <?xml-stylesheet type="text/css" title="Bar" href="bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="bar_over.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Cursor" href="cursor.css" alternate="yes" ?>
-<svg id="root">
+<svg id="root" class="contener">
 	<rect
 		id="roundBox"
 		ry="20"
@@ -16,14 +16,9 @@
 		y="0"
 		x="0"
 		height="80"
-		width="80"
-		class="contener" />
+		width="80" />
 	<g id="cursor">
-		<path
-			d="M 2.0657711,1.99355 L 2.0657711,2.0435508 C 2.258311,13.883705 3.1235951,25.860775 5.5845538,37.462234 C 5.8664896,35.597364 6.2892403,33.75303 6.8533155,31.949738 C 10.929951,18.277576 23.383474,7.7727582 37.3911,5.5622904 C 33.727479,4.8246047 30.029037,4.2269535 26.347248,3.6810428 C 18.308097,2.646991 10.178062,2.1671684 2.0657711,1.99355 z "
-			style="stroke:#ffffff;stroke-opacity:1;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:butt" />
-		<path
-			d="M 43.40625,18.375 C 29.606138,18.375 18.40625,29.575045 18.40625,43.375 C 18.40625,57.174957 29.606138,68.375001 43.40625,68.375 C 57.206362,68.375 68.406247,57.174959 68.40625,43.375 C 68.40625,29.575043 57.206362,18.374999 43.40625,18.375 z "
-			style="fill:#ffffff;fill-opacity:1" />
+		<path d="M 2.0657711,1.99355 L 2.0657711,2.0435508 C 2.258311,13.883705 3.1235951,25.860775 5.5845538,37.462234 C 5.8664896,35.597364 6.2892403,33.75303 6.8533155,31.949738 C 10.929951,18.277576 23.383474,7.7727582 37.3911,5.5622904 C 33.727479,4.8246047 30.029037,4.2269535 26.347248,3.6810428 C 18.308097,2.646991 10.178062,2.1671684 2.0657711,1.99355 z " />
+		<circle class="contener2" cx="40" cy="40" r="25" />
 	</g>
 </svg>

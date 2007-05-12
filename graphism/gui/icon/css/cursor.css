@@ -6,12 +6,26 @@
 }
 
 .contener {
+	fill:black;
+	stroke:white;
+	stroke-width:2;
+}
+
+.contener2 {
+	fill:black;
+	stroke:white;
+	stroke-width:0;
+	opacity:0.25;
 }
 
 .content {
-    fill:black;
+	fill:black;
+	stroke:white;
+	stroke-width:2;
 }
 
 .content2 {
-    fill:#202020;
+	fill:black;
+	stroke:white;
+	stroke-width:2;
 }
