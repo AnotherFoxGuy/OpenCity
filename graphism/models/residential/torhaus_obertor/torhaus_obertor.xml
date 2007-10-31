@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='3' type='r'>
+    <cost destroy='300' income='135'/>
+    <r>
+      <need max='56' min='7'/>
+      <provide max='18' min='5'/>
+    </r>
+    <c>
+      <need min='5'/>
+      <provide/>
+    </c>
+    <i>
+      <need max='15'/>
+      <provide/>
+    </i>
+    <t>
+      <need max='25'/>
+      <provide max='2'/>
+    </t>
+    <w>
+      <need/>
+      <provide/>
+    </w>
+    <e>
+      <need/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='1'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='1' height='1' width='1'>
+    <author>
+      <name>Frédéric Rodrigo</name>
+      <email>f.rodrigo free.fr</email>
+      <license>GPL-2.1</license>
+      <year>2007</year>
+    </author>
+    <name lang='en'>Torhaus Obertor</name>
+    <description lang='fr'>Maison par Ferdinand von Arnim.</description>
+    <description lang='en'>House by Ferdinand von Arnim.</description>
+	<url lang='fr'>http://fr.wikipedia.org/wiki/Ferdinand_von_Arnim</url>
+	<url lang='en'>http://en.wikipedia.org/wiki/Ferdinand_von_Arnim</url>
+  </model>
+</object>
