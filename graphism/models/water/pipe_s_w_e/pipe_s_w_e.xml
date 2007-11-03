@@ -43,9 +43,9 @@
       <license>GPL</license>
       <year>2006</year>
     </author>
-    <name lang='fr'>Canalisation d&apos;eau</name>
+    <name lang='fr'>Canalisation d'eau</name>
     <name lang='en'>Water pipe</name>
-    <description lang='fr'>Canalisation d&apos;eau potable</description>
+    <description lang='fr'>Canalisation d'eau potable</description>
     <description lang='en'>Drinking water pipe</description>
   </model>
 </object>

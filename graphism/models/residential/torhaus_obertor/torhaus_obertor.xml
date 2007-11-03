@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
-  <property radius='3' type='r'>
-    <cost destroy='300' income='135'/>
+  <property radius='3' inhabitant='3' type='r'>
+    <cost destroy='2300' income='122'/>
     <r>
-      <need max='56' min='7'/>
-      <provide max='18' min='5'/>
+      <need max='25'/>
+      <provide max='3' min='1'/>
     </r>
     <c>
-      <need min='5'/>
+      <need/>
       <provide/>
     </c>
     <i>
@@ -15,15 +15,15 @@
       <provide/>
     </i>
     <t>
-      <need max='25'/>
-      <provide max='2'/>
+      <need min='1'/>
+      <provide min='2'/>
     </t>
     <w>
-      <need/>
+      <need max='1'/>
       <provide/>
     </w>
     <e>
-      <need/>
+      <need max='2'/>
       <provide/>
     </e>
     <g>
@@ -31,8 +31,8 @@
       <provide/>
     </g>
     <nature>
-      <need/>
-      <provide max='1'/>
+      <need max='-5'/>
+      <provide/>
     </nature>
     <direction value='os'/>
   </property>
@@ -53,7 +53,7 @@
     <name lang='en'>Torhaus Obertor</name>
     <description lang='fr'>Maison par Ferdinand von Arnim.</description>
     <description lang='en'>House by Ferdinand von Arnim.</description>
-	<url lang='fr'>http://fr.wikipedia.org/wiki/Ferdinand_von_Arnim</url>
-	<url lang='en'>http://en.wikipedia.org/wiki/Ferdinand_von_Arnim</url>
+    <url lang='fr'>http://fr.wikipedia.org/wiki/Ferdinand_von_Arnim</url>
+    <url lang='en'>http://en.wikipedia.org/wiki/Ferdinand_von_Arnim</url>
   </model>
 </object>

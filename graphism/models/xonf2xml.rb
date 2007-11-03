@@ -1,4 +1,7 @@
 require 'rexml/document'
+
+# Update xml conf file from sim.xml
+
 include REXML
 file = File.new("sim.xml")
 doc = Document.new(file)
@@ -15,10 +18,12 @@ XPath.each( doc, "/gnm:Workbook/gnm:Sheets/gnm:Sheet/gnm:Cells/gnm:Cell" ) { |i|
 	end
 }
 XPath.each( doc, "/gnm:Workbook/gnm:Sheets/gnm:Sheet/gnm:Cells/gnm:Cell" ) { |i|
-	col = Integer(i.attribute("Col").to_s())
-	row = Integer(i.attribute("Row").to_s())
-	if row > 3 then
-		data[row][index[col]] = i.text()
+	if i != nil and i.text() != nil and i.text() != "" then
+		col = Integer(i.attribute("Col").to_s())
+		row = Integer(i.attribute("Row").to_s())
+		if row > 3 then
+			data[row][index[col]] = i.text()
+		end
 	end
 }
 
@@ -29,10 +34,10 @@ data.each { |i|
 		baseName = i['path']+"/"+i['building']+"/"+i['building']
 		xml = baseName+".xml"
 
-puts baseName+"\n"
+		puts baseName+"\n"
 
-file = File.new(xml)
-doc = Document.new(file)
+		file = File.new(xml)
+		doc = Document.new(file)
 
 		xmlconf = Document.new()
 		root = xmlconf.add_element("object", {"xmlns:xsi"=>"http://www.w3.org/2001/XMLSchema-instance",
@@ -69,7 +74,7 @@ doc = Document.new(file)
 		root << XPath.first( doc, "/object/model")
 		out = File.new(xml,"w")
 		out << '<?xml version="1.0" encoding="utf-8"?>'+"\n"
-		xmlconf.write( out, 0 )
+		xmlconf.write( out )
 		out << "\n"
 	end
 }
