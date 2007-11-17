@@ -8,17 +8,31 @@
 <?xml-stylesheet type="text/css" title="Bar" href="bar.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="BarOver" href="bar_over.css" alternate="yes" ?>
 <?xml-stylesheet type="text/css" title="Cursor" href="cursor.css" alternate="yes" ?>
-<svg id="root" class="contener">
-	<rect
-		id="roundBox"
-		ry="20"
-		rx="20"
-		y="0"
-		x="0"
-		height="80"
-		width="80" />
-	<g id="cursor">
+<?xml-stylesheet type="text/css" title="QueryOn" href="query_on.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="QueryOff" href="query_off.css" alternate="yes" ?>
+<svg>
+	<g id="root" class="contener">
+		<rect
+			id="roundBox"
+			ry="20"
+			rx="20"
+			y="0"
+			x="0"
+			height="80"
+			width="80" />
+	</g>
+	<g id="cursor" class="contener">
 		<path d="M 2.0657711,1.99355 L 2.0657711,2.0435508 C 2.258311,13.883705 3.1235951,25.860775 5.5845538,37.462234 C 5.8664896,35.597364 6.2892403,33.75303 6.8533155,31.949738 C 10.929951,18.277576 23.383474,7.7727582 37.3911,5.5622904 C 33.727479,4.8246047 30.029037,4.2269535 26.347248,3.6810428 C 18.308097,2.646991 10.178062,2.1671684 2.0657711,1.99355 z " />
 		<circle class="contener2" cx="40" cy="40" r="25" />
+	</g>
+	<g id="query" class="contener">
+		<rect
+			id="roundBox"
+			ry="20"
+			rx="20"
+			y="0"
+			x="0"
+			height="80"
+			width="80" />
 	</g>
 </svg>
