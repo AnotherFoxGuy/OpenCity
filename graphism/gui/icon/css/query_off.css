@@ -1,0 +1,15 @@
+.icon {
+}
+
+.contener {
+    fill:gray;
+}
+
+.content {
+    fill:lightgray;
+    filter:url(../css/dropShadow.svg#dropShadow);
+}
+
+.content2 {
+    fill:darkgray;
+}

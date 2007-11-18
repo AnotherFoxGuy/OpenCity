@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/default.css" ?>
+<?xml-stylesheet type="text/css" title="Menu" href="css/menu.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuOver" href="css/menu_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuDisable" href="css/menu_disable.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="MenuActivate" href="css/menu_activate.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Splash" href="css/splash.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Bar" href="css/bar.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="BarOver" href="css/bar_over.css" alternate="yes" ?>
+<?xml-stylesheet type="text/css" title="Cursor" href="css/cursor.css" alternate="yes" ?>
+<svg height="80" width="80" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g class="icon" id="parkCity">
+	<use xlink:href="css/backgroundBox.svg#root" x="0" y="0"/>
+    <path
+       d="M 36.03125,15 C 32.799523,15.101594 28.151314,22.400929 24.25,35.53125 L 21.091653,35.53125 L 23.341653,39.03125 C 25.353584,42.156504 37.75,40.78418 37.75,42.53125 C 37.749999,44.278318 33.26082,45.889739 33.25,49.53125 C 33.239182,53.172764 37.75,51.25586 37.75,54.75 C 37.749999,58.244138 33.25,56.502929 33.25,58.25 L 33.25,60 L 5,60 L 5,65 L 75,65 L 75,60 L 46.75,60 L 46.75,58.25 C 46.749998,56.50293 42.25,58.24414 42.25,54.75 C 42.249999,51.255858 46.760819,53.172764 46.75,49.53125 C 46.739178,45.889739 42.25,44.278319 42.25,42.53125 C 42.249999,40.784179 54.796069,42.156504 56.807999,39.03125 L 59.057999,35.53125 L 55.75,35.53125 C 49.00178,12.819344 40,7.594733 40,26.8125 C 42.249404,18.077151 46.75,18.060552 46.75,35.53125 L 42.25,35.53125 L 42.25,26.8125 L 40,26.8125 L 37.75,26.8125 L 37.75,35.53125 L 33.25,35.53125 C 33.25,18.060554 37.750595,18.077151 40,26.8125 C 39.999999,18.705004 38.389539,14.925863 36.03125,15 z "
+       class="content"/>
+  </g>
+</svg>
