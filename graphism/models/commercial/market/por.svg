@@ -7,18 +7,19 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="256.00000pt"
    height="128.00000pt"
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.43"
-   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/market"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/models/commercial/market"
    sodipodi:docname="por.svg"
-   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/market/por.png"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/models/commercial/market/por.png"
    inkscape:export-xdpi="144.00000"
-   inkscape:export-ydpi="144.00000">
+   inkscape:export-ydpi="144.00000"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs3">
     <linearGradient
@@ -77,48 +78,6 @@
          id="stop1704" />
     </linearGradient>
     <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="34.937695"
-       x2="25.106850"
-       y1="135.50278"
-       x1="94.419861"
-       gradientTransform="scale(1.235390,0.809461)"
-       id="linearGradient1430"
-       xlink:href="#linearGradient1706"
-       inkscape:collect="always" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="34.269676"
-       x2="38.835514"
-       y1="141.81113"
-       x1="113.17121"
-       gradientTransform="scale(1.235390,0.809461)"
-       id="linearGradient1428"
-       xlink:href="#linearGradient1702"
-       inkscape:collect="always" />
-    <linearGradient
-       id="linearGradient1422">
-      <stop
-         id="stop1424"
-         offset="0.0000000"
-         style="stop-color:#1f5c88;stop-opacity:1.0000000;" />
-      <stop
-         id="stop1426"
-         offset="1.0000000"
-         style="stop-color:#8aceff;stop-opacity:1.0000000;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient1416">
-      <stop
-         id="stop1418"
-         offset="0.0000000"
-         style="stop-color:#ff8964;stop-opacity:1.0000000;" />
-      <stop
-         id="stop1420"
-         offset="1.0000000"
-         style="stop-color:#ff6f43;stop-opacity:1.0000000;" />
-    </linearGradient>
-    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1702"
        id="linearGradient1442"
@@ -169,28 +128,6 @@
        id="linearGradient2356"
        xlink:href="#linearGradient2353"
        inkscape:collect="always" />
-    <linearGradient
-       id="linearGradient1567">
-      <stop
-         id="stop1569"
-         offset="0.0000000"
-         style="stop-color:#1f5c88;stop-opacity:1.0000000;" />
-      <stop
-         id="stop1571"
-         offset="1.0000000"
-         style="stop-color:#8aceff;stop-opacity:1.0000000;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient1561">
-      <stop
-         id="stop1563"
-         offset="0.0000000"
-         style="stop-color:#ff8964;stop-opacity:1.0000000;" />
-      <stop
-         id="stop1565"
-         offset="1.0000000"
-         style="stop-color:#ff6f43;stop-opacity:1.0000000;" />
-    </linearGradient>
     <linearGradient
        id="linearGradient2353">
       <stop
@@ -282,16 +219,6 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1706"
-       id="radialGradient7458"
-       cx="205.00000"
-       cy="195.00000"
-       fx="205.00000"
-       fy="195.00000"
-       r="6.5625010"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1706"
        id="radialGradient10551"
        gradientUnits="userSpaceOnUse"
        cx="205.00000"
@@ -307,9 +234,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6125"
-     inkscape:cx="27.412043"
-     inkscape:cy="69.565997"
+     inkscape:zoom="1.403125"
+     inkscape:cx="100.87015"
+     inkscape:cy="117.40053"
      inkscape:current-layer="layer1"
      gridspacingy="8.0000000pt"
      gridspacingx="8.0000000pt"
@@ -400,22 +327,6 @@
            id="tspan1729"
            sodipodi:role="line">MARKET</tspan></text>
     </g>
-    <rect
-       transform="matrix(20.00000,0.000000,0.000000,8.000000,0.000000,-560.0000)"
-       id="rect3364"
-       y="80.000000"
-       x="0.0000000"
-       height="10.000000"
-       width="10.000000"
-       style="fill:#a9a9a9;stroke:none;fill-opacity:1" />
-    <rect
-       style="fill:url(#pattern3058);stroke:none"
-       width="10.000000"
-       height="10.000000"
-       x="0.0000000"
-       y="80.000000"
-       id="rect3066"
-       transform="matrix(20.00000,0.000000,0.000000,8.000000,0.000000,-560.0000)" />
     <g
        id="g8486"
        transform="matrix(0.288792,0.000000,0.000000,0.484069,173.2216,-10.05389)">

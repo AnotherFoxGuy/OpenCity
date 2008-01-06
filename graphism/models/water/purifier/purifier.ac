@@ -1,7 +1,7 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 OBJECT world
-kids 41
+kids 40
 OBJECT poly
 name "cylinder"
 loc 3.075 -0.06 1.825
@@ -1483,25 +1483,6 @@ refs 4
 2 0.15723 0.435541
 1 0.15723 0.33105
 0 0.193124 0.33105
-kids 0
-OBJECT poly
-name "rect"
-loc 1.5 0 0.05
-texture "purifier.png"
-crease 45.000000
-numvert 4
--1.5 0 -0.05
-1.5 0 -0.05
-1.5 0 0.05
--1.5 0 0.05
-numsurf 1
-SURF 0x30
-mat 0
-refs 4
-3 -2.0396e-05 0.00685195
-2 0.992167 0.00685195
-1 0.992167 0.0439612
-0 -2.0396e-05 0.0439612
 kids 0
 OBJECT poly
 name "box"

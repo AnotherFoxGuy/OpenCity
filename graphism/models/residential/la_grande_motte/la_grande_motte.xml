@@ -36,7 +36,7 @@
     </nature>
     <direction value='os'/>
   </property>
-  <model length='3' height='3' width='5'>
+  <model length='3' height='3' width='5' ground='pavement-public'>
     <author>
       <name>Frédéric Rodrigo</name>
       <email>f.rodrigo free.fr</email>

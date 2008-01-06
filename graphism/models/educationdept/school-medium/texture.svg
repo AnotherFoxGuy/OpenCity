@@ -7,18 +7,19 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="texture.svg"
-   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/educationdept/school-medium"
-   inkscape:version="0.42"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/models/educationdept/school-medium"
+   inkscape:version="0.45.1"
    sodipodi:version="0.32"
    id="svg1"
    height="512.00000pt"
    width="512.00000pt"
-   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/educationdept/school-medium/texture.png"
+   inkscape:export-filename="texture.png"
    inkscape:export-xdpi="72.000000"
-   inkscape:export-ydpi="72.000000">
+   inkscape:export-ydpi="72.000000"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata8324">
     <rdf:RDF>
@@ -183,22 +184,15 @@
      gridoriginy="0.0000000pt"
      gridspacingx="16.000000pt"
      gridspacingy="16.000000pt"
-     inkscape:cy="157.85903"
-     inkscape:cx="153.88116"
-     inkscape:zoom="1.7366335"
+     inkscape:cy="431.07309"
+     inkscape:cx="-165.68878"
+     inkscape:zoom="0.43415838"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base" />
-  <rect
-     style="color:#000000;fill:#ccb9a4;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:2.5000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:7.5000000 7.5000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible"
-     id="rect8334"
-     width="320.00000"
-     height="320.00000"
-     x="320.00000"
-     y="320.00000" />
   <g
      id="layer1"
      inkscape:groupmode="layer"
@@ -323,7 +317,7 @@
      inkscape:tile-cy="40.000000">
     <image
        xlink:href="include/mur.jpeg"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/educationdept/school-medium/include/mur.jpeg"
+       sodipodi:absref="include/mur.jpeg"
        width="320.00000"
        height="320.00000"
        id="image10188"

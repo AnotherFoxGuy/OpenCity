@@ -36,7 +36,7 @@
     </nature>
     <direction value='se'/>
   </property>
-  <model length='3' height='3.2' width='3'>
+  <model length='3' height='3.2' width='3' ground='pavement-public'>
     <author>
       <name>brupje</name>
       <license>GPL-2</license>

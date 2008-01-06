@@ -5,26 +5,7 @@ MATERIAL "ac3dmat0" rgb 0 0 0  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  sh
 MATERIAL "ac3dmat12" rgb 0.266667 0.266667 0.266667  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
 MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
 OBJECT world
-kids 11
-OBJECT poly
-name "rect"
-loc 0.5 5.96046e-08 1
-texture "tex.gif"
-crease 45.000000
-numvert 4
--0.5 -3.50825e-08 -1
-0.5 -3.50825e-08 -1
-0.5 -3.50825e-08 1
--0.5 -3.50825e-08 1
-numsurf 1
-SURF 0x0
-mat 1
-refs 4
-3 0.00116691 0.500548
-2 0.372599 0.500548
-1 0.372599 0.87414
-0 0.00116691 0.87414
-kids 0
+kids 10
 OBJECT poly
 name "rect"
 loc 0.75 0.7 1.1

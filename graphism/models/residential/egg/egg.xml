@@ -36,7 +36,7 @@
     </nature>
     <direction value='os'/>
   </property>
-  <model length='1' height='2' width='2'>
+  <model length='1' height='2' width='2' ground='asphalt'>
     <author>
       <name>Pucelo20</name>
       <email>pucelo20 terra.es</email>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="72.000000"
+   inkscape:export-xdpi="72.000000"
+   inkscape:export-filename="texture.png"
+   width="512.00000pt"
+   height="256.00000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/models/industrial/tank"
+   sodipodi:docname="texture.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata1294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2279853"
+     inkscape:cx="491.74613"
+     inkscape:cy="104.46811"
+     gridspacingy="16.000000pt"
+     gridspacingx="16.000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridempspacing="4"
+     showgrid="true"
+     inkscape:grid-points="true"
+     inkscape:window-width="992"
+     inkscape:window-height="746"
+     inkscape:window-x="256"
+     inkscape:window-y="0"
+     inkscape:grid-bbox="false"
+     gridtolerance="4.0000000pt"
+     inkscape:current-layer="svg1" />
+  <image
+     y="0.0000000"
+     x="320.00000"
+     id="image1463"
+     height="160.00000"
+     width="160.00000"
+     sodipodi:absref="include/mur.jpeg"
+     xlink:href="include/mur.jpeg" />
+  <image
+     y="0.0000000"
+     x="0.0000000"
+     id="image1527"
+     height="160.00000"
+     width="160.00000"
+     sodipodi:absref="include/mur0.jpeg"
+     xlink:href="include/mur0.jpeg" />
+  <image
+     y="0.0000000"
+     x="160.00000"
+     id="image1591"
+     height="160.00000"
+     width="160.00000"
+     sodipodi:absref="include/porte.jpeg"
+     xlink:href="include/porte.jpeg" />
+  <image
+     y="160.00000"
+     x="0.0000000"
+     id="image2023"
+     height="160.00000"
+     width="160.00000"
+     sodipodi:absref="include/silo.jpeg"
+     xlink:href="include/silo.jpeg" />
+  <image
+     y="160.00000"
+     x="160.00000"
+     id="image2174"
+     height="160.00000"
+     width="160.00000"
+     sodipodi:absref="include/toit1.png"
+     xlink:href="include/toit1.png" />
+</svg>

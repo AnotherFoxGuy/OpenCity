@@ -59,6 +59,8 @@ kids 0
 OBJECT poly
 name "rect"
 loc 0.5 0 0.5
+data 10
+alpha=true
 texture "tex.png"
 crease 45.000000
 numvert 4

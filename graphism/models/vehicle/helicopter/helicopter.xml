@@ -36,7 +36,7 @@
     </nature>
     <direction value='os'/>
   </property>
-  <model length='1' height='1.1' width='1'>
+  <model length='1' height='1.1' width='1' ground='none'>
     <author>
       <name>Oliver Baker</name>
       <email>sjbaker1 airmail.net</email>

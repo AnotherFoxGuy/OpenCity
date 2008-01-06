@@ -10,16 +10,17 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="tex.svg"
-   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/hazard"
-   inkscape:version="0.44"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/models/industrial/hazard"
+   inkscape:version="0.45.1"
    sodipodi:version="0.32"
    id="svg1"
    height="320"
    width="320"
-   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/hazard/tex.png"
+   inkscape:export-filename="/home/fred/work/r-opencity/graphism/models/industrial/hazard/tex.png"
    inkscape:export-xdpi="72.000000"
    inkscape:export-ydpi="72.000000"
-   version="1.0">
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata1294">
     <rdf:RDF>
@@ -58,14 +59,6 @@
      pagecolor="#ffffff"
      id="base"
      width="320px" />
-  <image
-     y="0"
-     x="0"
-     id="image2123"
-     height="160"
-     width="160"
-     sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/industrial/hazard/include/sol.jpeg"
-     xlink:href="include/sol.jpeg" />
   <rect
      style="opacity:1;color:black;fill:#837b7b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
      id="rect3017"

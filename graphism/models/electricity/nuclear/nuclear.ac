@@ -1,26 +1,7 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 OBJECT world
-kids 11
-OBJECT poly
-name "rect"
-loc 3.01415 0 3.01369
-texture "texture.png"
-crease 45.000000
-numvert 4
-2.98585 0 -3.01369
-2.98585 0 2.98631
--3.01415 0 2.98631
--3.01415 0 -3.01369
-numsurf 1
-SURF 0x0
-mat 0
-refs 4
-3 0.501498 0.999092
-2 0.501498 0.501231
-1 0.998579 0.501231
-0 0.998579 0.999092
-kids 0
+kids 10
 OBJECT poly
 name "box"
 loc 2.50116 0.103947 4.18226

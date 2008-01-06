@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512.00000pt"
+   height="256.00000pt"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.41+devel"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/family"
+   sodipodi:docname="tex.svgz"
+   inkscape:export-filename="tex.png"
+   inkscape:export-xdpi="72.000000"
+   inkscape:export-ydpi="72.000000">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2279853"
+     inkscape:cx="346.07763"
+     inkscape:cy="109.68527"
+     inkscape:current-layer="layer1"
+     gridspacingy="8.0000000pt"
+     gridspacingx="8.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridoriginx="0.0000000pt"
+     gridempspacing="4"
+     showgrid="true"
+     inkscape:grid-points="true"
+     inkscape:window-width="992"
+     inkscape:window-height="746"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     gridtolerance="4.0000000pt"
+     inkscape:grid-bbox="false" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.5281516;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible"
+       id="rect531"
+       width="320.00000"
+       height="200.00000"
+       x="0.0000000"
+       y="0.0000000" />
+    <image
+       xlink:href="include/benzen.jpeg"
+       sodipodi:absref="include/benzen.jpeg"
+       width="128.00000"
+       height="256.00000"
+       id="image212"
+       transform="matrix(0.312500,0.000000,0.000000,0.312500,280.0000,120.0000)" />
+    <image
+       xlink:href="include/portail.jpeg"
+       sodipodi:absref="include/portail.jpeg"
+       width="256.00000"
+       height="256.00000"
+       id="image242"
+       transform="matrix(0.468750,0.000000,0.000000,0.468750,10.00000,80.00000)" />
+    <image
+       xlink:href="include/fenetre.jpeg"
+       sodipodi:absref="include/fenetre.jpeg"
+       width="512.00000"
+       height="256.00000"
+       id="image193"
+       transform="matrix(0.312500,0.000000,0.000000,0.351563,40.00000,20.00000)" />
+    <image
+       xlink:href="include/toit.png"
+       sodipodi:absref="include/toit.png"
+       width="128.00000"
+       height="64.000000"
+       id="image272"
+       transform="matrix(0.234375,0.000000,0.000000,0.312500,0.000000,200.0000)"
+       inkscape:tile-w="30.000000"
+       inkscape:tile-h="20.000000"
+       inkscape:tile-cx="15.000000"
+       inkscape:tile-cy="210.00000" />
+    <image
+       xlink:href="include/fenetre.jpeg"
+       sodipodi:absref="include/fenetre.jpeg"
+       width="512.00000"
+       height="256.00000"
+       id="image273"
+       transform="matrix(0.312500,0.000000,0.000000,0.351563,170.0000,20.00000)" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(0.000000,20.00000)"
+       id="use472" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(0.000000,40.00000)"
+       id="use473" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(0.000000,60.00000)"
+       id="use474" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(0.000000,80.00000)"
+       id="use475" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(0.000000,100.0000)"
+       id="use476" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(30.00000,0.000000)"
+       id="use477" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(30.00000,20.00000)"
+       id="use478" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(30.00000,40.00000)"
+       id="use479" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(30.00000,60.00000)"
+       id="use480" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(30.00000,80.00000)"
+       id="use481" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(30.00000,100.0000)"
+       id="use482" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(60.00000,0.000000)"
+       id="use483" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(60.00000,20.00000)"
+       id="use484" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(60.00000,40.00000)"
+       id="use485" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(60.00000,60.00000)"
+       id="use486" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(60.00000,80.00000)"
+       id="use487" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(60.00000,100.0000)"
+       id="use488" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(90.00000,0.000000)"
+       id="use489" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(90.00000,20.00000)"
+       id="use490" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(90.00000,40.00000)"
+       id="use491" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(90.00000,60.00000)"
+       id="use492" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(90.00000,80.00000)"
+       id="use493" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(90.00000,100.0000)"
+       id="use494" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(120.0000,0.000000)"
+       id="use495" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(120.0000,20.00000)"
+       id="use496" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(120.0000,40.00000)"
+       id="use497" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(120.0000,60.00000)"
+       id="use498" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(120.0000,80.00000)"
+       id="use499" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(120.0000,100.0000)"
+       id="use500" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(150.0000,0.000000)"
+       id="use501" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(150.0000,20.00000)"
+       id="use502" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(150.0000,40.00000)"
+       id="use503" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(150.0000,60.00000)"
+       id="use504" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(150.0000,80.00000)"
+       id="use505" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(150.0000,100.0000)"
+       id="use506" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(180.0000,0.000000)"
+       id="use507" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(180.0000,20.00000)"
+       id="use508" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(180.0000,40.00000)"
+       id="use509" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(180.0000,60.00000)"
+       id="use510" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(180.0000,80.00000)"
+       id="use511" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(180.0000,100.0000)"
+       id="use512" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(210.0000,0.000000)"
+       id="use513" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(210.0000,20.00000)"
+       id="use514" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(210.0000,40.00000)"
+       id="use515" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(210.0000,60.00000)"
+       id="use516" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(210.0000,80.00000)"
+       id="use517" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(210.0000,100.0000)"
+       id="use518" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(240.0000,0.000000)"
+       id="use519" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(240.0000,20.00000)"
+       id="use520" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(240.0000,40.00000)"
+       id="use521" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(240.0000,60.00000)"
+       id="use522" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(240.0000,80.00000)"
+       id="use523" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(240.0000,100.0000)"
+       id="use524" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(270.0000,0.000000)"
+       id="use525" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(270.0000,20.00000)"
+       id="use526" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(270.0000,40.00000)"
+       id="use527" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(270.0000,60.00000)"
+       id="use528" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(270.0000,80.00000)"
+       id="use529" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#image272"
+       xlink:href="#image272"
+       transform="translate(270.0000,100.0000)"
+       id="use530" />
+    <image
+       transform="matrix(1.250000,0.000000,0.000000,1.250000,320.0000,0.000000)"
+       xlink:href="include/terre.png"
+       sodipodi:absref="include/terre.png"
+       width="256.00000"
+       height="256.00000"
+       id="image1552" />
+  </g>
+</svg>

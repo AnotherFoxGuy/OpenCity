@@ -1,7 +1,7 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 OBJECT world
-kids 8
+kids 7
 OBJECT poly
 name "cylinder"
 loc 0.25 -0.0857143 0.275
@@ -998,22 +998,4 @@ refs 4
 97 0.365002 0.749752
 98 0.366357 0.990877
 107 0.335736 0.990876
-kids 0
-OBJECT poly
-name "rect"
-texture "tower.png"
-crease 45.000000
-numvert 4
-0 0 0
-1 0 0
-1 0 1
-0 0 1
-numsurf 1
-SURF 0x30
-mat 0
-refs 4
-3 0.511899 0.508082
-2 0.992367 0.508082
-1 0.992367 0.988551
-0 0.511899 0.988551
 kids 0

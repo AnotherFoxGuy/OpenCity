@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="texture.svg"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/models/industrial/hang"
+   inkscape:version="0.45.1"
+   sodipodi:version="0.32"
+   id="svg1"
+   height="256.00000pt"
+   width="512.00000pt"
+   inkscape:export-filename="texture.png"
+   inkscape:export-xdpi="72.000000"
+   inkscape:export-ydpi="72.000000"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata1294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1"
+     gridtolerance="4.0000000pt"
+     inkscape:grid-bbox="false"
+     inkscape:window-y="0"
+     inkscape:window-x="256"
+     inkscape:window-height="746"
+     inkscape:window-width="992"
+     inkscape:grid-points="true"
+     showgrid="true"
+     gridempspacing="4"
+     gridoriginx="0.0000000pt"
+     gridoriginy="0.0000000pt"
+     gridspacingx="16.000000pt"
+     gridspacingy="16.000000pt"
+     inkscape:cy="211.09649"
+     inkscape:cx="424.01018"
+     inkscape:zoom="1.2279853"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <image
+     xlink:href="include/mur.jpeg"
+     sodipodi:absref="include/mur.jpeg"
+     width="286.51474"
+     height="160.00000"
+     id="image1565"
+     x="0.0000000"
+     y="160.00000" />
+  <image
+     xlink:href="include/mur.jpeg"
+     sodipodi:absref="include/mur.jpeg"
+     width="280.00000"
+     height="160.00000"
+     id="image1598"
+     x="280.00000"
+     y="160.00000" />
+  <rect
+     style="fill:#000000;fill-opacity:0.64777327;stroke:none;stroke-width:0.69999999;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"
+     id="rect2066"
+     width="129.77211"
+     height="129.77211"
+     x="15.113948"
+     y="195.11395" />
+  <image
+     xlink:href="include/portail.jpeg"
+     sodipodi:absref="include/portail.jpeg"
+     width="120.00000"
+     height="120.00000"
+     id="image1666"
+     x="20.000000"
+     y="200.00000" />
+  <rect
+     style="stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-width:0.69999999;stroke:none;fill-opacity:0.36032388;fill:#5a5a5a"
+     id="rect1671"
+     width="120.00000"
+     height="120.00000"
+     x="20.000000"
+     y="200.00000" />
+  <image
+     xlink:href="include/truc1.jpeg"
+     sodipodi:absref="include/truc1.jpeg"
+     width="80.000000"
+     height="80.000000"
+     id="image3250"
+     x="160.00000"
+     y="0.0000000" />
+  <image
+     xlink:href="include/truc2.jpeg"
+     sodipodi:absref="include/truc2.jpeg"
+     width="80.000000"
+     height="80.000000"
+     id="image3314"
+     x="160.00000"
+     y="80.000000" />
+  <image
+     xlink:href="include/truc1.jpeg"
+     sodipodi:absref="include/truc1.jpeg"
+     width="160.00000"
+     height="160.00000"
+     id="image2068"
+     x="240.00000"
+     y="0.0000000" />
+  <rect
+     y="0.0000000"
+     x="240.00000"
+     height="160.00000"
+     width="160.00000"
+     id="rect1306"
+     style="stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-width:0.69999999;stroke:none;fill-opacity:0.59514171;fill:#a91100" />
+</svg>

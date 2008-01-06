@@ -17,7 +17,7 @@
    version="1.0"
    sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large"
    sodipodi:docname="large.svg"
-   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large/large.png"
+   inkscape:export-filename="large.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -30,7 +30,7 @@
        id="pattern1951">
       <image
          xlink:href="include/brick.png"
-         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large/include/brick.png"
+         sodipodi:absref="include/brick.png"
          width="64"
          height="46.046947"
          id="image1948"
@@ -98,7 +98,7 @@
        id="image2011"
        height="21.142857"
        width="13.935065"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large/include/fen.png"
+       sodipodi:absref="include/fen.png"
        xlink:href="include/fen.png"
        inkscape:tile-w="13.935065"
        inkscape:tile-h="21.142857"
@@ -1576,7 +1576,7 @@
        id="image4326"
        height="30.591734"
        width="30.591734"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large/include/por.png"
+       sodipodi:absref="include/por.png"
        xlink:href="include/por.png" />
     <image
        y="-512"
@@ -1584,7 +1584,7 @@
        id="image2105"
        height="256"
        width="512"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large/include/bk.png"
+       sodipodi:absref="include/bk.png"
        xlink:href="include/bk.png"
        transform="matrix(0,1,-1,0,0,0)" />
     <image
@@ -1593,7 +1593,7 @@
        id="image2136"
        height="71.670532"
        width="60.737736"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/hospitaldept/large/include/fan.jpeg"
+       sodipodi:absref="include/fan.jpeg"
        xlink:href="include/fan.jpeg" />
     <g
        id="g5012">

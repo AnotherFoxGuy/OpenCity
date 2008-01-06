@@ -87,7 +87,7 @@
      inkscape:grid-points="true"
      inkscape:window-width="992"
      inkscape:window-height="746"
-     inkscape:window-x="0"
+     inkscape:window-x="256"
      inkscape:window-y="0"
      inkscape:grid-bbox="false"
      gridtolerance="4.0000000pt"
@@ -205,14 +205,6 @@
      id="path5136"
      d="M 450.00000,162.50000 C 445.85804,162.50041 442.50041,165.85804 442.50000,170.00000 L 442.50000,310.00000 C 442.48063,313.57424 444.98601,316.66562 448.48674,317.38703 C 451.98748,318.10844 455.51093,316.25945 456.90625,312.96875 L 516.90625,172.96875 C 517.90619,170.64797 517.67032,167.97968 516.27876,165.87030 C 514.88720,163.76092 512.52703,162.49404 510.00000,162.50000 L 450.00000,162.50000 z M 457.50000,177.50000 L 498.59375,177.50000 L 457.50000,273.40625 L 457.50000,177.50000 z "
      style="stroke-dasharray:none;fill:#22b2ce;fill-opacity:1;fill-rule:evenodd;stroke:#008987;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;opacity:1;color:#000000;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <image
-     y="320.00000"
-     x="0.0000000"
-     id="image2992"
-     height="320.00000"
-     width="320.00000"
-     sodipodi:absref="include/sol.jpeg"
-     xlink:href="include/sol.jpeg" />
   <rect
      y="0.0000000"
      x="320.00000"

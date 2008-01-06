@@ -7,6 +7,8 @@ kids 11
 OBJECT poly
 name "rect"
 loc 1.2644 0 1.42309
+data 10
+alpha=true
 texture "tex.png"
 crease 45.000000
 numvert 4

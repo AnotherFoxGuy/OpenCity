@@ -1,7 +1,7 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 OBJECT world
-kids 8
+kids 7
 OBJECT poly
 name "cylinder"
 loc 0.720833 0.075 0.3
@@ -161,25 +161,6 @@ refs 4
 6 0.544281 0.0645843
 7 0.544281 0.00346458
 15 0.991364 0.00346452
-kids 0
-OBJECT poly
-name "rect"
-loc 0.5 0 0.5
-texture "pump.gif"
-crease 45.000000
-numvert 4
--0.5 0 0.5
-0.5 0 0.5
-0.5 0 -0.5
--0.5 0 -0.5
-numsurf 1
-SURF 0x0
-mat 0
-refs 4
-0 0.507292 0.515977
-1 0.991001 0.515977
-2 0.991001 0.992147
-3 0.507292 0.992147
 kids 0
 OBJECT poly
 name "cylinder"

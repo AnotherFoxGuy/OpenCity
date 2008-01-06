@@ -17,7 +17,7 @@
    version="1.0"
    sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool"
    sodipodi:docname="pool.svg"
-   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool/pool.png"
+   inkscape:export-filename="pool.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -913,7 +913,7 @@
        id="pattern2373">
       <image
          xlink:href="include/sol.png"
-         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool/include/sol.png"
+         sodipodi:absref="include/sol.png"
          width="48"
          height="48"
          id="image2310"
@@ -928,7 +928,7 @@
        id="pattern4150">
       <image
          xlink:href="include/bord.png"
-         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool/include/bord.png"
+         sodipodi:absref="include/bord.png"
          width="16"
          height="16"
          id="image2194"
@@ -1063,7 +1063,7 @@
        id="image2252"
        height="32"
        width="32"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool/include/chaise-longue.png"
+       sodipodi:absref="include/chaise-longue.png"
        xlink:href="include/chaise-longue.png" />
     <rect
        style="stroke:none;fill:url(#pattern2373)"
@@ -1078,7 +1078,7 @@
        id="image2368"
        height="64"
        width="160"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool/include/water.png"
+       sodipodi:absref="include/water.png"
        xlink:href="include/water.png"
        style="opacity:0.81188121" />
     <rect
@@ -1119,7 +1119,7 @@
        id="image5961"
        height="32"
        width="32"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/residential/pool/include/chaise-longue.png"
+       sodipodi:absref="include/chaise-longue.png"
        xlink:href="include/chaise-longue.png" />
     <rect
        style="stroke:none;fill:none"

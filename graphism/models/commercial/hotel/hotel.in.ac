@@ -2,7 +2,7 @@ AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 OBJECT world
-kids 7
+kids 6
 OBJECT poly
 name "box"
 loc 1 0.5 0.95
@@ -227,25 +227,6 @@ refs 3
 0 0.936569 0.0618269
 4 0.936569 0.00143427
 11 0.998668 0.0618269
-kids 0
-OBJECT poly
-name "rect"
-loc 1 0 1
-texture "facade.gif"
-crease 45.000000
-numvert 4
--1 0 -1
-1 0 -1
-1 0 1
--1 0 1
-numsurf 1
-SURF 0x0
-mat 0
-refs 4
-3 0.688376 0.688104
-2 0.999199 0.688104
-1 0.999199 0.999066
-0 0.688376 0.999066
 kids 0
 OBJECT poly
 name "box"

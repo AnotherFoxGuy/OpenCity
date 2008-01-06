@@ -1,28 +1,8 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
-MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
 OBJECT world
-kids 4
-OBJECT poly
-name "rect"
-loc 0.5 3.47803e-08 0.495724
-texture "texture.gif"
-crease 45.000000
-numvert 4
--0.5 -3.47803e-08 -0.495724
-0.5 -3.47803e-08 -0.495724
-0.5 -3.47803e-08 0.504276
--0.5 -3.47803e-08 0.504276
-numsurf 1
-SURF 0x0
-mat 2
-refs 4
-3 0.505303 0.00156358
-2 0.87281 0.00156358
-1 0.87281 0.373193
-0 0.505303 0.373193
-kids 0
+kids 3
 OBJECT poly
 name "rect"
 loc 0.600001 0.34918 0.386029

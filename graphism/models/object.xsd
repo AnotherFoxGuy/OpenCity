@@ -4,7 +4,7 @@
 	targetNamespace="urn:oc:object"
 	attributeFormDefault="unqualified"
 	elementFormDefault="qualified"
-	version="0.0.5"
+	version="0.0.6"
 	xmlns="urn:oc:object"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
@@ -138,6 +138,29 @@
 		</xs:simpleContent>
 	</xs:complexType>
 
+	<xs:simpleType name="groundType">
+		<xs:annotation>
+			<xs:documentation>Model ground type, replace default gass</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="none"/>
+			<xs:enumeration value="pavement-public"/>
+			<xs:enumeration value="lawn"/>
+			<xs:enumeration value="asphalt"/>
+			<xs:enumeration value="soil"/>
+			<xs:enumeration value="gravel"/>
+			<xs:enumeration value="pavement-private"/>
+			<xs:enumeration value="nw"/>
+			<xs:enumeration value="se"/>
+			<xs:enumeration value="sw"/>
+			<xs:enumeration value="sne"/>
+			<xs:enumeration value="swe"/>
+			<xs:enumeration value="snw"/>
+			<xs:enumeration value="nwe"/>
+			<xs:enumeration value="snwe"/>
+		</xs:restriction>
+	</xs:simpleType>
+
 	<xs:complexType name="modelType">
 		<xs:sequence>
 			<xs:element name="author" type="authorType" minOccurs="1" maxOccurs="unbounded"/>
@@ -148,6 +171,7 @@
 		<xs:attribute name="width" type="xs:nonNegativeInteger" use="required"/>
 		<xs:attribute name="length" type="xs:nonNegativeInteger" use="required"/>
 		<xs:attribute name="height" type="xs:decimal" use="required"/>
+		<xs:attribute name="ground" type="groundType" use="required"/>
 	</xs:complexType>
 
 	<xs:complexType name="objectType">

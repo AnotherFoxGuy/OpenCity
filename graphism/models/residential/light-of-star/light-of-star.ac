@@ -1,7 +1,7 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.5 0.5 0.5  shi 10  trans 0
 OBJECT world
-kids 7
+kids 6
 OBJECT poly
 name "box"
 loc 0.6 0.410494 0.675
@@ -190,25 +190,6 @@ refs 4
 1 0.992634 0.507674
 0 0.992634 0.732546
 2 0.509783 0.732546
-kids 0
-OBJECT poly
-name "rect"
-loc 0.5 -5.62933e-09 0.5
-texture "light-of-star.png"
-crease 45.000000
-numvert 4
--0.5 0 -0.5
-0.5 0 -0.5
-0.5 0 0.5
--0.5 0 0.5
-numsurf 1
-SURF 0x0
-mat 0
-refs 4
-3 0.00214075 0.00445562
-2 0.495975 0.00445562
-1 0.495975 0.494917
-0 0.00214075 0.494917
 kids 0
 OBJECT poly
 name "small tree"

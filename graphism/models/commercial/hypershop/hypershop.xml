@@ -36,7 +36,7 @@
     </nature>
     <direction value='os'/>
   </property>
-  <model length='3' height='2' width='3'>
+  <model length='3' height='2' width='3' ground='lawn'>
     <author>
       <name>Benoît Gross</name>
       <email>benawatt free.fr</email>

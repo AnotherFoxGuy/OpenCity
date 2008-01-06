@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="45.000000"
    inkscape:export-xdpi="45.000000"
-   inkscape:export-filename="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/tex.png"
+   inkscape:export-filename="tex.png"
    sodipodi:docname="tex.svg"
    sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto"
    inkscape:version="0.43"
@@ -41,7 +41,7 @@
       <image
          transform="scale(0.500000,0.500000)"
          xlink:href="include/mur.png"
-         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/mur.png"
+         sodipodi:absref="include/mur.png"
          width="128.00000"
          height="128.00000"
          id="image1471" />
@@ -70,7 +70,7 @@
       <image
          transform="scale(0.500000,0.500000)"
          xlink:href="include/bois.jpeg"
-         sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/bois.jpeg"
+         sodipodi:absref="include/bois.jpeg"
          width="64.000000"
          height="64.000000"
          id="image1483" />
@@ -188,14 +188,14 @@
      inkscape:label="Calque 1">
     <image
        xlink:href="include/sol.png"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/sol.png"
+       sodipodi:absref="include/sol.png"
        width="512.00000"
        height="512.00000"
        id="image1361" />
     <image
        transform="translate(768.0000,192.0000)"
        xlink:href="include/restaurant.png"
-       sodipodi:absref="/home/fred/work/r-opencity/graphism/frodrigo/2/commercial/resto/include/restaurant.png"
+       sodipodi:absref="include/restaurant.png"
        width="256.00000"
        height="64.000000"
        id="image1401" />

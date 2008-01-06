@@ -36,7 +36,7 @@
     </nature>
     <direction value='sn'/>
   </property>
-  <model length='1' height='0.52' width='1'>
+  <model length='1' height='0.52' width='1' ground='pavement-public'>
     <author>
       <name>thgergo</name>
       <email>th_gergo freemail.hu</email>

@@ -1,7 +1,7 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
 OBJECT world
-kids 21
+kids 20
 OBJECT poly
 name "rect"
 loc 0.225 1.19209e-07 0
@@ -115,25 +115,6 @@ refs 4
 2 0.734828 0.442228
 1 0.734828 0.265276
 0 0.510051 0.265276
-kids 0
-OBJECT poly
-name "rect"
-loc 5.96046e-08 -3.3117e-10 -6.13007e-09
-texture "canary.png"
-crease 45.000000
-numvert 4
--5.96046e-08 0 0
-1 0 0
-1 0 1
--5.96046e-08 0 1
-numsurf 1
-SURF 0x10
-mat 0
-refs 4
-3 0.566438 0.754268
-2 0.996215 0.754268
-1 0.996215 0.994633
-0 0.566438 0.994633
 kids 0
 OBJECT poly
 name "box"

@@ -507,6 +507,8 @@ refs 4
 kids 0
 OBJECT poly
 name "rect"
+data 10
+alpha=true
 texture "large.png"
 crease 45.000000
 numvert 4
