@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:oc:object http://www.opencity.info/xml/object.xsd' xmlns='urn:oc:object'>
+  <property radius='5' worker='3' type='c'>
+    <cost destroy='6000' income='130'/>
+    <r>
+      <need min='2'/>
+      <provide/>
+    </r>
+    <c>
+      <need max='23'/>
+      <provide max='11' min='2'/>
+    </c>
+    <i>
+      <need/>
+      <provide/>
+    </i>
+    <t>
+      <need min='5'/>
+      <provide max='40' min='17'/>
+    </t>
+    <w>
+      <need max='1'/>
+      <provide/>
+    </w>
+    <e>
+      <need max='3'/>
+      <provide/>
+    </e>
+    <g>
+      <need/>
+      <provide/>
+    </g>
+    <nature>
+      <need/>
+      <provide max='-3'/>
+    </nature>
+    <direction value='os'/>
+  </property>
+  <model length='2' height='0.636' width='1' ground='pavement-public'>
+    <author>
+      <name>Tim Essig</name>
+      <email>tim essignetz.de</email>
+      <license>GPL-2</license>
+      <year>2008</year>
+    </author>
+    <name lang='en'>Small Office</name>
+    <name lang='de'>Kleines Büro</name>
+    <name lang='fr'>Petit bureau</name>
+    <description lang='en'>The Office of a small Company</description>
+    <description lang='de'>Das Büro einer kleinen Firma</description>
+    <description lang='fr'>Les bureaux d'une petite companie</description>
+  </model>
+</object>
