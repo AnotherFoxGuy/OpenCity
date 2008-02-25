@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   version="1.0"
+   sodipodi:docbase="/home/fred/work/r-opencity/graphism/frodrigo/2/path/rail"
+   sodipodi:docname="rail.svg"
+   inkscape:export-filename="rail.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="195.59609"
+     inkscape:cy="88.81871"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="256px"
+     height="256px"
+     showgrid="true"
+     inkscape:object-nodes="true"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="false"
+     inkscape:guide-bbox="false"
+     inkscape:guide-points="true"
+     guidetolerance="5.8"
+     gridtolerance="5.8"
+     objecttolerance="5.8"
+     inkscape:object-paths="false"
+     gridempspacing="4"
+     inkscape:window-width="1248"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="0"
+       x="0"
+       id="image1930"
+       height="176"
+       width="176"
+       sodipodi:absref="include/bk.png"
+       xlink:href="include/bk.png" />
+    <image
+       y="178.48605"
+       x="0.29763794"
+       id="image1988"
+       height="18.736034"
+       width="175.70236"
+       sodipodi:absref="include/travarse1.png"
+       xlink:href="include/travarse1.png" />
+    <image
+       y="198.48605"
+       x="0"
+       id="image2031"
+       height="18.431873"
+       width="176.17441"
+       sodipodi:absref="include/travarse2.png"
+       xlink:href="include/travarse2.png" />
+    <image
+       y="218.48605"
+       x="0"
+       id="image2074"
+       height="17.768372"
+       width="175.9915"
+       sodipodi:absref="include/travarse3.png"
+       xlink:href="include/travarse3.png" />
+    <image
+       y="238.48605"
+       x="0"
+       id="image2117"
+       height="17.513952"
+       width="175.99387"
+       sodipodi:absref="include/travarse4.png"
+       xlink:href="include/travarse4.png" />
+    <image
+       y="0"
+       x="245.9649"
+       id="image2178"
+       height="256"
+       width="10.035104"
+       sodipodi:absref="include/rail.png"
+       xlink:href="include/rail.png" />
+  </g>
+</svg>
