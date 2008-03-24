@@ -1,12 +1,14 @@
 .icon {
+    filter:url(dropShadow.svg#specularLighting);
 }
 
 .contener {
-    fill:gray;
+    fill:#00ffff;
+    opacity:0.13201318;
 }
 
 .content {
-    fill:lightgray;
+    fill:red;
     filter:url(../css/dropShadow.svg#dropShadow);
 }
 

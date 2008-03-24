@@ -6,10 +6,10 @@ commercial.svg          generator_tree_dense.svg    hospital.svg              pa
 destroy.svg             generator_tree_normal.svg   industrial.svg            police.svg                    road.svg         vehicle.svg	\
 education.svg           generator_tree_sparse.svg   layer_building.svg        power.svg                     save.svg         water.svg		\
 fire.svg                generator_water_coast.svg   layer_water.svg           power_line.svg                save_load.svg					\
-gaz.svg                 generator_water_dry.svg     lower.svg                 power_plant_coal.svg          save_save.svg					\
+gas.svg                 generator_water_dry.svg     lower.svg                 power_plant_coal.svg          save_save.svg					\
 generator_map_hill.svg  generator_water_island.svg  monument.svg              power_plant_nuclear.svg       speed_pause.svg					\
 zone.svg				park_city.svg
-SVG_QUERY=commercial.svg gaz.svg industrial.svg residential.svg water.svg power.svg
+SVG_QUERY=commercial.svg gas.svg industrial.svg residential.svg water.svg power.svg
 
 SVG_CURSOR=$(SVG:%.svg=cursor/%.svg)
 PNG_CURSOR=$(SVG_CURSOR:%.svg=%.png)

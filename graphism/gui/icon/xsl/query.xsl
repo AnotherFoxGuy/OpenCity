@@ -4,8 +4,8 @@
 	<xsl:template match="/">
 		<xsl:text disable-output-escaping="yes">
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"&gt;
-&lt;?xml-stylesheet type="text/css" title="QueryOn" href="../css/query_on.css" ?&gt;
-&lt;?xml-stylesheet type="text/css" title="QueryOn" href="../css/query_off.css" ?&gt;
+&lt;?xml-stylesheet type="text/css" title="QueryOn" href="../css/query_on.css" alternate="yes" ?&gt;
+&lt;?xml-stylesheet type="text/css" title="QueryOff" href="../css/query_off.css" alternate="yes" ?&gt;
 </xsl:text>
 		<xsl:apply-templates/>
 	</xsl:template>
