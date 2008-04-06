@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema
+    id="OpenCityHeightMapSchema"
+    targetNamespace="urn:oc:heightmap"
+    attributeFormDefault="unqualified"
+    elementFormDefault="qualified"
+    version="0.0.5"
+    xmlns="urn:oc:heightmap"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<!-- Copie de object -->
+	<xs:complexType name="translatableType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="lang" type="xs:string" default="en"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<!-- Copie de object -->
+	<xs:complexType name="authorType">
+		<xs:annotation>
+			<xs:documentation>The object legal information</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="license" type="xs:string" default="GPL" maxOccurs="1"/>
+			<xs:element name="year" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="url" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="object" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="typeMapType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ground"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="placeType">
+		<xs:sequence>
+			<xs:element name="name" type="translatableType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="x" type="xs:integer" use="required"/>
+		<xs:attribute name="y" type="xs:integer" use="required"/>
+		<xs:attribute name="radius" type="xs:integer" default="0"/>
+	</xs:complexType>
+
+	<xs:complexType name="mapType">
+		<xs:sequence>
+			<xs:element name="place" type="placeType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="type" type="typeMapType" default="ground"/>
+		<xs:attribute name="file" type="xs:string" use="required"/>
+		<xs:attribute name="width" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="length" type="xs:nonNegativeInteger" use="required"/>
+		<xs:attribute name="longitude" type="xs:float"/>
+		<xs:attribute name="latitude" type="xs:float"/>
+		<xs:attribute name="meter-per-pixel" type="xs:nonNegativeInteger"/>
+<!--		<xs:attribute name="date" type="xs:"/> -->
+	</xs:complexType>
+
+	<xs:complexType name="sourceType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="author" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="licence" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="copyright" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="year" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="url" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="object" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="heightmapType">
+		<xs:sequence>
+			<xs:element name="name" type="translatableType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="description" type="translatableType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="map" type="mapType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="source" type="sourceType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="author" type="authorType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="heightmap" type="heightmapType"/>
+
+</xs:schema>
